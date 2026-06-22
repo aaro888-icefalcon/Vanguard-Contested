@@ -38,14 +38,14 @@
 
 **Jeopardy Counter:** 2 → met by the run ahead. (Departure beat had no blood but real consequence; the flight over a killing corridor toward a burning city carries its own teeth — next beat resolves with stakes.)
 
-**LIVE (Day 0, ~13:30, Akhil's block, Upper East Side):** Shake skipped the hospital crush (couldn't be crushed; routed clear via kinetic sense), then searched on foot (failed to recall the exact address) and **found Akhil's block** (the green-awning bodega, the fire escape). The street is wrong-empty — cleared by a **Siege-tier (PL10+) transformed predator**, nose-down, **tracking a live scent up the middle of the block toward Akhil's walk-up.** **It has NOT noticed Shake** (Exceptional No — full drop). **ABOVE-TIER: Shake cannot win a straight fight (tier gate) — this is a flee/out-think problem.** Whatever's behind one of those doors (maybe Akhil) has minutes. Shake unseen, full kit, knows Akhil's fire escape. *Jeopardy 2 — a present above-tier threat (gate met).*
+**LIVE (Day 0, ~13:35, Akhil's apartment, UES):** Shake flew up to the window **unnoticed by the Siege** (Exceptional No), and found the apartment **breached & empty** — door torn in from the hall, blood smear + a spatter trail leading down/out, Akhil's Mount Sinai badge on the floor. Read: **Akhil was attacked, took a survivable wound, and fled on foot down to the street.** **The Siege below is tracking Akhil's blood trail** up the block — it's hunting his brother, and has a head start (Shake went up; Akhil went down). **Akhil is alive, hurt, somewhere on these blocks, with an above-tier predator on his scent.** Shake: full kit, can follow the trail / sweep with kinetic sense / fly — but CANNOT fight the Siege. *Jeopardy 2; Tension → 6 (the world dominates: Siege + brother hunted).*
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~13:30 Eastern** · **Akhil's block, Upper East Side, Manhattan** (a wrong-empty residential street cleared by a Siege predator) · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+**Date / Location / Region band:** **Day +0, ~13:35 Eastern** · **Akhil's breached apartment, Upper East Side, Manhattan**; a Siege predator on the street below tracking Akhil's blood trail · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
 - *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
-**Tension:** 5 (dropped from 6 — Shake closed the combat threat and escaped clean with the child; reward for good play. Regional floor 5.).
+**Tension:** 6 (+1 — the world dominates: an above-tier Siege predator hunting Akhil; a core thread imperiled. Regional floor 5.)
 
 **Exposure clock (heat/witnesses → a hunter):** **4 / 6 — "the flying man."** +1 from a whole school full of fief survivors watching Shake reveal his power and fly off (now connected: "the doctor" = a flying powered man). Mixed/souring valence — **Dylan (powered, betrayed) knows his nature.** At 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that moves on him.
 
@@ -64,7 +64,7 @@
 - *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
 
 ## CHARACTER LIST
-1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
+1. **Akhil Rao** — younger brother, med student at Mount Sinai. **Day 0: attacked in his apartment, wounded (survivable), fled on foot — now alive but hurt and HUNTED by the Siege predator across the UES blocks.** Shake is racing to find him.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
 4. **Mateo** — the ~6yo Shake pulled off his transformed father; **Shake parked him at the school** with the young teacher Hannah & the other kids. **Went numb at the handoff** — bond strained (a child learning fixed points don't stay). Safe for now; Shake's choice to leave him will echo (relationship/Legacy thread). *(opened Day 0)*
