@@ -36,14 +36,15 @@
 - Fuel: n/a (no working vehicle)
 - Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
 
-**Jeopardy Counter:** 0 (reset — Day-Zero collision was a death-stakes roll).
+**Jeopardy Counter:** 1 (flight/landing beat drew no blood, lost no resource — next scene needs lethal stakes or a hard scarcity bite).
 
-**Date / Location / Region band:** **Day +0, ~10:04 Eastern** · Northeast Corridor, **central New Jersey** open marsh stretch (~between New Brunswick and Trenton); a dead highway berm visible ~½ mi off; **on foot, ~30+ mi from Manhattan** · **Mid-Atlantic Corridor — Embattled at Day Zero**, hardening toward No-Man's-Land over ~90 days (Tension floor 5; opening scene runs at 6).
-- *Wreck:* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned ~200 yds up the track. Shake bailed out an emergency window onto the embankment, unhurt.
+**Date / Location / Region band:** **Day +0, ~10:10 Eastern** · a **small suburban downtown**, central NJ (~a 90-sec flight NE of the wreck) — Main Street, brick storefronts (Rite Aid on the corner, deli, bank), dead cars, "Fall Stroll" banner · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5; opening scene 6).
+- *Wreck (behind him):* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned. Shake bailed out a window unhurt, then flew clear.
+- *Now:* landed in the street trailing heat; ~15 civilians watching in frozen silence; a teenager among them is beginning to manifest.
 
 **Tension:** 6 (opening chaos).
 
-**Exposure clock (heat/witnesses → a hunter):** 0 / — . Thermal Tell now active; in the universal chaos of the Pulse a cold man isn't yet singled out, but the next deliberate use before a coherent witness opens it.
+**Exposure clock (heat/witnesses → a hunter):** **2 / 6 — "the flying man."** Opened when ~15 downtown civilians watched Shake descend from the sky trailing heat-shimmer. Word will spread among survivors; at 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that now knows his nature.
 
 ---
 
@@ -53,7 +54,8 @@
 3. **What am I now?** — kinetic control; the cold/heat tell; the rush; the limits and costs, none of them understood yet.
 4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
 5. **The Rutgers-hoodie man (Telekinetic)** — manifested as raw, uncontrolled telekinesis, tearing the car apart from inside; doesn't know how to stop. Still ~15 ft from Shake. A present, above-tier-unknown threat. *(opened Day 0)*
-6. **Get to Akhil / get off the open track** — ~30+ mi to Manhattan on foot through a collapsing corridor. *(opened Day 0)*
+6. **Get to Akhil** — ~30 mi to Manhattan; flight is now a known option (but it runs hot and visible). *(opened Day 0)*
+7. **The downtown street** — ~15 frozen civilian witnesses; a Rite Aid (medicine!) and deli (food/water) 50 ft off; a **teenager in the crowd beginning to manifest**. Shake's next action sets the street off. *(opened Day 0)*
 
 ## CHARACTER LIST
 1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
