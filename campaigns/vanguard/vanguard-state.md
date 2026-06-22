@@ -30,19 +30,19 @@
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
 **Supply track** *(days-remaining; RESUPPLIED at the CVS, Day 0):*
-- Food: ~3.5 days (a day's eating for two drawn down)
-- Water: ~4–5 days (REFILLED every container from the building's failing taps before pressure died — smart play)
+- Food: ~1.5 days (LOW — two days' trek drew it down; resupply needed)
+- Water: ~2 days (LOW — drawn down on the march)
 - Medicine: **good** — a real trauma kit, antibiotics, analgesics, bandages (plus his trauma-healing hands)
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
-**Jeopardy Counter:** 1 (rooftop recovery/planning beat, no cost; next move — leaving the city / travel at Day-0 nightfall — must carry teeth).
+**Jeopardy Counter:** 0 (reset — the two-day trek imposed a real scarcity bite; supplies drawn low).
 
-**LIVE (Day 0, ~midnight → Day 1, Shake's 16th-floor unit):** Shake packed a **go-bag** (water, trauma kit, calories, knife, headlamp, layers, Akhil's boots) — wheels-up-in-10-seconds ready. Planned to nap, but the **Bruiser climbed all the way to their door** (Fate: Yes) — it's testing/forcing the door NOW, drawn by their warmth + Akhil's leaking ring. **Decision at the door: fight it** (Shake outclasses it → near-certain win, but loud/hot = Exposure/draws hunters, Akhil in the blast radius) **or bail** (out the window now, fly to NJ, begin the long road to Delaware/parents at midnight, trading rest). *Contingency route on bail: cross Hudson → cross the Delaware River → trek down through PA into Newark, DE.*
+**LIVE (Day +2, late afternoon, the Trenton Delaware crossing):** They **bailed clean** from the high-rise (Bruiser burst into an empty unit; night exit drew nothing) and have **trekked ~2 days SW across NJ on foot** (supplies now LOW — need resupply). The **Delaware crossings at Trenton are held by a nascent ORDERED militia/enclave** (faction-seed) — fortified checkpoint, screening crossers, cookfires/food beyond, rules-based, not raiders. Unknown: the enclave's stance on the **powered** (assets to recruit? threats to screen? — the broader world has mobs lynching the changed). Both brothers are powered (Akhil's ring leaking from exhaustion; Shake = 'the flying man'). **Player choosing the crossing approach:** fly over (reveals Shake, skips food) / walk up & play by their rules (screening, trade on 'doctor', risk exposure or a 'keep the doctor' trap) / find another way over the cold river.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~13:45 Eastern** · a **rooftop on the Upper East Side, Manhattan** (6 stories up, clear of the Siege); the city burning below · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+**Date / Location / Region band:** **Day +2, late afternoon** · the **Trenton crossings of the Delaware River** (NJ side), held by an ordered enclave; PA & the road to Newark, DE beyond · **Mid-Atlantic Corridor — Embattled** (Tension floor 5).
 - *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
 **Tension:** 5 (−1 — Shake closed the major 'find Akhil' thread and escaped the Siege; reward. Regional floor 5.)
