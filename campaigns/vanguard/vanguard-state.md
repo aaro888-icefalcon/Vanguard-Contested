@@ -25,9 +25,9 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** none.
+**Conditions / injuries:** **Staggered** (one action — standard *or* move, not both). **Bruised ×2** (−2 to Toughness resistance). **Lingering injury:** deep claw lacerations across back & left shoulder, actively bleeding — needs in-world days + Treatment/Medicine to mend (gritty mod 1).
 
-**Hero points:** 1.
+**Hero points:** 2. *(+1 earned when the Rush complication bit hard — Exceptional Yes — mid-fight, pulling Shake into melee instead of flight.)*
 
 **Supply track** *(days-remaining; civilian commuter baseline — he was riding home, not provisioned):*
 - Food: ~0.5 day (a protein bar / half a sandwich in his bag)
@@ -36,7 +36,9 @@
 - Fuel: n/a (no working vehicle)
 - Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
 
-**Jeopardy Counter:** 1 (flight/landing beat drew no blood, lost no resource — next scene needs lethal stakes or a hard scarcity bite).
+**Jeopardy Counter:** 0 (reset — Shake took a critical-hit injury and is in a live death-stakes fight).
+
+**ACTIVE COMBAT (Round 2):** Shake vs **The Changed** (Heavy PL 8, natural-weapons predator) in a county picnic grove. Init: Changed 24, Shake 18 (it acts first each round). Both **Staggered**. Changed is **Bruised ×1** (Toughness 7); if staggered again → incapacitated. A child (its dependent, "Daddy") hides ~40 ft off behind a playground fort. The Rush has already bitten once this fight.
 
 **Date / Location / Region band:** **Day +0, ~10:10 Eastern** · a **small suburban downtown**, central NJ (~a 90-sec flight NE of the wreck) — Main Street, brick storefronts (Rite Aid on the corner, deli, bank), dead cars, "Fall Stroll" banner · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5; opening scene 6).
 - *Wreck (behind him):* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned. Shake bailed out a window unhurt, then flew clear.
@@ -61,7 +63,8 @@
 1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
-4. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
+4. **The child** ("Daddy") — a small child hiding behind the playground fort; the Changed's dependent. Terrified, unhurt so far.
+5. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
 
 ---
 
@@ -80,7 +83,9 @@
 ---
 
 ## POWERED-CONFLICT TRACKS
-- **Powered Roster:** **The Telekinetic (Rutgers-hoodie man)** — unnamed; manifested Day 0 aboard the train as uncontrolled telekinesis. Disposition unrolled (panicking, not yet an actor vs Shake). First roster face; may die in his own eruption, become a threat, or recur. ~1-in-5 of the wreck's survivors are also changing.
+- **Powered Roster:**
+  - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) who transformed at the Pulse into a feral natural-weapons predator; *mastered* killing body, but the *person* has lost the wheel (intent: can't control it). Defining complication: **a dependent (his child) he can't protect.** Currently in melee with Shake, staggered & bruised.
+  - **The Telekinetic (Rutgers-hoodie man)** — unnamed; manifested Day 0 aboard the train as uncontrolled telekinesis. Last seen tearing the wrecked car apart. May have died in his own eruption, or recur.
 - **Faction Standing & Rank:** none known yet.
 - **War Fronts:** none active locally (Day 0).
 - **Legacy ledger:** none (first character).
