@@ -38,7 +38,8 @@
 
 **Jeopardy Counter:** 0 (reset — Day-Zero collision was a death-stakes roll).
 
-**Date / Location / Region band:** **Day +0, ~10:02 Eastern** · Northeast Corridor, **central New Jersey** (open straight ~between New Brunswick and Trenton), aboard a collided/derailed Amtrak consist · **Mid-Atlantic Corridor — Embattled at Day Zero**, hardening toward No-Man's-Land over ~90 days (Tension floor 5; opening scene runs at 6).
+**Date / Location / Region band:** **Day +0, ~10:04 Eastern** · Northeast Corridor, **central New Jersey** open marsh stretch (~between New Brunswick and Trenton); a dead highway berm visible ~½ mi off; **on foot, ~30+ mi from Manhattan** · **Mid-Atlantic Corridor — Embattled at Day Zero**, hardening toward No-Man's-Land over ~90 days (Tension floor 5; opening scene runs at 6).
+- *Wreck:* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned ~200 yds up the track. Shake bailed out an emergency window onto the embankment, unhurt.
 
 **Tension:** 6 (opening chaos).
 
@@ -50,8 +51,9 @@
 1. **Survive the Pulse** — get clear of the wreck and the changing car; off the open track, somewhere not dark and dying.
 2. **The people he'd run toward** — **Akhil** (brother, med student at Mount Sinai, Manhattan — closest tie); **parents** Bhaskar & Sudha (Newark, DE); **Bergen County family** (cousin/aunt/uncle/grandmother, N. NJ, ~1 hr north).
 3. **What am I now?** — kinetic control; the cold/heat tell; the rush; the limits and costs, none of them understood yet.
-4. **The wreck** — mass casualties up-train; he's a vascular surgeon and loyalty/fairness pulls him toward the wounded. *(opened Day 0)*
-5. **The man in the Rutgers hoodie** — three rows back, transforming now; the seat-frame near him sagging. Threat or fellow? *(opened Day 0)*
+4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
+5. **The Rutgers-hoodie man (Telekinetic)** — manifested as raw, uncontrolled telekinesis, tearing the car apart from inside; doesn't know how to stop. Still ~15 ft from Shake. A present, above-tier-unknown threat. *(opened Day 0)*
+6. **Get to Akhil / get off the open track** — ~30+ mi to Manhattan on foot through a collapsing corridor. *(opened Day 0)*
 
 ## CHARACTER LIST
 1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
@@ -76,7 +78,7 @@
 ---
 
 ## POWERED-CONFLICT TRACKS
-- **Powered Roster:** empty — Day Zero. First manifesters appearing this minute (the Rutgers-hoodie man is the first potential face; ~1-in-5 of the car).
+- **Powered Roster:** **The Telekinetic (Rutgers-hoodie man)** — unnamed; manifested Day 0 aboard the train as uncontrolled telekinesis. Disposition unrolled (panicking, not yet an actor vs Shake). First roster face; may die in his own eruption, become a threat, or recur. ~1-in-5 of the wreck's survivors are also changing.
 - **Faction Standing & Rank:** none known yet.
 - **War Fronts:** none active locally (Day 0).
 - **Legacy ledger:** none (first character).
