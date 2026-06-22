@@ -38,7 +38,7 @@
 
 **Jeopardy Counter:** 0 (reset — Shake took a critical-hit injury and is in a live death-stakes fight).
 
-**ACTIVE COMBAT (Round 3, Shake's turn):** Shake vs **The Changed** (Heavy PL 8 predator) in a county picnic grove. Init: Changed 24, Shake 18 (it acts first each round). **The Changed:** Staggered, Bruised ×2 (Toughness 6) — staggered again → incapacitated; can't catch a flyer. **Shake:** Staggered+Dazed, Bruised ×3 (Toughness 6), bleeding hard — one more hit likely fatal. Child ("Daddy") hides ~40 ft off. The Rush keeps feeding (Shake absorbs each claw via the field).
+**ACTIVE COMBAT (Round 4, Shake's turn):** Shake vs **The Changed** (Heavy PL 8 predator), county picnic grove. Init: Changed 24, Shake 18 (it acts first). **The Changed:** Staggered + Dazed, Bruised ×3 (**Toughness 5**) — soft; staggered again → incapacitated; can't catch a flyer; just whiffed its round-4 swing. **Shake:** Staggered + Dazed, Bruised ×3 (Toughness 6), bleeding; All-out penalty expired → Dodge/Parry back to 9. Child ("Daddy") hides ~40 ft off. Grove scorched/steaming but did NOT ignite (Tell environmental roll: No). Rush feeding all fight.
 
 **Date / Location / Region band:** **Day +0, ~10:10 Eastern** · a **small suburban downtown**, central NJ (~a 90-sec flight NE of the wreck) — Main Street, brick storefronts (Rite Aid on the corner, deli, bank), dead cars, "Fall Stroll" banner · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5; opening scene 6).
 - *Wreck (behind him):* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned. Shake bailed out a window unhurt, then flew clear.
