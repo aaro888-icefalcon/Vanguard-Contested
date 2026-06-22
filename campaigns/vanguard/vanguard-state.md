@@ -38,7 +38,9 @@
 
 **Jeopardy Counter:** 2 → met by the standing threat. (Social/intel beat; the world pressed via a powder-keg fief + a hostile development — mob violence against the powered. Next beat must carry lethal stakes or a hard scarcity bite.)
 
-**LIVE (Day 0, ~11:50, inside the middle-school fief):** Shake got the leader's name — **Dylan** — and went in. Interior: dead-grid bunker, ~20+ wounded in the gym (a dead-grid trauma ward run by amateurs), a **library** safe-room with **Mrs. Adler** + ~12 little kids (where Mateo could go — Mateo resists letting go of Shake). **IMMEDIATE CRISIS:** **Sofia** (~13) in a severe **asthma attack** — airway closing, cyanotic, minutes to live; she matters to Dylan ("that's my—"). **Shake's Healing power is useless here (trauma/perfusion only — not lungs).** Only his expertise + scarce supplies (his bag / the shelves) vs the clock. *(Pending sub-choice: hand Mateo to the library or keep him close.)*
+**Jeopardy Counter:** 0 (reset — a real death-stakes scene: Sofia's airway, resolved on the dice).
+
+**LIVE (Day 0, ~11:55, the middle-school fief):** **Shake saved Sofia** — bridged her airway with positioning/coaching (Treatment 26 vs 16), Dylan super-sped a nurse's-office albuterol + EpiPen back in time (drug roll: Yes), inhaler opened her up. **Done with NO power use — his powered nature stayed hidden** (smart, given the lynch-mob intel). **Dylan is now bonded/grateful** ("you can have whatever you want") — alliance effectively sealed, *and* the leave-hook tightened (he'll never want to let this doctor go). Positive rep in the fief: "the doctor who saved Sofia." Still pending: a gym full of wounded (ongoing triage), the Mateo→library question, and the 30 mi to Akhil.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -91,7 +93,8 @@
 ## POWERED-CONFLICT TRACKS
 - **Powered Roster:**
   - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) transformed into a feral natural-weapons predator; *mastered* killing body, *person* lost the wheel (can't control it). Defining complication: **a dependent (his son) he can't protect** — and Shake just took that son. **Defeated & spared Day 0; left awake and hunting in the grove.** Potential recurring nemesis / tragic figure / Legacy thread: the father who lost his boy to the man who beat him.
-  - **Dylan** ("the Fast Kid", Bruiser PL 6) — ~16, lacrosse hoodie; manifested *speed* at the Pulse and seized a barricaded **middle school** as a fief, holding it by threat with a few teen lieutenants. Intent: **build a fief / repair order.** Control *costly* — scorches/smokes/runs hot & ravenous when he really moves. Tough front over real fear; a boy doing a man's job badly. Wants to keep Shake (a doctor). **Sofia** (~13, severe asthma attack) clearly matters to him.
+  - **Dylan** ("the Fast Kid", Bruiser PL 6) — ~16, lacrosse hoodie; manifested *speed*, seized the **middle school** as a fief (intent: build a fief / repair order). Control *costly* (scorches/smokes/runs hot when he sprints). **Now bonded to Shake** after Shake saved **Sofia** — grateful, deferential ("you can have whatever you want"), and quietly unwilling to let a doctor leave. A scared boy doing a man's job; a potential ally/first faction-seed — or a soft captor.
+  - **Sofia** (~13) — survived a severe asthma attack thanks to Shake; precious to Dylan. Alive, shaken.
 - **Faction Standing & Rank:** none known yet.
 - **War Fronts:** none active locally (Day 0).
 - **Legacy ledger:** none (first character).
