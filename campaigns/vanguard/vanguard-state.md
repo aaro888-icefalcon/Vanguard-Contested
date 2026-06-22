@@ -36,7 +36,9 @@
 - Fuel: n/a (no working vehicle)
 - Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
 
-**Jeopardy Counter:** 1 (heal/landing beat — no blood, no loss, no death-stakes roll; next scene needs lethal stakes or a hard scarcity bite).
+**Jeopardy Counter:** 2 → met. (Heal + talk beats drew no cost; the world has now pressed: an armed, panicking civilian. This confrontation carries live lethal stakes.)
+
+**LIVE — ARMED STANDOFF (Day 0, ~10:45, CVS lot):** A terrified man (~50s, Giants hoodie) with a **deer rifle** has emerged from the nail salon and leveled it, shaking, at Shake — saw him land & self-heal. Muzzle wavering across Shake and **Mateo** (a yard behind Shake). Disposition unrolled (fear-driven; could fire by accident). Shake's guard up (Dodge/Parry 9). Other civilians still sheltering (SUV).
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -64,7 +66,7 @@
 1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
-4. **The boy** (~6, dinosaur t-shirt; name unknown) — son of the Changed; Shake carried him off. Now in Shake's care: rigid, silent, terrified of Shake, grieving his father. Physically unhurt (the cold spared him).
+4. **Mateo** (~6, dinosaur t-shirt) — son of the Changed; Shake carried him off and is now effectively his guardian. **No family within reach** (mother died of illness ~1–2 yrs ago; only a "Nana" far away/out of state). Mother gone, father is the Changed. Trauma + dawning trust in Shake (witnessed the heal; Shake told him the gentle truth). Now Shake's dependent — a bond and a vulnerability (Family & Friends complication).
 5. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
 6. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
 
