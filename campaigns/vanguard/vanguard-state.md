@@ -25,9 +25,9 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** **Staggered + Dazed** (one action/turn). **Bruised ×3** (−3 to Toughness resistance — effective Toughness 6). **Lingering injury:** claw lacerations across back, left shoulder & ribs, bleeding heavily — needs in-world days + Treatment/Medicine (gritty mod 1). One more solid hit likely incapacitates → death.
+**Conditions / injuries:** **Staggered + Dazed** (one action/turn). **Bruised ×4** (−4 to Toughness resistance — effective Toughness 5). **Lingering injury:** multiple claw lacerations across back, shoulder & ribs, bleeding heavily — needs in-world days + Treatment/Medicine (gritty mod 1). One more solid hit likely incapacitates → death.
 
-**Hero points:** 2. *(+1 earned when the Rush complication bit hard — Exceptional Yes — mid-fight, pulling Shake into melee instead of flight.)*
+**Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
 **Supply track** *(days-remaining; civilian commuter baseline — he was riding home, not provisioned):*
 - Food: ~0.5 day (a protein bar / half a sandwich in his bag)
@@ -38,7 +38,7 @@
 
 **Jeopardy Counter:** 0 (reset — Shake took a critical-hit injury and is in a live death-stakes fight).
 
-**ACTIVE COMBAT (Round 4, Shake's turn):** Shake vs **The Changed** (Heavy PL 8 predator), county picnic grove. Init: Changed 24, Shake 18 (it acts first). **The Changed:** Staggered + Dazed, Bruised ×3 (**Toughness 5**) — soft; staggered again → incapacitated; can't catch a flyer; just whiffed its round-4 swing. **Shake:** Staggered + Dazed, Bruised ×3 (Toughness 6), bleeding; All-out penalty expired → Dodge/Parry back to 9. Child ("Daddy") hides ~40 ft off. Grove scorched/steaming but did NOT ignite (Tell environmental roll: No). Rush feeding all fight.
+**ACTIVE COMBAT (Round 5, Shake's turn):** Shake vs **The Changed** (Heavy PL 8 predator), county grove. Init: Changed 24, Shake 18 (it acts first). **The Changed:** Staggered+Dazed, Bruised ×4 (**Toughness 4**) — one hit from collapse. **Shake:** Staggered+Dazed, Bruised ×4 (Toughness 5), bleeding; guard restored to Dodge/Parry 9; **1 Hero Point.** Both a single hit from death. Child hides ~40 ft off. Grove scorched but unburnt.
 
 **Date / Location / Region band:** **Day +0, ~10:10 Eastern** · a **small suburban downtown**, central NJ (~a 90-sec flight NE of the wreck) — Main Street, brick storefronts (Rite Aid on the corner, deli, bank), dead cars, "Fall Stroll" banner · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5; opening scene 6).
 - *Wreck (behind him):* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned. Shake bailed out a window unhurt, then flew clear.
