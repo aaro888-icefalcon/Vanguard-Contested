@@ -1,0 +1,29 @@
+{
+ "tables_built": [
+  "adventure_crafter/plot_point_theme.json",
+  "adventure_crafter/themes.json",
+  "mythic/discovery_fate_question.json",
+  "mythic/event_focus.json",
+  "mythic/fate_chart.json",
+  "mythic/fate_check.json",
+  "mythic/meaning_actions_1.json",
+  "mythic/meaning_actions_2.json",
+  "mythic/meaning_descriptors_1.json",
+  "mythic/meaning_descriptors_2.json",
+  "mythic/npc_behavior.json",
+  "mythic/npc_statistics.json",
+  "mythic/scene_adjustment.json",
+  "mythic/scene_test.json"
+ ],
+ "meaning_entry_counts": {
+  "actions_1": 100,
+  "actions_2": 100,
+  "descriptors_1": 100,
+  "descriptors_2": 100
+ },
+ "canon": {
+  "mythic": "sha256:d02118a3e941bdc2",
+  "adventure_crafter": "sha256:16e60fe071dbdf2e"
+ },
+ "note": "Long-tail Elements & full Plot Point tables fall back to bundled canon via oracle.py --from-canon."
+}

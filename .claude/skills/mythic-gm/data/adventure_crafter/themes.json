@@ -1,0 +1,21 @@
+{
+ "id": "ac.themes",
+ "title": "Adventure Crafter Themes",
+ "type": "reference",
+ "source": "references/canon/The-Adventure-Crafter.md#themes",
+ "themes": [
+  "Action",
+  "Tension",
+  "Mystery",
+  "Social",
+  "Personal"
+ ],
+ "theme_translation": {
+  "Action": "Action",
+  "Horror": "Tension",
+  "Mystery": "Mystery",
+  "Social": "Social",
+  "Personal": "Personal",
+  "Tension": "Tension"
+ }
+}
