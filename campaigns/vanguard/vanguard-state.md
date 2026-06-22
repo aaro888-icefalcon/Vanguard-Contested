@@ -25,7 +25,7 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** **Staggered** (one action — standard *or* move, not both). **Bruised ×2** (−2 to Toughness resistance). **Lingering injury:** deep claw lacerations across back & left shoulder, actively bleeding — needs in-world days + Treatment/Medicine to mend (gritty mod 1).
+**Conditions / injuries:** **Staggered + Dazed** (one action/turn). **Bruised ×3** (−3 to Toughness resistance — effective Toughness 6). **Lingering injury:** claw lacerations across back, left shoulder & ribs, bleeding heavily — needs in-world days + Treatment/Medicine (gritty mod 1). One more solid hit likely incapacitates → death.
 
 **Hero points:** 2. *(+1 earned when the Rush complication bit hard — Exceptional Yes — mid-fight, pulling Shake into melee instead of flight.)*
 
@@ -38,7 +38,7 @@
 
 **Jeopardy Counter:** 0 (reset — Shake took a critical-hit injury and is in a live death-stakes fight).
 
-**ACTIVE COMBAT (Round 2):** Shake vs **The Changed** (Heavy PL 8, natural-weapons predator) in a county picnic grove. Init: Changed 24, Shake 18 (it acts first each round). Both **Staggered**. Changed is **Bruised ×1** (Toughness 7); if staggered again → incapacitated. A child (its dependent, "Daddy") hides ~40 ft off behind a playground fort. The Rush has already bitten once this fight.
+**ACTIVE COMBAT (Round 3, Shake's turn):** Shake vs **The Changed** (Heavy PL 8 predator) in a county picnic grove. Init: Changed 24, Shake 18 (it acts first each round). **The Changed:** Staggered, Bruised ×2 (Toughness 6) — staggered again → incapacitated; can't catch a flyer. **Shake:** Staggered+Dazed, Bruised ×3 (Toughness 6), bleeding hard — one more hit likely fatal. Child ("Daddy") hides ~40 ft off. The Rush keeps feeding (Shake absorbs each claw via the field).
 
 **Date / Location / Region band:** **Day +0, ~10:10 Eastern** · a **small suburban downtown**, central NJ (~a 90-sec flight NE of the wreck) — Main Street, brick storefronts (Rite Aid on the corner, deli, bank), dead cars, "Fall Stroll" banner · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5; opening scene 6).
 - *Wreck (behind him):* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned. Shake bailed out a window unhurt, then flew clear.
