@@ -36,16 +36,16 @@
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
-**Jeopardy Counter:** 2 → met by the run ahead. (Departure beat had no blood but real consequence; the flight over a killing corridor toward a burning city carries its own teeth — next beat resolves with stakes.)
+**Jeopardy Counter:** 0 (reset — a Siege death-stakes sequence: Shake took a claw wound via Interpose and escaped on rolled dice).
 
-**LIVE (Day 0, ~13:35, Akhil's apartment, UES):** Shake flew up to the window **unnoticed by the Siege** (Exceptional No), and found the apartment **breached & empty** — door torn in from the hall, blood smear + a spatter trail leading down/out, Akhil's Mount Sinai badge on the floor. Read: **Akhil was attacked, took a survivable wound, and fled on foot down to the street.** **The Siege below is tracking Akhil's blood trail** up the block — it's hunting his brother, and has a head start (Shake went up; Akhil went down). **Akhil is alive, hurt, somewhere on these blocks, with an above-tier predator on his scent.** Shake: full kit, can follow the trail / sweep with kinetic sense / fly — but CANNOT fight the Siege. *Jeopardy 2; Tension → 6 (the world dominates: Siege + brother hunted).*
+**LIVE (Day 0, ~13:45, a rooftop, UES — safe for now):** Shake flew to the bodega, kinetically lifted **Akhil**, and **Interposed** against the Siege's strike (took a deep claw wound to save him); Akhil's mind-power **flared on its own** (raw terror into the Siege) buying a beat; Shake **bolted skyward** (Siege's parting lunge missed by 1) and landed them on a rooftop 6 stories up — **out of the Siege's reach** (it can't fly; it slunk back to its hunt). **Brothers reunited; the "Get to Akhil" thread is CLOSED.** Now: Shake staggered + a Siege-claw wound (can self-heal — trauma); Akhil has a knife-deep forearm wound + nosebleed/power-strain and is terrified of what he is. A quiet rooftop to patch up & plan; the city burns below, afternoon aging.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~13:35 Eastern** · **Akhil's breached apartment, Upper East Side, Manhattan**; a Siege predator on the street below tracking Akhil's blood trail · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+**Date / Location / Region band:** **Day +0, ~13:45 Eastern** · a **rooftop on the Upper East Side, Manhattan** (6 stories up, clear of the Siege); the city burning below · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
 - *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
-**Tension:** 6 (+1 — the world dominates: an above-tier Siege predator hunting Akhil; a core thread imperiled. Regional floor 5.)
+**Tension:** 5 (−1 — Shake closed the major 'find Akhil' thread and escaped the Siege; reward. Regional floor 5.)
 
 **Exposure clock (heat/witnesses → a hunter):** **4 / 6 — "the flying man."** +1 from a whole school full of fief survivors watching Shake reveal his power and fly off (now connected: "the doctor" = a flying powered man). Mixed/souring valence — **Dylan (powered, betrayed) knows his nature.** At 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that moves on him.
 
