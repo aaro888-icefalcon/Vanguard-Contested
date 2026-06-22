@@ -29,16 +29,16 @@
 
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
-**Supply track** *(days-remaining; civilian commuter baseline — he was riding home, not provisioned):*
-- Food: ~0.5 day (a protein bar / half a sandwich in his bag)
-- Water: ~0.5 day (a partly-full bottle; no running source on a dead train)
-- Medicine: minimal — personal only, no kit (his hands are the kit; Healing is trauma-only & biological)
-- Fuel: n/a (no working vehicle)
-- Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
+**Supply track** *(days-remaining; RESUPPLIED at the CVS, Day 0):*
+- Food: ~4–5 days (calorie-dense pharmacy food for two)
+- Water: ~3–4 days (bottled)
+- Medicine: **good** — a real trauma kit, antibiotics, analgesics, bandages (plus his trauma-healing hands)
+- Fuel: n/a (no working vehicle; EMP-dead)
+- Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
-**Jeopardy Counter:** 0 (reset — Shake faced a leveled rifle, a real death-stakes scene, and defused it on a pressured roll).
+**Jeopardy Counter:** 1 (the resupply/aid beat was low-cost; next scene needs lethal stakes or a hard scarcity bite — the road to NYC will provide).
 
-**LIVE (Day 0, ~10:45, CVS lot):** Standoff **defused** — Shake set Mateo down, stepped clear, and talked the gunman down (Persuasion 22 vs 15; the man was pure fear). The man (~50s, Giants hoodie) lowered the deer rifle, broke down: **6 survivors sheltering in the nail salon** — including his **diabetic wife**, an older couple, a teenage girl, and their own kid. "Nothing works." The CVS next door still holds insulin/bandages/food. Shake (a doctor with empty supplies + healing hands) faces a choice: help them, resupply, and/or move on toward NYC with Mateo.
+**LIVE (Day 0, ~11:00, CVS lot):** Shake helped the survivors — stocked the **diabetic wife ("Ana")** with insulin *and* shelf-stable orals (metformin/glipizide) for the long collapse — and **resupplied himself.** Asked if anyone would take Mateo: **they declined** (too strapped, too scared). Mateo took Shake's hand — **he's staying with Shake.** The survivors now hold a *positive* legend of him ("the doctor who fell from the sky"). Next: get to Akhil in NYC (~30 mi NE) with a 6-year-old in tow.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -57,8 +57,8 @@
 3. **What am I now?** — kinetic control; the cold/heat tell; the rush; the limits and costs, none of them understood yet.
 4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
 5. **Get to Akhil** — ~30 mi NE to Manhattan; flight is a known option but runs hot, visible, and feeds Exposure. *(opened Day 0)*
-6. **The boy** — a ~6yo Shake pulled off his transformed father; now his to protect. Needs safety/family; traumatized, sees Shake as the cold stranger who "hurt Daddy." *(opened Day 0)*
-7. **Shake's wound** — serious untreated bleeding lacerations; must treat soon (Treatment, or possibly self-Healing) or it degrades him. *(opened Day 0)*
+6. **Mateo** — the ~6yo Shake pulled off his transformed father; **no family to take him (survivors declined) — he's Shake's now.** Bond forming. A dependent to protect and a standing vulnerability (Family & Friends). *(opened Day 0)*
+7. ~~Shake's wound~~ — **resolved:** self-healed via inward Circulatory Control. *(closed Day 0)*
 8. **The Changed, left alive** — defeated but spared; awake and hunting, its son taken by Shake. May track them, or recur as a tragic/hostile roster face (Legacy seed). *(opened Day 0)*
 - *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
 
@@ -68,7 +68,7 @@
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
 4. **Mateo** (~6, dinosaur t-shirt) — son of the Changed; Shake carried him off and is now effectively his guardian. **No family within reach** (mother died of illness ~1–2 yrs ago; only a "Nana" far away/out of state). Mother gone, father is the Changed. Trauma + dawning trust in Shake (witnessed the heal; Shake told him the gentle truth). Now Shake's dependent — a bond and a vulnerability (Family & Friends complication).
 5. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
-6. **The strip-mall survivors** — ~6 unpowered civilians sheltering in the nail salon: the **rifle man** (~50s, Giants hoodie, frightened protector), his **diabetic wife** (needs insulin), an older couple, a teenage girl, a young child. Not hostile — terrified. Potential recurring faces / a first test of Shake's Loyalty-&-Fairness motive.
+6. **The strip-mall survivors** — ~6 unpowered civilians in the nail salon: the **rifle man** (~50s, Giants hoodie), his diabetic wife **Ana** (now stocked with insulin + orals thanks to Shake), an older couple, a teenage girl, a young child. **Grateful** — hold a positive legend of Shake ("the doctor who fell from the sky / saved Ana"). Declined to take Mateo. Potential recurring allies / positive-reputation node (counterweight to the fearful "flying man" Exposure).
 7. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
 
 ---
