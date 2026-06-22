@@ -36,9 +36,9 @@
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
-**Jeopardy Counter:** 1 (the resupply/aid beat was low-cost; next scene needs lethal stakes or a hard scarcity bite — the road to NYC will provide).
+**Jeopardy Counter:** 2 → met by the standing threat. (Social/intel beat; the world pressed via a powder-keg fief + a hostile development — mob violence against the powered. Next beat must carry lethal stakes or a hard scarcity bite.)
 
-**LIVE (Day 0, ~11:30, a claimed middle school):** Heading off on foot with Mateo to find shelter, Shake found a barricaded **middle school** — looks safe, but it's been seized as a fief by **The Fast Kid** (Bruiser PL6 speedster, ~16; see Roster) and two teen lieutenants (bat, fire axe). The kid blocked them: *"This is ours... unless you got something worth the door,"* eyeing Mateo and sizing Shake up. Shake's kinetic sense read the fast hot signature before it arrived. Standoff — Shake outclasses him in power but has Mateo to protect and is loath to hurt a scared teen. (Oracle: event = New NPC; meaning Repair·Leadership / Threateningly·Juvenile.)
+**LIVE (Day 0, ~11:45, the claimed middle school):** Shake declined the fight, asked for the lay of the land. **The Fast Kid** (Bruiser PL6 speedster) recalculated on learning Shake's a doctor — wants to *keep* him. **Intel ("word from the road"):** cops/authority gone (a town PD "taken apart by normal people" — *overthrow of the mundane*); and **ordinary survivors are lynching the visibly powered out of fear** (a manifester beaten to death by a mob near a Shop-Rite). The kid doesn't yet connect Shake to "the flying man." **His offer:** Mateo gets safe shelter (locked hall, moms, a teacher "Mrs. Adler" with little ones in the library, food, walls) **if Shake stays and treats the "bad hurt" people in the gym.** Insight read: offer is genuine *and* a hook (a doctor who patches the wounded is hard to let leave). Shake's choice: take the deal / shelter Mateo here / refuse & leave / other.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -60,6 +60,7 @@
 6. **Mateo** — the ~6yo Shake pulled off his transformed father; **no family to take him (survivors declined) — he's Shake's now.** Bond forming. A dependent to protect and a standing vulnerability (Family & Friends). *(opened Day 0)*
 7. ~~Shake's wound~~ — **resolved:** self-healed via inward Circulatory Control. *(closed Day 0)*
 8. **The Changed, left alive** — defeated but spared; awake and hunting, its son taken by Shake. May track them, or recur as a tragic/hostile roster face (Legacy seed). *(opened Day 0)*
+9. **Mobs hunting the powered** — within ~2 hrs of the Pulse, frightened ordinary survivors are already killing visible manifesters (a lynching near a Shop-Rite). Authority/cops collapsed ("overthrow of the mundane"). Directly sharpens the **Exposure** danger — being seen being powered can get Shake mobbed. *(opened Day 0, via the Fast Kid's intel)*
 - *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
 
 ## CHARACTER LIST
