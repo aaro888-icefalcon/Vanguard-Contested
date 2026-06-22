@@ -25,7 +25,7 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** **Staggered** (one action/turn) + **Bruised**, and a fresh **lingering injury** — a deep Siege-claw wound across chest & shoulder (the field bled off the lethal half; took it via Interpose to save Akhil). Untreated; his Circulatory Control can mend it (trauma) once he has a free action & safety. Earlier claw lacerations already self-healed.
+**Conditions / injuries:** none active — **self-healed the Siege-claw wound** (Circulatory Control) and **treated Akhil's forearm** on the rooftop; staggered cleared. **Worn/tired** (long brutal Day 0; the Rush's ebb), not wounded.
 
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
@@ -36,9 +36,9 @@
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
-**Jeopardy Counter:** 0 (reset — a Siege death-stakes sequence: Shake took a claw wound via Interpose and escaped on rolled dice).
+**Jeopardy Counter:** 1 (rooftop recovery/planning beat, no cost; next move — leaving the city / travel at Day-0 nightfall — must carry teeth).
 
-**LIVE (Day 0, ~13:45, a rooftop, UES — safe for now):** Shake flew to the bodega, kinetically lifted **Akhil**, and **Interposed** against the Siege's strike (took a deep claw wound to save him); Akhil's mind-power **flared on its own** (raw terror into the Siege) buying a beat; Shake **bolted skyward** (Siege's parting lunge missed by 1) and landed them on a rooftop 6 stories up — **out of the Siege's reach** (it can't fly; it slunk back to its hunt). **Brothers reunited; the "Get to Akhil" thread is CLOSED.** Now: Shake staggered + a Siege-claw wound (can self-heal — trauma); Akhil has a knife-deep forearm wound + nosebleed/power-strain and is terrified of what he is. A quiet rooftop to patch up & plan; the city burns below, afternoon aging.
+**LIVE (Day 0, ~14:00, a UES rooftop — breather/planning):** Brothers reunited & **patched up** (Shake self-healed + healed Akhil). Akhil test-drove his power (read Shake's surface state — exhaustion, grief, and the **Rush's hunger**, which he noticed). They're now **planning the next move:** the island is a deathtrap (hospital fallen, no power/water by night, fires unfought, Siege-class things in the streets) — **they will not sleep in Manhattan.** Options floated: **parents Bhaskar & Sudha in Newark, DE** (south); **Bergen County family** (N. NJ); or just *away*. Flight makes distance feasible (but runs hot/visible). Akhil asked what Shake knows from 'out there' & what happened to him today (Shake hasn't told him re: the wreck/Mateo/Dylan/Exposure). Night coming. **Player choosing destination + what Shake shares.**
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -56,7 +56,7 @@
 2. **The people he'd run toward** — **Akhil** (brother, med student at Mount Sinai, Manhattan — closest tie); **parents** Bhaskar & Sudha (Newark, DE); **Bergen County family** (cousin/aunt/uncle/grandmother, N. NJ, ~1 hr north).
 3. **What am I now?** — *(advancing)* learned in flight: **Kinetic Sense** = a wide momentum/pressure map through walls + Danger Sense (rarely surprised; superb scouting); **Flight** tops ~120 mph; the **array is pick-one** (one effect at a time); **output runs hot** (a trail), **absorbing runs cold and wakes the Rush.** Still unknown: true ceilings, what happens if the Rush is fed hard. *(opened Day 0)*
 4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
-5. **Get to Akhil** — ~30 mi NE to Manhattan; flight is a known option but runs hot, visible, and feeds Exposure. *(opened Day 0)*
+5. ~~Get to Akhil~~ — **CLOSED Day 0:** found him alive, saved him from the Siege, reunited on a UES rooftop. *(He's now with Shake.)*
 6. **Mateo (left behind)** — the ~6yo Shake pulled off his transformed father; **Shake parked him at Dylan's school and flew off without goodbye.** Now in the keeping of **bitter Dylan** + the teacher Hannah. Bond strained; the abandonment is a live relationship/Legacy thread (guilt, leverage, or a return). *(opened Day 0)*
 7. ~~Shake's wound~~ — **resolved:** self-healed via inward Circulatory Control. *(closed Day 0)*
 8. **The Changed, left alive** — defeated but spared; awake and hunting, its son taken by Shake. May track them, or recur as a tragic/hostile roster face (Legacy seed). *(opened Day 0)*
@@ -64,7 +64,7 @@
 - *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
 
 ## CHARACTER LIST
-1. **Akhil Rao** — younger brother, med student at Mount Sinai. **Found alive** (deep forearm wound) in the corner bodega; Shake kinetically lifted him and **Interposed**, taking a Siege strike to save him. **CANON: Akhil manifested as a BREAKER (PL 9) MIND power** — telepathy / mental influence / raw projected fear; he just shoved terror into a Siege-class predator *by accident*. **Control: costly** (nosebleeds; a psychic 'ring' mind-sensitives feel → Exposure). **Complication: tech-leashed** — his full power wants working tech/signal the dead grid denies, so he runs erratic, below his true ceiling, and can't yet control it. A potentially huge asset; right now a terrified, bleeding kid who can't switch it off.
+1. **Akhil Rao** — **26**, Telugu, med student at Mount Sinai; Shake's brother and **peer** (calls him **"bro,"** not Bhaiya). **Practical, cynical, analytical; quietly anxious underneath.** Reunited & patched up on the rooftop. **CANON: a BREAKER (PL 9) MIND power** — telepathy (reads surface feeling/intent), mental influence, and raw projected fear (shoved terror into the Siege by accident). **Control: costly** (nosebleeds, splitting headache, a psychic 'ring' mind-sensitives can feel → Exposure vector). **Complication: tech-leashed** — a bigger version he can't reach with the grid dead; runs erratic, can't yet drive it (fires hardest on its own, under stress). Already *sensed the Rush* in Shake and filed it. Huge latent asset; current liability.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
 4. **Mateo** — the ~6yo Shake pulled off his transformed father; **Shake parked him at the school** with the young teacher Hannah & the other kids. **Went numb at the handoff** — bond strained (a child learning fixed points don't stay). Safe for now; Shake's choice to leave him will echo (relationship/Legacy thread). *(opened Day 0)*
