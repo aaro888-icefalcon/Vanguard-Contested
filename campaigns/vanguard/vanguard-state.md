@@ -25,7 +25,7 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** Combat over — **Staggered/Dazed cleared** as the fight ended. **Lingering injury (serious):** multiple deep claw lacerations across back, left shoulder & ribs — **actively bleeding, untreated.** Needs Treatment/Medicine + in-world days (gritty mod 1); left untreated it will worsen (blood loss → fatigue/shock). **Fatigued/scoured** from the ordeal and the Rush ebbing. *(Note: his Circulatory Control — Healing 9, trauma-only — could likely treat his OWN wounds; undiscovered so far.)*
+**Conditions / injuries:** **Lacerations healed** — Shake discovered he can turn **Circulatory Control (Healing 9, trauma & perfusion)** *inward*: bleeding arrested, deep claw wounds closed to angry pink seams, blood loss stanched. **Worn:** physically tired, hungry, emotionally scoured (the Rush's ebb); no active wound. *(Self-trauma-healing is now a known, reliable tool — but every use rings the Tell and costs an action.)*
 
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
@@ -36,16 +36,16 @@
 - Fuel: n/a (no working vehicle)
 - Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
 
-**Jeopardy Counter:** 0 (reset — Shake took a critical-hit injury and is in a live death-stakes fight).
+**Jeopardy Counter:** 1 (heal/landing beat — no blood, no loss, no death-stakes roll; next scene needs lethal stakes or a hard scarcity bite).
 
-**COMBAT RESOLVED (Day 0, ~10:20):** Shake defeated **The Changed** — incapacitated it with a Kinetic Strike (its nat-1 save), then **grabbed the boy and flew off** as it woke. Its desperate waking lunge missed. **Shake left it alive** in the grove — awake, hunting, prey gone. Now airborne over central NJ with the rescued boy; badly wounded, **1 Hero Point.**
+**RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~10:20 Eastern** · **airborne over central New Jersey**, a few hundred feet up, fleeing the county grove; flat sprawl, dead roads, scattered smoke columns, the wrong sky. NYC/Akhil lie ~30 mi NE · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+**Date / Location / Region band:** **Day +0, ~10:40 Eastern** · a **standalone CVS** lot off a county road, central NJ (doors frozen half-open; deserted asphalt; a nail salon & parked SUV nearby with sheltering civilians). NYC/Akhil ~30 mi NE · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
 - *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
 **Tension:** 5 (dropped from 6 — Shake closed the combat threat and escaped clean with the child; reward for good play. Regional floor 5.).
 
-**Exposure clock (heat/witnesses → a hunter):** **2 / 6 — "the flying man."** Opened when ~15 downtown civilians watched Shake descend from the sky trailing heat-shimmer. Word will spread among survivors; at 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that now knows his nature.
+**Exposure clock (heat/witnesses → a hunter):** **3 / 6 — "the flying man" (now "with a child").** +1 from a few sheltering civilians watching him land at the CVS. (The self-heal itself went unnoticed — Tell roll No.) At 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that now knows his nature.
 
 ---
 
