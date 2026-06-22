@@ -38,9 +38,9 @@
 
 **Jeopardy Counter:** 2 → met by the standing threat. (Social/intel beat; the world pressed via a powder-keg fief + a hostile development — mob violence against the powered. Next beat must carry lethal stakes or a hard scarcity bite.)
 
-**Jeopardy Counter:** 0 (reset — a real death-stakes scene: Sofia's airway, resolved on the dice).
+**Jeopardy Counter:** 1 (quiet hand-off beat, no cost; next scene needs lethal stakes or a scarcity bite).
 
-**LIVE (Day 0, ~11:55, the middle-school fief):** **Shake saved Sofia** — bridged her airway with positioning/coaching (Treatment 26 vs 16), Dylan super-sped a nurse's-office albuterol + EpiPen back in time (drug roll: Yes), inhaler opened her up. **Done with NO power use — his powered nature stayed hidden** (smart, given the lynch-mob intel). **Dylan is now bonded/grateful** ("you can have whatever you want") — alliance effectively sealed, *and* the leave-hook tightened (he'll never want to let this doctor go). Positive rep in the fief: "the doctor who saved Sofia." Still pending: a gym full of wounded (ongoing triage), the Mateo→library question, and the 30 mi to Akhil.
+**LIVE (Day 0, ~12:05, the middle-school fief):** Shake **handed Mateo off** to a young teacher, **Hannah** (mid-20s), in the library safe-room. Handoff smooth (Dylan's goodwill); **Mateo went numb/compliant — didn't fight, didn't look back** (the bond quietly strained, not severed — a child learning the fixed points don't stay). Shake is now **unencumbered.** Open in front of him: the gym wounded (his oath), Dylan (grateful but won't want to open the gate for a doctor), and 30 mi to Akhil in NYC.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -69,10 +69,11 @@
 1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
-4. **Mateo** (~6, dinosaur t-shirt) — son of the Changed; Shake carried him off and is now effectively his guardian. **No family within reach** (mother died of illness ~1–2 yrs ago; only a "Nana" far away/out of state). Mother gone, father is the Changed. Trauma + dawning trust in Shake (witnessed the heal; Shake told him the gentle truth). Now Shake's dependent — a bond and a vulnerability (Family & Friends complication).
-5. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
-6. **The strip-mall survivors** — ~6 unpowered civilians in the nail salon: the **rifle man** (~50s, Giants hoodie), his diabetic wife **Ana** (now stocked with insulin + orals thanks to Shake), an older couple, a teenage girl, a young child. **Grateful** — hold a positive legend of Shake ("the doctor who fell from the sky / saved Ana"). Declined to take Mateo. Potential recurring allies / positive-reputation node (counterweight to the fearful "flying man" Exposure).
-7. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
+4. **Mateo** — the ~6yo Shake pulled off his transformed father; **Shake parked him at the school** with the young teacher Hannah & the other kids. **Went numb at the handoff** — bond strained (a child learning fixed points don't stay). Safe for now; Shake's choice to leave him will echo (relationship/Legacy thread). *(opened Day 0)*
+5. **Hannah** — young teacher (mid-20s, cardigan), good with kids; now caring for Mateo + ~12 children in the school library. Potential recurring NPC / the person Shake entrusted with Mateo.
+6. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
+7. **The strip-mall survivors** — ~6 unpowered civilians in the nail salon: the **rifle man** (~50s, Giants hoodie), his diabetic wife **Ana** (now stocked with insulin + orals thanks to Shake), an older couple, a teenage girl, a young child. **Grateful** — hold a positive legend of Shake ("the doctor who fell from the sky / saved Ana"). Declined to take Mateo. Potential recurring allies / positive-reputation node.
+8. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
 
 ---
 
