@@ -38,11 +38,11 @@
 
 **Jeopardy Counter:** 1 (the resupply/aid beat was low-cost; next scene needs lethal stakes or a hard scarcity bite — the road to NYC will provide).
 
-**LIVE (Day 0, ~11:00, CVS lot):** Shake helped the survivors — stocked the **diabetic wife ("Ana")** with insulin *and* shelf-stable orals (metformin/glipizide) for the long collapse — and **resupplied himself.** Asked if anyone would take Mateo: **they declined** (too strapped, too scared). Mateo took Shake's hand — **he's staying with Shake.** The survivors now hold a *positive* legend of him ("the doctor who fell from the sky"). Next: get to Akhil in NYC (~30 mi NE) with a 6-year-old in tow.
+**LIVE (Day 0, ~11:30, a claimed middle school):** Heading off on foot with Mateo to find shelter, Shake found a barricaded **middle school** — looks safe, but it's been seized as a fief by **The Fast Kid** (Bruiser PL6 speedster, ~16; see Roster) and two teen lieutenants (bat, fire axe). The kid blocked them: *"This is ours... unless you got something worth the door,"* eyeing Mateo and sizing Shake up. Shake's kinetic sense read the fast hot signature before it arrived. Standoff — Shake outclasses him in power but has Mateo to protect and is loath to hurt a scared teen. (Oracle: event = New NPC; meaning Repair·Leadership / Threateningly·Juvenile.)
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~10:40 Eastern** · a **standalone CVS** lot off a county road, central NJ (doors frozen half-open; deserted asphalt; a nail salon & parked SUV nearby with sheltering civilians). NYC/Akhil ~30 mi NE · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+**Date / Location / Region band:** **Day +0, ~11:30 Eastern** · outside a **barricaded middle school**, central NJ suburb (~on foot from the CVS). NYC/Akhil ~30 mi NE · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
 - *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
 **Tension:** 5 (dropped from 6 — Shake closed the combat threat and escaped clean with the child; reward for good play. Regional floor 5.).
@@ -90,7 +90,7 @@
 ## POWERED-CONFLICT TRACKS
 - **Powered Roster:**
   - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) transformed into a feral natural-weapons predator; *mastered* killing body, *person* lost the wheel (can't control it). Defining complication: **a dependent (his son) he can't protect** — and Shake just took that son. **Defeated & spared Day 0; left awake and hunting in the grove.** Potential recurring nemesis / tragic figure / Legacy thread: the father who lost his boy to the man who beat him.
-  - **The Telekinetic (Rutgers-hoodie man)** — unnamed; manifested Day 0 aboard the train as uncontrolled telekinesis. Last seen tearing the wrecked car apart. May have died in his own eruption, or recur.
+  - **The Fast Kid** (Bruiser PL 6) — a ~16yo who manifested *speed* at the Pulse and seized a barricaded **middle school** as a fief, holding it by threat with a couple of teen lieutenants (bat, fire axe). Intent: **build a fief / repair order.** Control *costly* — scorches, smokes, runs hot & ravenous when he really moves. Threatening front over real fear. Sub-tier to Shake, but holds ground + numbers, and Shake has Mateo to protect. Met Day 0 at the school door; sizing Shake up — wants a toll, eyeing whether a doctor is "worth the door."
 - **Faction Standing & Rank:** none known yet.
 - **War Fronts:** none active locally (Day 0).
 - **Legacy ledger:** none (first character).
