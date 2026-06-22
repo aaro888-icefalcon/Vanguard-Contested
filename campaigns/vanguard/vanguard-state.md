@@ -25,7 +25,7 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** **Lacerations healed** — Shake discovered he can turn **Circulatory Control (Healing 9, trauma & perfusion)** *inward*: bleeding arrested, deep claw wounds closed to angry pink seams, blood loss stanched. **Worn:** physically tired, hungry, emotionally scoured (the Rush's ebb); no active wound. *(Self-trauma-healing is now a known, reliable tool — but every use rings the Tell and costs an action.)*
+**Conditions / injuries:** **Staggered** (one action/turn) + **Bruised**, and a fresh **lingering injury** — a deep Siege-claw wound across chest & shoulder (the field bled off the lethal half; took it via Interpose to save Akhil). Untreated; his Circulatory Control can mend it (trauma) once he has a free action & safety. Earlier claw lacerations already self-healed.
 
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
@@ -64,7 +64,7 @@
 - *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
 
 ## CHARACTER LIST
-1. **Akhil Rao** — younger brother, med student at Mount Sinai. **Day 0: attacked in his apartment, wounded (survivable), fled on foot — now alive but hurt and HUNTED by the Siege predator across the UES blocks.** Shake is racing to find him.
+1. **Akhil Rao** — younger brother, med student at Mount Sinai. **Found alive** (deep forearm wound) in the corner bodega; Shake kinetically lifted him and **Interposed**, taking a Siege strike to save him. **CANON: Akhil manifested as a BREAKER (PL 9) MIND power** — telepathy / mental influence / raw projected fear; he just shoved terror into a Siege-class predator *by accident*. **Control: costly** (nosebleeds; a psychic 'ring' mind-sensitives feel → Exposure). **Complication: tech-leashed** — his full power wants working tech/signal the dead grid denies, so he runs erratic, below his true ceiling, and can't yet control it. A potentially huge asset; right now a terrified, bleeding kid who can't switch it off.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
 4. **Mateo** — the ~6yo Shake pulled off his transformed father; **Shake parked him at the school** with the young teacher Hannah & the other kids. **Went numb at the handoff** — bond strained (a child learning fixed points don't stay). Safe for now; Shake's choice to leave him will echo (relationship/Legacy thread). *(opened Day 0)*
