@@ -1,72 +1,86 @@
-# 07 · STARTER STATE — Vanguard Contested, Day Zero
-*The campaign's mutable working memory. The project/reference files are read-only canon; **this** is the living document. In Cowork it is copied to `vanguard-state.md` in the working directory at session start and **overwritten at the end of every scene**. It is the single source of truth for where the campaign actually is.*
+# VANGUARD CONTESTED — Live Campaign State
+*The campaign's mutable working memory. Read-only canon lives in `.claude/skills/.../references/`; **this** is the living document, overwritten at the end of every scene. State overrides recollection; canon breaks ties on world facts.*
 
-*This file is the **clean Day-Zero reset** — the opening any new character begins from (and the one you build back into after a death, per the ~80% mortality design). Items marked `[fill at creation]` are set during the FIRST CHAT character-creation pass. The world baselines below are fixed canon and start identical every time.*
-
----
-
-## THE OPENING (locked frame)
-A mid-October Tuesday, **~10:00 Eastern**, **New York City**. An ordinary morning — the train, the coffee, the walk in. Then the **Pulse**: one in five people on the street become something else, the sky changes, and every unshielded machine dies in the same second. The character is one of the empowered. They do not yet understand what has happened; no one does. The grid is gone, aviation and critical care and traffic are taking catastrophic losses, and the city is about to go dark in an afternoon.
-
-**Opening Tension: 6** (opening chaos — overrides the regional floor for scene one).
+**Mode:** Powered-Conflict Directive — ACTIVE (default).
 
 ---
 
 ## STATE BLOCK
 
-**Character:** `[fill at creation]` — name, the person they were before the Pulse, the power they became (M&M effects, PL 8–9, two complications min., one of them the *defining* standing-trigger complication).
+**Character:** **Abhishek "Shake" Rao** — Indian-American (Telugu), 30, vascular surgery resident (new PGY-5) at NYU. Slim (5'11", 140 lb), calm, dry, practical, emotionally contained; loyalty & fairness his spine. Manifested at the Pulse as a **kinetic controller** (M&M 3e, PL 9, 135 pp). Power eats/redirects kinetic energy; a passive dampening field keeps him alive; his hands can arrest momentum, redirect tons, blast, or close trauma.
+
+**Build (PL 9 · 135/135, all trade-off pairs at cap 18):**
+- *Abilities (18):* STR 0 · STA 1 · AGL 1 · DEX 2 · FGT 1 · INT 3 · AWE 1 · PRE 0
+- *Defenses (32):* Dodge 9 · Parry 9 · Fort 9 · Will 9 · **Toughness 9** (STA 1 + Field 8)
+- *Skills (22):* Treatment +10 (Skill Mastery) · Expertise: Medicine +11 · Insight +4 · Investigation +5 · Perception +3 · Persuasion +3 · Deception +2 · Close Combat: Unarmed +9 · Athletics +1 · Ranged Combat: Kinetics +10
+- *Advantages (8):* Accurate Attack, All-out Attack, Interpose, Move-by Action, Skill Mastery (Treatment), Takedown 2, Uncanny Dodge
+- *Powers (55):*
+  - **Kinetic Dampening Field** — Protection 8, Impervious 3 (passive; biological, grid-proof)
+  - **Kinetic Mastery Array (24):** Kinetic Lance (Ranged Damage 8, Penetrating 2, +10 / DC 23) · *AE* Kinetic Strike (Str-Based Damage 9, Multiattack, +9 / DC 24) · *AE* Force Redirection (Move Object 8, Precise, ~6 tons, +10) · *AE* Kinetic Wave (Damage 6, Burst Area, Dodge DC 16 → Tou DC 21) · *AE* Momentum Arrest (Ranged Affliction 8, Fort DC 18: hindered/immobile/paralyzed) · *AE* Deflect 9, Reflect · *AE* Circulatory Control (Healing 9, Limited to trauma & perfusion)
+  - **Flight 6** (120 mph) · **Kinetic Sense** (Detect Kinetic Energy: Ranged, Acute, Radius, Accurate, Rapid, Danger Sense)
+- *Motivation:* Loyalty & Fairness.
+
+**Complications (standing triggers — fire on their own):**
+1. **The Thermal Tell** *(defining).* Using/absorbing kinetics moves heat: drawing energy IN (absorb/dampen/deflect/arrest) drops local temp; shedding it OUT (lance/strike/wave) raises it. Every power-use scene, roll: (a) environmental hazard, (b) cold-injury/burn to self or nearby, (c) detectability → witness/tracker/Exposure.
+2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
+3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
 **Conditions / injuries:** none.
 
 **Hero points:** 1.
 
-**Supply track** *(days-remaining; civilian Day-Zero baseline — begins drawing down the moment the character leaves safe shelter, and never stops)*:
-- Food: `[fill — what's in their bag / apartment, ~1–3 days]`
-- Water: running, for now (until the grid loss reaches the pumps)
-- Medicine: `[fill — personal only]`
-- Fuel: n/a (no working vehicle; the EMP killed it)
-- Warmth: sheltered (October — exposure becomes a clock once they're outdoors and moving)
+**Supply track** *(days-remaining; civilian commuter baseline — he was riding home, not provisioned):*
+- Food: ~0.5 day (a protein bar / half a sandwich in his bag)
+- Water: ~0.5 day (a partly-full bottle; no running source on a dead train)
+- Medicine: minimal — personal only, no kit (his hands are the kit; Healing is trauma-only & biological)
+- Fuel: n/a (no working vehicle)
+- Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
 
-**Jeopardy Counter:** 0 (consecutive no-cost scenes).
+**Jeopardy Counter:** 0 (reset — Day-Zero collision was a death-stakes roll).
 
-**Date / Location / Region band:** Day +0, ~10:00 Eastern · Manhattan, NYC · **Mid-Atlantic Corridor — Embattled at Day Zero, hardening toward No-Man's-Land as the corridor falls over the first ~90 days** (Tension floor 5; opening scene runs at 6).
+**Date / Location / Region band:** **Day +0, ~10:02 Eastern** · Northeast Corridor, **central New Jersey** (open straight ~between New Brunswick and Trenton), aboard a collided/derailed Amtrak consist · **Mid-Atlantic Corridor — Embattled at Day Zero**, hardening toward No-Man's-Land over ~90 days (Tension floor 5; opening scene runs at 6).
 
-**Exposure clock (heat / witnesses → a hunter):** 0 / — (the character's power is seconds old; the first witness opens it).
+**Tension:** 6 (opening chaos).
 
----
-
-## THREAD LIST *(open goals, mysteries, dangers — numbered; roll d20 against it when fate must choose)*
-1. **Survive the Day** — get off the street, out of the collapsing core, somewhere that isn't dark and panicking.
-2. **The people they'd run toward** — `[fill at creation: who, and where they were at 10:00]`. This is the engine of the early game.
-3. **What am I now?** — the nature, limits, and tells of the manifested power; what it costs to use.
-4. *(Add as goals, questions, and dangers open. Close them when resolved or moot. Prune so the d20 keeps biting.)*
-
-## CHARACTER LIST *(NPCs who might recur — numbered; roll d20 against it when fate must choose)*
-1. `[fill at creation: the first person who matters — the one they'd run toward]`
-2. *(Add anyone the character meets who could return. Retire them when they die or leave for good.)*
+**Exposure clock (heat/witnesses → a hunter):** 0 / — . Thermal Tell now active; in the universal chaos of the Pulse a cold man isn't yet singled out, but the next deliberate use before a coherent witness opens it.
 
 ---
 
-## THE SIX WORLD CLOCKS (Day-Zero baseline — fixed)
-| Clock | Value | Range / note |
+## THREAD LIST
+1. **Survive the Pulse** — get clear of the wreck and the changing car; off the open track, somewhere not dark and dying.
+2. **The people he'd run toward** — **Akhil** (brother, med student at Mount Sinai, Manhattan — closest tie); **parents** Bhaskar & Sudha (Newark, DE); **Bergen County family** (cousin/aunt/uncle/grandmother, N. NJ, ~1 hr north).
+3. **What am I now?** — kinetic control; the cold/heat tell; the rush; the limits and costs, none of them understood yet.
+4. **The wreck** — mass casualties up-train; he's a vascular surgeon and loyalty/fairness pulls him toward the wounded. *(opened Day 0)*
+5. **The man in the Rutgers hoodie** — three rows back, transforming now; the seat-frame near him sagging. Threat or fellow? *(opened Day 0)*
+
+## CHARACTER LIST
+1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
+2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
+3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
+4. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
+
+---
+
+## THE SIX WORLD CLOCKS (Day-Zero baseline)
+| Clock | Value | Note |
 |---|---|---|
-| **Empire Consolidates the Heartland** | **0 / 8** | at 8/8 the Empire turns its full weight toward the redoubts (the Year-Two threat). Distant — rumor, not visible pressure, this early. |
-| **The Famine Wave** | **0 / 6** | builds to a peak around Day +60 as trade severs, then ebbs where redoubts restore local food. |
-| **The Concord Swing** | **3 / 6** (neutral) | two-way. Toward +: humanity proves it can hold → the Concord commits. Toward −: visible collapse → it defects. **The most consequential clock the character can move.** |
-| **The Reaver Tide** | **0 / 4** | presses south through the Mid-Atlantic; at 4/4 the corridor is fully lost and the interior line is directly threatened. |
-| **Redoubt Recovery** | **0 / 8** | power, water, order, the rebuilt internal network; each segment opens new capacity. |
-| **The Unmaking Horizon** | **0 / 12** | measured in years; mostly dread in Year One, but its slow tick is the campaign's doom-engine. |
+| Empire Consolidates the Heartland | 0 / 8 | Year-Two threat; distant rumor this early. |
+| The Famine Wave | 0 / 6 | peaks ~Day +60 as trade severs. |
+| The Concord Swing | 3 / 6 (neutral) | two-way; the most consequential clock the PC can move. |
+| The Reaver Tide | 0 / 4 | presses south through the Mid-Atlantic. |
+| Redoubt Recovery | 0 / 8 | rebuilt power/water/order/network. |
+| The Unmaking Horizon | 0 / 12 | years-long doom engine. |
 
-*Advance these every in-world week at minimum, and on every scene where the character spends time without advancing a goal. Show the character only the clocks they could perceive (a local one — the Reaver Tide, a precinct annexing the block — is visible pressure; a distant one — Empire consolidation — is rumor).*
-
----
-
-## FIRST-CHAT SEEDING CHECKLIST (do this before scene one)
-1. Run full M&M 3e character creation, PL 8 or 9, audit against caps. Build the person *and* the power, two complications minimum (one defining, with a standing trigger).
-2. Set mortality expectations honestly: ~80% over the year (~70% with careful play), permanent death, survival earned, expect to build more than one character. Confirm they want it.
-3. Establish the Day-Zero morning: who they are, who they'd run toward, where everyone was at 10:00. Write those into the Thread and Character lists above.
-4. Open scene one at the Pulse with Tension 6, and resolve the first uncertainty through the engine. Let the world be exactly as dangerous as it is.
+*Advance every in-world week minimum, and on any scene where time burns without a goal advancing.*
 
 ---
 
-*At every scene end, overwrite this document (as `vanguard-state.md`) with the current state block, lists, and clocks. A state block in which no resource moved and the Jeopardy Counter did not reset is probably soft — check it against the self-audit gate before saving.*
+## POWERED-CONFLICT TRACKS
+- **Powered Roster:** empty — Day Zero. First manifesters appearing this minute (the Rutgers-hoodie man is the first potential face; ~1-in-5 of the car).
+- **Faction Standing & Rank:** none known yet.
+- **War Fronts:** none active locally (Day 0).
+- **Legacy ledger:** none (first character).
+
+---
+
+*Overwrite at every scene end. A block where no resource moved and the Jeopardy Counter didn't reset is probably soft — check the self-audit gate first.*
