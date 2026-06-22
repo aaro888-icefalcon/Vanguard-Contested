@@ -38,18 +38,18 @@
 
 **Jeopardy Counter:** 2 → met by the standing threat. (Social/intel beat; the world pressed via a powder-keg fief + a hostile development — mob violence against the powered. Next beat must carry lethal stakes or a hard scarcity bite.)
 
-**Jeopardy Counter:** 1 (quiet hand-off beat, no cost; next scene needs lethal stakes or a scarcity bite).
+**Jeopardy Counter:** 2 → met by the run ahead. (Departure beat had no blood but real consequence; the flight over a killing corridor toward a burning city carries its own teeth — next beat resolves with stakes.)
 
-**LIVE (Day 0, ~12:05, the middle-school fief):** Shake **handed Mateo off** to a young teacher, **Hannah** (mid-20s), in the library safe-room. Handoff smooth (Dylan's goodwill); **Mateo went numb/compliant — didn't fight, didn't look back** (the bond quietly strained, not severed — a child learning the fixed points don't stay). Shake is now **unencumbered.** Open in front of him: the gym wounded (his oath), Dylan (grateful but won't want to open the gate for a doctor), and 30 mi to Akhil in NYC.
+**LIVE (Day 0, ~12:15, airborne over central NJ → NYC):** Shake **walked out past the wounded and Mateo and flew off** — escaping Dylan's "cage" (can't catch a flyer) but **revealing his power to the whole fief** (the careful no-powers save undone) and **abandoning the gym wounded + Mateo.** **Dylan → betrayed/bitter** (roster); the goodwill legend soured to "…and then he flew off and left us," and **Mateo is left behind in the keeping of a boy who now resents Shake.** Now solo, a heat-signature over a dead corridor; ahead, **Manhattan ~30 mi NE, visibly burning** (dozens of smoke columns, no response). Heading for **Akhil at Mount Sinai**. Approach style/destination = pending player choice.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~11:30 Eastern** · outside a **barricaded middle school**, central NJ suburb (~on foot from the CVS). NYC/Akhil ~30 mi NE · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+**Date / Location / Region band:** **Day +0, ~12:15 Eastern** · **airborne over central NJ**, en route NE toward **Manhattan (~30 mi, visibly burning)** and Akhil at Mount Sinai · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
 - *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
 **Tension:** 5 (dropped from 6 — Shake closed the combat threat and escaped clean with the child; reward for good play. Regional floor 5.).
 
-**Exposure clock (heat/witnesses → a hunter):** **3 / 6 — "the flying man" (now "with a child").** +1 from a few sheltering civilians watching him land at the CVS. (The self-heal itself went unnoticed — Tell roll No.) At 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that now knows his nature.
+**Exposure clock (heat/witnesses → a hunter):** **4 / 6 — "the flying man."** +1 from a whole school full of fief survivors watching Shake reveal his power and fly off (now connected: "the doctor" = a flying powered man). Mixed/souring valence — **Dylan (powered, betrayed) knows his nature.** At 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that moves on him.
 
 ---
 
@@ -94,7 +94,7 @@
 ## POWERED-CONFLICT TRACKS
 - **Powered Roster:**
   - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) transformed into a feral natural-weapons predator; *mastered* killing body, *person* lost the wheel (can't control it). Defining complication: **a dependent (his son) he can't protect** — and Shake just took that son. **Defeated & spared Day 0; left awake and hunting in the grove.** Potential recurring nemesis / tragic figure / Legacy thread: the father who lost his boy to the man who beat him.
-  - **Dylan** ("the Fast Kid", Bruiser PL 6) — ~16, lacrosse hoodie; manifested *speed*, seized the **middle school** as a fief (intent: build a fief / repair order). Control *costly* (scorches/smokes/runs hot when he sprints). **Now bonded to Shake** after Shake saved **Sofia** — grateful, deferential ("you can have whatever you want"), and quietly unwilling to let a doctor leave. A scared boy doing a man's job; a potential ally/first faction-seed — or a soft captor.
+  - **Dylan** ("the Fast Kid", Bruiser PL 6) — ~16, lacrosse hoodie; manifested *speed*, seized the **middle school** as a fief. Control *costly* (scorches/smokes/runs hot when he sprints). Shake saved **Sofia** (gratitude) — **then revealed his power & flew off, abandoning the wounded and leaving Mateo behind. Dylan now feels BETRAYED/bitter** (ally → resentful). **Holds Mateo** in his fief; knows Shake is "the flying man." Strong recurring-rival / future-leverage / Legacy thread.
   - **Sofia** (~13) — survived a severe asthma attack thanks to Shake; precious to Dylan. Alive, shaken.
 - **Faction Standing & Rank:** none known yet.
 - **War Fronts:** none active locally (Day 0).
