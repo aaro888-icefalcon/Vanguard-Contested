@@ -25,7 +25,7 @@
 2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
 3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
 
-**Conditions / injuries:** **Staggered + Dazed** (one action/turn). **Bruised ×4** (−4 to Toughness resistance — effective Toughness 5). **Lingering injury:** multiple claw lacerations across back, shoulder & ribs, bleeding heavily — needs in-world days + Treatment/Medicine (gritty mod 1). One more solid hit likely incapacitates → death.
+**Conditions / injuries:** Combat over — **Staggered/Dazed cleared** as the fight ended. **Lingering injury (serious):** multiple deep claw lacerations across back, left shoulder & ribs — **actively bleeding, untreated.** Needs Treatment/Medicine + in-world days (gritty mod 1); left untreated it will worsen (blood loss → fatigue/shock). **Fatigued/scoured** from the ordeal and the Rush ebbing. *(Note: his Circulatory Control — Healing 9, trauma-only — could likely treat his OWN wounds; undiscovered so far.)*
 
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
@@ -38,13 +38,12 @@
 
 **Jeopardy Counter:** 0 (reset — Shake took a critical-hit injury and is in a live death-stakes fight).
 
-**ACTIVE COMBAT (Round 5, Shake's turn):** Shake vs **The Changed** (Heavy PL 8 predator), county grove. Init: Changed 24, Shake 18 (it acts first). **The Changed:** Staggered+Dazed, Bruised ×4 (**Toughness 4**) — one hit from collapse. **Shake:** Staggered+Dazed, Bruised ×4 (Toughness 5), bleeding; guard restored to Dodge/Parry 9; **1 Hero Point.** Both a single hit from death. Child hides ~40 ft off. Grove scorched but unburnt.
+**COMBAT RESOLVED (Day 0, ~10:20):** Shake defeated **The Changed** — incapacitated it with a Kinetic Strike (its nat-1 save), then **grabbed the boy and flew off** as it woke. Its desperate waking lunge missed. **Shake left it alive** in the grove — awake, hunting, prey gone. Now airborne over central NJ with the rescued boy; badly wounded, **1 Hero Point.**
 
-**Date / Location / Region band:** **Day +0, ~10:10 Eastern** · a **small suburban downtown**, central NJ (~a 90-sec flight NE of the wreck) — Main Street, brick storefronts (Rite Aid on the corner, deli, bank), dead cars, "Fall Stroll" banner · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5; opening scene 6).
-- *Wreck (behind him):* his consist rear-ended a train stopped ahead (no signals); lead 3 cars accordioned. Shake bailed out a window unhurt, then flew clear.
-- *Now:* landed in the street trailing heat; ~15 civilians watching in frozen silence; a teenager among them is beginning to manifest.
+**Date / Location / Region band:** **Day +0, ~10:20 Eastern** · **airborne over central New Jersey**, a few hundred feet up, fleeing the county grove; flat sprawl, dead roads, scattered smoke columns, the wrong sky. NYC/Akhil lie ~30 mi NE · **Mid-Atlantic Corridor — Embattled at Day Zero** (Tension floor 5).
+- *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
 
-**Tension:** 6 (opening chaos).
+**Tension:** 5 (dropped from 6 — Shake closed the combat threat and escaped clean with the child; reward for good play. Regional floor 5.).
 
 **Exposure clock (heat/witnesses → a hunter):** **2 / 6 — "the flying man."** Opened when ~15 downtown civilians watched Shake descend from the sky trailing heat-shimmer. Word will spread among survivors; at 6 it discharges (oracle-rolled) into a hunt, betrayal, or a faction that now knows his nature.
 
@@ -55,16 +54,19 @@
 2. **The people he'd run toward** — **Akhil** (brother, med student at Mount Sinai, Manhattan — closest tie); **parents** Bhaskar & Sudha (Newark, DE); **Bergen County family** (cousin/aunt/uncle/grandmother, N. NJ, ~1 hr north).
 3. **What am I now?** — kinetic control; the cold/heat tell; the rush; the limits and costs, none of them understood yet.
 4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
-5. **The Rutgers-hoodie man (Telekinetic)** — manifested as raw, uncontrolled telekinesis, tearing the car apart from inside; doesn't know how to stop. Still ~15 ft from Shake. A present, above-tier-unknown threat. *(opened Day 0)*
-6. **Get to Akhil** — ~30 mi to Manhattan; flight is now a known option (but it runs hot and visible). *(opened Day 0)*
-7. **The downtown street** — ~15 frozen civilian witnesses; a Rite Aid (medicine!) and deli (food/water) 50 ft off; a **teenager in the crowd beginning to manifest**. Shake's next action sets the street off. *(opened Day 0)*
+5. **Get to Akhil** — ~30 mi NE to Manhattan; flight is a known option but runs hot, visible, and feeds Exposure. *(opened Day 0)*
+6. **The boy** — a ~6yo Shake pulled off his transformed father; now his to protect. Needs safety/family; traumatized, sees Shake as the cold stranger who "hurt Daddy." *(opened Day 0)*
+7. **Shake's wound** — serious untreated bleeding lacerations; must treat soon (Treatment, or possibly self-Healing) or it degrades him. *(opened Day 0)*
+8. **The Changed, left alive** — defeated but spared; awake and hunting, its son taken by Shake. May track them, or recur as a tragic/hostile roster face (Legacy seed). *(opened Day 0)*
+- *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
 
 ## CHARACTER LIST
 1. **Akhil Rao** — younger brother, med student at Mount Sinai (Manhattan). The day-to-day tie he'd miss most.
 2. **Bhaskar & Sudha Rao** — parents, both surgeons, Newark, Delaware.
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
-4. **The child** ("Daddy") — a small child hiding behind the playground fort; the Changed's dependent. Terrified, unhurt so far.
-5. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
+4. **The boy** (~6, dinosaur t-shirt; name unknown) — son of the Changed; Shake carried him off. Now in Shake's care: rigid, silent, terrified of Shake, grieving his father. Physically unhurt (the cold spared him).
+5. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
+6. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
 
 ---
 
@@ -84,7 +86,7 @@
 
 ## POWERED-CONFLICT TRACKS
 - **Powered Roster:**
-  - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) who transformed at the Pulse into a feral natural-weapons predator; *mastered* killing body, but the *person* has lost the wheel (intent: can't control it). Defining complication: **a dependent (his child) he can't protect.** Currently in melee with Shake, staggered & bruised.
+  - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) transformed into a feral natural-weapons predator; *mastered* killing body, *person* lost the wheel (can't control it). Defining complication: **a dependent (his son) he can't protect** — and Shake just took that son. **Defeated & spared Day 0; left awake and hunting in the grove.** Potential recurring nemesis / tragic figure / Legacy thread: the father who lost his boy to the man who beat him.
   - **The Telekinetic (Rutgers-hoodie man)** — unnamed; manifested Day 0 aboard the train as uncontrolled telekinesis. Last seen tearing the wrecked car apart. May have died in his own eruption, or recur.
 - **Faction Standing & Rank:** none known yet.
 - **War Fronts:** none active locally (Day 0).
