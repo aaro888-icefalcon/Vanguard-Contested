@@ -36,9 +36,9 @@
 - Fuel: n/a (no working vehicle)
 - Warmth: October commute clothing; sheltered for now (train) — exposure becomes a clock once outdoors/moving. *Note: his own power chills the air around him.*
 
-**Jeopardy Counter:** 2 → met. (Heal + talk beats drew no cost; the world has now pressed: an armed, panicking civilian. This confrontation carries live lethal stakes.)
+**Jeopardy Counter:** 0 (reset — Shake faced a leveled rifle, a real death-stakes scene, and defused it on a pressured roll).
 
-**LIVE — ARMED STANDOFF (Day 0, ~10:45, CVS lot):** A terrified man (~50s, Giants hoodie) with a **deer rifle** has emerged from the nail salon and leveled it, shaking, at Shake — saw him land & self-heal. Muzzle wavering across Shake and **Mateo** (a yard behind Shake). Disposition unrolled (fear-driven; could fire by accident). Shake's guard up (Dodge/Parry 9). Other civilians still sheltering (SUV).
+**LIVE (Day 0, ~10:45, CVS lot):** Standoff **defused** — Shake set Mateo down, stepped clear, and talked the gunman down (Persuasion 22 vs 15; the man was pure fear). The man (~50s, Giants hoodie) lowered the deer rifle, broke down: **6 survivors sheltering in the nail salon** — including his **diabetic wife**, an older couple, a teenage girl, and their own kid. "Nothing works." The CVS next door still holds insulin/bandages/food. Shake (a doctor with empty supplies + healing hands) faces a choice: help them, resupply, and/or move on toward NYC with Mateo.
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -68,7 +68,8 @@
 3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
 4. **Mateo** (~6, dinosaur t-shirt) — son of the Changed; Shake carried him off and is now effectively his guardian. **No family within reach** (mother died of illness ~1–2 yrs ago; only a "Nana" far away/out of state). Mother gone, father is the Changed. Trauma + dawning trust in Shake (witnessed the heal; Shake told him the gentle truth). Now Shake's dependent — a bond and a vulnerability (Family & Friends complication).
 5. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
-6. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
+6. **The strip-mall survivors** — ~6 unpowered civilians sheltering in the nail salon: the **rifle man** (~50s, Giants hoodie, frightened protector), his **diabetic wife** (needs insulin), an older couple, a teenage girl, a young child. Not hostile — terrified. Potential recurring faces / a first test of Shake's Loyalty-&-Fairness motive.
+7. *(distant for now: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
 
 ---
 
