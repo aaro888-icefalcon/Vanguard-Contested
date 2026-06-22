@@ -36,8 +36,6 @@
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
-**Jeopardy Counter:** 2 → met by the standing threat. (Social/intel beat; the world pressed via a powder-keg fief + a hostile development — mob violence against the powered. Next beat must carry lethal stakes or a hard scarcity bite.)
-
 **Jeopardy Counter:** 2 → met by the run ahead. (Departure beat had no blood but real consequence; the flight over a killing corridor toward a burning city carries its own teeth — next beat resolves with stakes.)
 
 **LIVE (Day 0, ~12:15, airborne over central NJ → NYC):** Shake **walked out past the wounded and Mateo and flew off** — escaping Dylan's "cage" (can't catch a flyer) but **revealing his power to the whole fief** (the careful no-powers save undone) and **abandoning the gym wounded + Mateo.** **Dylan → betrayed/bitter** (roster); the goodwill legend soured to "…and then he flew off and left us," and **Mateo is left behind in the keeping of a boy who now resents Shake.** Now solo, a heat-signature over a dead corridor; ahead, **Manhattan ~30 mi NE, visibly burning** (dozens of smoke columns, no response). Heading for **Akhil at Mount Sinai**. Approach style/destination = pending player choice.
@@ -59,7 +57,7 @@
 3. **What am I now?** — kinetic control; the cold/heat tell; the rush; the limits and costs, none of them understood yet.
 4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
 5. **Get to Akhil** — ~30 mi NE to Manhattan; flight is a known option but runs hot, visible, and feeds Exposure. *(opened Day 0)*
-6. **Mateo** — the ~6yo Shake pulled off his transformed father; **no family to take him (survivors declined) — he's Shake's now.** Bond forming. A dependent to protect and a standing vulnerability (Family & Friends). *(opened Day 0)*
+6. **Mateo (left behind)** — the ~6yo Shake pulled off his transformed father; **Shake parked him at Dylan's school and flew off without goodbye.** Now in the keeping of **bitter Dylan** + the teacher Hannah. Bond strained; the abandonment is a live relationship/Legacy thread (guilt, leverage, or a return). *(opened Day 0)*
 7. ~~Shake's wound~~ — **resolved:** self-healed via inward Circulatory Control. *(closed Day 0)*
 8. **The Changed, left alive** — defeated but spared; awake and hunting, its son taken by Shake. May track them, or recur as a tragic/hostile roster face (Legacy seed). *(opened Day 0)*
 9. **Mobs hunting the powered** — within ~2 hrs of the Pulse, frightened ordinary survivors are already killing visible manifesters (a lynching near a Shop-Rite). Authority/cops collapsed ("overthrow of the mundane"). Directly sharpens the **Exposure** danger — being seen being powered can get Shake mobbed. *(opened Day 0, via the Fast Kid's intel)*
