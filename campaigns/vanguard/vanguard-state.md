@@ -30,15 +30,15 @@
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
 **Supply track** *(days-remaining; RESUPPLIED at the CVS, Day 0):*
-- Food: ~1.5 days (LOW — two days' trek drew it down; resupply needed)
-- Water: ~2 days (LOW — drawn down on the march)
+- Food: ~2 days (a rationed meal + a little from the enclave; they're food-strained, so no surplus to spare)
+- Water: ~3 days (refilled at the crossing)
 - Medicine: **good** — a real trauma kit, antibiotics, analgesics, bandages (plus his trauma-healing hands)
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
 **Jeopardy Counter:** 0 (reset — the two-day trek imposed a real scarcity bite; supplies drawn low).
 
-**LIVE (Day +2, late afternoon, the Trenton Delaware crossing):** They **bailed clean** from the high-rise (Bruiser burst into an empty unit; night exit drew nothing) and have **trekked ~2 days SW across NJ on foot** (supplies now LOW — need resupply). The **Delaware crossings at Trenton are held by a nascent ORDERED militia/enclave** (faction-seed) — fortified checkpoint, screening crossers, cookfires/food beyond, rules-based, not raiders. Unknown: the enclave's stance on the **powered** (assets to recruit? threats to screen? — the broader world has mobs lynching the changed). Both brothers are powered (Akhil's ring leaking from exhaustion; Shake = 'the flying man'). **Akhil read them (partial; cost: heavy nosebleed + strain, now wobbly):** the enclave is **genuinely ordered/decent — building something, not robbing** — but **fears the changed (cold, organized, rules-not-ropes; seemingly burned by a powered person before)** and is **desperate for useful people (hands/food/skills).** Read = *"be useful, don't be a freak; don't fly over their heads; don't let them see Akhil's nosebleed."* Akhil's bleeding nose is a temporary tell to manage. **Player choosing the crossing approach** with this intel (lead as ordinary survivors / a doctor, hide powered status; let Akhil settle first; vs fly-over / another crossing).
+**LIVE (Day +2, late afternoon, the Trenton Delaware crossing):** They **bailed clean** from the high-rise (Bruiser burst into an empty unit; night exit drew nothing) and have **trekked ~2 days SW across NJ on foot** (supplies now LOW — need resupply). The **Delaware crossings at Trenton are held by a nascent ORDERED militia/enclave** (faction-seed) — fortified checkpoint, screening crossers, cookfires/food beyond, rules-based, not raiders. Unknown: the enclave's stance on the **powered** (assets to recruit? threats to screen? — the broader world has mobs lynching the changed). Both brothers are powered (Akhil's ring leaking from exhaustion; Shake = 'the flying man'). **IN THE ENCLAVE (Day +2):** Cleaned Akhil up, walked the gate as ordinary survivors leading with **"surgeon."** **They were NOT made as powered** (Fate: No) and Shake's doctor cred landed hard (Persuasion 20). Led across by **Sgt. Vance** (ex-Trenton PD; de facto leader of a first-responder-run refuge on the PA bank). The **Trenton Crossing** is disciplined, decent-but-hard, **fears the changed (burned before), and is RUNNING OUT OF FOOD** (Famine Wave's early bite; rationing, ~1,000 mouths, larder <1 week). Shake = prized asset; Vance is already calculating how *not* to let a surgeon leave (the keep-the-doctor hook again). **Powered status hidden — must stay hidden here.** Fed, across the river, closer to Delaware. **Player deciding what to do at the Crossing** (pay in skills & push on to parents in DE / linger / more).
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
@@ -79,7 +79,7 @@
 | Clock | Value | Note |
 |---|---|---|
 | Empire Consolidates the Heartland | 0 / 8 | Year-Two threat; distant rumor this early. |
-| The Famine Wave | 0 / 6 | peaks ~Day +60 as trade severs. |
+| The Famine Wave | **1 / 6** | early bite already visible — the Trenton enclave is rationing/short two days in. |
 | The Concord Swing | 3 / 6 (neutral) | two-way; the most consequential clock the PC can move. |
 | The Reaver Tide | 0 / 4 | presses south through the Mid-Atlantic. |
 | Redoubt Recovery | 0 / 8 | rebuilt power/water/order/network. |
@@ -95,7 +95,7 @@
   - **Dylan** ("the Fast Kid", Bruiser PL 6) — ~16, lacrosse hoodie; manifested *speed*, seized the **middle school** as a fief. Control *costly* (scorches/smokes/runs hot when he sprints). Shake saved **Sofia** (gratitude) — **then revealed his power & flew off, abandoning the wounded and leaving Mateo behind. Dylan now feels BETRAYED/bitter** (ally → resentful). **Holds Mateo** in his fief; knows Shake is "the flying man." Strong recurring-rival / future-leverage / Legacy thread.
   - **Sofia** (~13) — survived a severe asthma attack thanks to Shake; precious to Dylan. Alive, shaken.
   - **The Block Predator** (Siege, PL 10+) — a huge, wrong-jointed transformed thing prowling Akhil's UES block Day 0, tracking a live scent toward Akhil's building. **Above Shake's tier — a boss/flee threat, not a fightable one.** Unaware of Shake (for now).
-- **Faction Standing & Rank:** none known yet.
+- **Faction Standing & Rank:** **The Trenton Crossing** (first real faction; ordered first-responder refuge holding the Delaware bridges, led by **Sgt. Vance**, ex-Trenton PD). Traits: disciplined/decent-but-hard; **fears the changed**; **food-strained** (Famine Wave). Shake's standing: **+ (valued as a hidden-powered "surgeon")** — leverage, but they'd turn on him if his nature were known, and Vance wants to keep the doctor. Powered status concealed.
 - **War Fronts:** none active locally (Day 0).
 - **Legacy ledger:** none (first character).
 
