@@ -30,15 +30,15 @@
 **Hero points:** 1. *(Earned +1 from the Rush biting; spent 1 to reroll a natural-1 all-out strike in R4.)*
 
 **Supply track** *(days-remaining; RESUPPLIED at the CVS, Day 0):*
-- Food: ~4–5 days (calorie-dense pharmacy food for two)
-- Water: ~3–4 days (bottled)
+- Food: ~3.5 days (a day's eating for two drawn down)
+- Water: ~4–5 days (REFILLED every container from the building's failing taps before pressure died — smart play)
 - Medicine: **good** — a real trauma kit, antibiotics, analgesics, bandages (plus his trauma-healing hands)
 - Fuel: n/a (no working vehicle; EMP-dead)
 - Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
 
 **Jeopardy Counter:** 1 (rooftop recovery/planning beat, no cost; next move — leaving the city / travel at Day-0 nightfall — must carry teeth).
 
-**LIVE (Day 0, ~14:00, a UES rooftop — breather/planning):** Brothers reunited & **patched up** (Shake self-healed + healed Akhil). Akhil test-drove his power (read Shake's surface state — exhaustion, grief, and the **Rush's hunger**, which he noticed). They're now **planning the next move:** the island is a deathtrap (hospital fallen, no power/water by night, fires unfought, Siege-class things in the streets) — **they will not sleep in Manhattan.** Options floated: **parents Bhaskar & Sudha in Newark, DE** (south); **Bergen County family** (N. NJ); or just *away*. Flight makes distance feasible (but runs hot/visible). Akhil asked what Shake knows from 'out there' & what happened to him today (Shake hasn't told him re: the wreck/Mateo/Dylan/Exposure). Night coming. **Player choosing destination + what Shake shares.**
+**LIVE (Day 0, dusk, Shake's NYU-adjacent high-rise, 16th floor):** They flew to Shake's apartment to overnight (plan: leave for **Delaware/parents** Day 1). His unit is intact (a gut-punch of normal); they bolted in, ate, **refilled all water from the failing taps.** BUT a **transformed resident (Bruiser, PL6)** is loose in the tower, hunting — **climbing toward them** (~8 floors down), drawn by their warmth + Akhil's psychic 'ring.' **Shake clearly outclasses it** (fightable, unlike the Siege) — but a fight is loud/hot (Tell, Exposure, may draw worse), Akhil's a wildcard liability, and there may be living residents it's hunting. **Player choosing how to handle the climbing Bruiser** (meet it / ambush / fort up / slip out / other).
 
 **RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
 
