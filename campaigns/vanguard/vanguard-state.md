@@ -1,115 +1,100 @@
 # VANGUARD CONTESTED — Live Campaign State
-*The campaign's mutable working memory. Read-only canon lives in `.claude/skills/.../references/`; **this** is the living document, overwritten at the end of every scene. State overrides recollection; canon breaks ties on world facts.*
+*The campaign's mutable working memory. Read-only canon lives in `.claude/skills/vanguard-contested/references/`; **this** is the living document, overwritten at every scene's end. State overrides recollection; canon breaks ties on world facts.*
 
 **Mode:** Powered-Conflict Directive — ACTIVE (default).
+**Session boundary:** End of Session 1 (Day 0 → Day +5). Resume from the RESUME HOOK at the bottom.
 
 ---
 
 ## STATE BLOCK
 
-**Character:** **Abhishek "Shake" Rao** — Indian-American (Telugu), 30, vascular surgery resident (new PGY-5) at NYU. Slim (5'11", 140 lb), calm, dry, practical, emotionally contained; loyalty & fairness his spine. Manifested at the Pulse as a **kinetic controller** (M&M 3e, PL 9, 135 pp). Power eats/redirects kinetic energy; a passive dampening field keeps him alive; his hands can arrest momentum, redirect tons, blast, or close trauma.
+**Character:** **Abhishek "Shake" Rao** — Indian-American (Telugu), 30, vascular surgery resident (PGY-5) at NYU. 5'11", 140 lb, slim. Calm, dry, practical, emotionally contained; loyalty & fairness are his spine. Manifested at the Pulse as a **kinetic controller** (M&M 3e, PL 9, 135 pp).
 
-**Build (PL 9 · 135/135, all trade-off pairs at cap 18):**
+**Build (PL 9 · 135/135 · all trade-off pairs at cap 18):**
 - *Abilities (18):* STR 0 · STA 1 · AGL 1 · DEX 2 · FGT 1 · INT 3 · AWE 1 · PRE 0
 - *Defenses (32):* Dodge 9 · Parry 9 · Fort 9 · Will 9 · **Toughness 9** (STA 1 + Field 8)
 - *Skills (22):* Treatment +10 (Skill Mastery) · Expertise: Medicine +11 · Insight +4 · Investigation +5 · Perception +3 · Persuasion +3 · Deception +2 · Close Combat: Unarmed +9 · Athletics +1 · Ranged Combat: Kinetics +10
 - *Advantages (8):* Accurate Attack, All-out Attack, Interpose, Move-by Action, Skill Mastery (Treatment), Takedown 2, Uncanny Dodge
 - *Powers (55):*
-  - **Kinetic Dampening Field** — Protection 8, Impervious 3 (passive; biological, grid-proof)
-  - **Kinetic Mastery Array (24):** Kinetic Lance (Ranged Damage 8, Penetrating 2, +10 / DC 23) · *AE* Kinetic Strike (Str-Based Damage 9, Multiattack, +9 / DC 24) · *AE* Force Redirection (Move Object 8, Precise, ~6 tons, +10) · *AE* Kinetic Wave (Damage 6, Burst Area, Dodge DC 16 → Tou DC 21) · *AE* Momentum Arrest (Ranged Affliction 8, Fort DC 18: hindered/immobile/paralyzed) · *AE* Deflect 9, Reflect · *AE* Circulatory Control (Healing 9, Limited to trauma & perfusion)
-  - **Flight 6** (120 mph) · **Kinetic Sense** (Detect Kinetic Energy: Ranged, Acute, Radius, Accurate, Rapid, Danger Sense)
+  - **Kinetic Dampening Field** — Protection 8, Impervious 3 (passive; biological, grid-proof; the reason a glass cannon survives)
+  - **Kinetic Mastery Array (24):** Kinetic Lance (Ranged Damage 8, Penetrating 2 · +10 / DC 23) · *AE* Kinetic Strike (Str-Based Damage 9, Multiattack · +9 / DC 24) · *AE* Force Redirection (Move Object 8, Precise · ~6 tons · +10) · *AE* Kinetic Wave (Damage 6, Burst Area · Dodge DC 16 → Tou DC 21) · *AE* Momentum Arrest (Ranged Affliction 8 · Fort DC 18: hindered/immobile/paralyzed) · *AE* Deflect 9, Reflect · *AE* **Circulatory Control** (Healing 9, Limited to trauma & perfusion — can self-heal & heal others; vascular/bleeds are his exact wheelhouse)
+  - **Flight 6** (120 mph) · **Kinetic Sense** (Detect Kinetic Energy: Ranged, Acute, Radius, Accurate, Rapid, Danger Sense — a momentum/pressure map through walls; rarely surprised; superb scout)
 - *Motivation:* Loyalty & Fairness.
+- *Known limits (learned in play):* array is **pick-one** (one effect/turn); flight tops ~120; **output runs hot, absorbing runs cold**; carrying a grown adult needs Force Redirection and is taxing over distance.
 
-**Complications (standing triggers — fire on their own):**
-1. **The Thermal Tell** *(defining).* Using/absorbing kinetics moves heat: drawing energy IN (absorb/dampen/deflect/arrest) drops local temp; shedding it OUT (lance/strike/wave) raises it. Every power-use scene, roll: (a) environmental hazard, (b) cold-injury/burn to self or nearby, (c) detectability → witness/tracker/Exposure.
-2. **The Rush** *(Powered vs Self).* Absorbing kinetic force — taking the big hit — feels good and is potentially addictive. When fed, or when a feedable blow is on offer, roll whether craving leans him toward the bad engagement / fighting strong opponents to feed.
-3. **Family & Friends** *(standing).* The people he'd run toward are levers the world will pull.
+**Complications (standing triggers):**
+1. **The Thermal Tell** *(defining).* Kinetics move heat: drawing energy IN (absorb/dampen/deflect/arrest) drops local temp; shedding OUT (lance/strike/wave/flight) raises it. Every power-use scene roll: (a) environmental hazard, (b) cold/burn to self or nearby, (c) detectability → witness/tracker/Exposure.
+2. **The Rush** *(Powered vs Self).* Absorbing kinetic force feels good & is addictive; when fed or when a feedable blow is offered, roll whether craving leans him toward the bad engagement. *(Has bitten; Akhil has now sensed it in him.)*
+3. **Family & Friends** *(standing).* The people he'd run toward are levers — fully live now (Akhil + parents with him; responsible for a shelter).
 
-**Conditions / injuries:** Shake — worn/tired, not wounded; **0 Hero Points** (no safety net). **AKHIL — alive & HIS, but cracked deeper:** brain-bleed stabilized (Shake's Circulatory Control); still neuro-impaired & days from whole; **nearly DOMINATED by the Shepherd (saved at the edge of range on Shake's last HP)** — now doubly traumatized, terrified of the Shepherd AND of his own power. Cannot be a mind near the Shepherd's reach again; shouldn't use his power at all. A vulnerable dependent.
+**Conditions / injuries:** **Shake** — unhurt, worn; **0 Hero Points (no safety net).** **Akhil** — brain-bleed stabilized (Shake's Circulatory Control); **resting in the parents' care, recovering, still days from whole**, neuro-impaired, doubly traumatized (backfire + near-domination); **power offline & dangerous** (using it could kill him / nearly turned him).
 
-**Hero points:** 0. *(Earned +1 Rush bite; spent 1 on an R4 reroll Day 0; spent the last to wrench Akhil out of the Shepherd's reach Day +5.)*
+**Hero points:** 0.
 
-**Supply track** *(days-remaining; RESUPPLIED at the CVS, Day 0):*
-- Food: ~3 days (earned a fair share of trail food for the night's surgery)
-- Water: ~3 days (refilled at the crossing)
-- Medicine: **good** — a real trauma kit, antibiotics, analgesics, bandages (plus his trauma-healing hands)
-- Fuel: n/a (no working vehicle; EMP-dead)
-- Warmth: October clothing + a grabbed fleece for Mateo; **exposure clock live once moving outdoors** (and his power chills the air when he draws energy in).
+**Supply track** *(now pooled with the Rao aid-station):*
+- Shake's go-bag: Food ~3 days · Water ~3 days · **Medicine: good** (trauma kit, antibiotics, analgesics) + his healing hands.
+- Aid-station stores: modest & strained (~2 dozen mouths + arrivals). **The Famine Wave is the looming scarcity.**
+- Fuel: n/a (EMP-dead vehicles). Warmth: sheltered (the houses); October.
 
-**Jeopardy Counter:** 1 (the reunion/arrival was a low-cost payoff beat; next scene — settling the harbor amid the surrounding threats — needs teeth).
+**Jeopardy Counter:** 1 (reunion was a low-cost payoff beat; the NEXT scene — sustaining/defending the harbor amid surrounding threats — must carry teeth).
 
-**LIVE (Day +5, morning, NE of the Shepherd's domain — penned in):** Shake **broke off and flew Akhil OUT of the Shepherd's mental reach** — failed the run (10 vs 15), spent his **last Hero Point** to reroll (21) and cleared the edge by a breath. **Akhil saved — still his — but cracked deeper** (nearly turned; horrified he *wanted* to give in). **Fixed the Shepherd's seat:** ~6–8 mi SW, the captured refuge, ringed by hundreds of dominated minds moving in unison. **STRATEGIC WALL: the parents (Newark, DE) sit on the FAR side of the Shepherd** — the only road home runs back through the reach that nearly ate Akhil. **Penned in a thin band:** Warlord's domain to the S/SW, the burned-and-hunting Crossing to the NE, 0 Hero Points, no allies, an invalid brother. **HOME — Newark, DE (Day +5):** Shake flew the wide high-fast loop around the Shepherd (clean — Exc No) and **REACHED HIS PARENTS ALIVE.** Bhaskar & Sudha are running a **neighborhood aid-station** (~2 dozen survivors); **Bhaskar manifested phasing** (hidden); Sudha unchanged, now nursing the injured/impaired **Akhil** (delivered into the best care available). **The family is reunited; a real, fragile harbor.** Major drive ('reach the family') **achieved.** Surrounding threats persist: the **Shepherd** ~20–25 mi NE and now aware powered strangers are about; the **Trenton Crossing** hostile & hunting (far NE); the **Famine Wave**; the corridor Embattled. **A natural new-status-quo / base beat. Player: what now, at home?**
+**Date / Location / Region band:** **Day +5, evening** · **Newark, Delaware** — the Rao parents' street, now a neighborhood **aid-station** (fragile harbor) · **Mid-Atlantic Corridor — Embattled** (Tension floor 5). The Shepherd's domain sits ~20–25 mi NE.
 
-**RECENT (Day 0, ~10:20–10:40):** Shake defeated **The Changed** (Kinetic Strike, its nat-1 save → incapacitated), **grabbed the boy and flew off clean** (its waking lunge missed; left it alive & hunting in the grove). Flew to a **standalone CVS** off a county road and landed; **self-healed his lacerations** (discovering inward Circulatory Control). A few scared civilians shelter nearby (nail salon, an SUV) — they saw him land. **1 Hero Point.**
+**Tension:** 5 (floor; the core "reach the family" drive achieved, but the region is Embattled and the harbor is fragile).
 
-**Date / Location / Region band:** **Day +5, midday** · **Newark, Delaware** — the parents' street, now a neighborhood aid-station (a fragile harbor) · **Mid-Atlantic Corridor — Embattled** (Tension floor 5); the Shepherd's domain ~20–25 mi NE.
-- *Behind him:* the train wreck (rear-ended a stopped consist; he bailed unhurt), a small downtown where ~15 civilians saw "the flying man," and the grove where he beat & escaped the Changed, carrying off its son.
-
-**Tension:** 5 (escaped the Shepherd's reach by a breath; acute crisis passed. Regional floor 5. Strategic situation grim.)
-
-**Exposure clock (heat/witnesses → a hunter):** **DISCHARGED into the Crossing** — Shake flew off openly carrying Akhil; ~1,000 people + Sgt. Vance + Boyd now know the brothers are *the changed* and watched them flee by air. The Crossing is a **hostile faction that knows their faces/natures** (a future hunter/rumor source). Separately, "the flying man / with a child" rumor persists from NJ (the downtown crowd; Dylan, betrayed, also knows). Exposure is no longer a slow clock — it has *discharged* into concrete enemies; new sightings will spawn fresh ones.
+**Exposure (heat/witnesses → hunters):** **Discharged into concrete enemies — no longer a slow clock.** The **Trenton Crossing** (~1,000 + Sgt. Vance + Boyd) knows the brothers are *changed* and watched them flee by air — **hostile & actively hunting** (a Boyd-led search party swept for them). **Dylan** (NJ speedster) knows & is bitter. "The flying man / with a child" rumor persists from NJ. *Local Newark exposure:* his family knows (they're changed too); whether the aid-station's other survivors clocked his arrival/flight is a **live local risk to manage** in a changed-fearing world.
 
 ---
 
 ## THREAD LIST
-1. **Survive the Pulse** — get clear of the wreck and the changing car; off the open track, somewhere not dark and dying.
-2. **The people he'd run toward** — **Akhil: with Shake** (injured, recovering). **Parents Bhaskar & Sudha: REACHED ALIVE, Newark DE** (running an aid-station; Dad phases). Still out there: **Bergen County family** (N. NJ — unknown). *(Core 'reach the family' drive largely achieved Day +5.)*
-3. **What am I now?** — *(advancing)* learned in flight: **Kinetic Sense** = a wide momentum/pressure map through walls + Danger Sense (rarely surprised; superb scouting); **Flight** tops ~120 mph; the **array is pick-one** (one effect at a time); **output runs hot** (a trail), **absorbing runs cold and wakes the Rush.** Still unknown: true ceilings, what happens if the Rush is fed hard. *(opened Day 0)*
-3b. **The refuge = a mind-trap** — the rumored safe-zone (Chester Co. PA → DE line) is REAL (walls/power/grown food) but **seized by the Warlord 'the Shepherd' (mind-Dominator)** who turns people into a willing flock. The column's destination would *welcome them and eat their wills.* Vance's plan is poisoned; needs a new one. *(opened/updated Day +2)*
-3d. **Akhil vs the Shepherd (mind-mirror)** — the Shepherd masters the exact power Akhil can't yet steer; Akhil may be the only one who can *sense* a mind-conqueror coming — or the one most at risk of being turned. *(opened Day +2)*
-3e. **Parents in the spread-path** — Bhaskar & Sudha (Newark, DE) are *past* the refuge, in the direction the Shepherd's domain is spreading. *(opened Day +2)*
-3c. **The Trenton Crossing exodus** — Shake allied with Sgt. Vance to move ~1,000 refugees south toward the refuge; he's their doctor for the march. Vulnerable column; his secret rides inside it. *(opened Day +2)*
-4. **The wreck & the ones he left** — Shake chose flight over the mass-casualty car; the woman with the broken arm, the kid, others died in the TK eruption seconds after he bailed. Cost paid against his Loyalty/Fairness motivation — a thread that may surface as guilt or reputation later. *(opened Day 0)*
-5. ~~Get to Akhil~~ — **CLOSED Day 0:** found him alive, saved him from the Siege, reunited on a UES rooftop. *(He's now with Shake.)*
-6. **Mateo (left behind)** — the ~6yo Shake pulled off his transformed father; **Shake parked him at Dylan's school and flew off without goodbye.** Now in the keeping of **bitter Dylan** + the teacher Hannah. Bond strained; the abandonment is a live relationship/Legacy thread (guilt, leverage, or a return). *(opened Day 0)*
-7. ~~Shake's wound~~ — **resolved:** self-healed via inward Circulatory Control. *(closed Day 0)*
-8. **The Changed, left alive** — defeated but spared; awake and hunting, its son taken by Shake. May track them, or recur as a tragic/hostile roster face (Legacy seed). *(opened Day 0)*
-9. **Mobs hunting the powered** — within ~2 hrs of the Pulse, frightened ordinary survivors are already killing visible manifesters (a lynching near a Shop-Rite). Authority/cops collapsed ("overthrow of the mundane"). Directly sharpens the **Exposure** danger — being seen being powered can get Shake mobbed. *(opened Day 0, via the Fast Kid's intel)*
-- *Closed/behind him:* the train wreck; the Rutgers-hoodie Telekinetic (last tearing up the car — may recur); the downtown street (left it; residue = Exposure "the flying man").
+1. **Keep & defend the harbor** — the Rao aid-station (Newark, DE): ~2 dozen survivors, two surgeons + Shake, in a famine, ~20–25 mi from a Warlord. Sustain/feed/protect it; decide its future. *(opened Day +5)*
+2. **The Shepherd** *(campaign boss)* — Warlord-tier mind-Dominator holding the captured refuge (~upper Chester Co PA), ringed by a dominated "flock," ~8-mi mental reach, now **aware powered strangers are in its county.** Above Shake's tier (flee/out-think). A master of Akhil's power-category. *(opened Day +2)*
+3. **The Crossing, hostile & hunting** — Sgt. Vance's first-responder column (was heading N to the Poconos on Shake's redirect); Boyd vindicated/rising; they know the brothers' faces & natures and want them. *(opened Day +2)*
+4. **Akhil's recovery & his dangerous power** — heal him; figure out whether/how he can ever safely use the Breaker mind-power that nearly killed and nearly un-made him. *(opened Day +4)*
+5. **A family of the changed** — Shake (kinetic), Akhil (mind), **Bhaskar/Dad (phasing)** all manifested; only **Sudha/Mom** unchanged. Three hunted people in a lynching world; a collective secret to keep. *(opened Day +5)*
+6. **What am I now?** — kinetic control mostly mapped (see Build limits); still unknown: true ceilings, what fully feeding the Rush does. *(ongoing)*
+7. **Mateo (left behind)** — the ~6yo Shake pulled off his transformed father, then **abandoned at Dylan's NJ school**; now held by **bitter Dylan**. Guilt/Legacy thread. *(opened Day 0)*
+8. **The Changed (grove)** — Mateo's transformed father, defeated & spared, **alive & hunting**, his son taken. May recur. *(opened Day 0)*
+9. **Mobs hunt the powered** — the world's default: frightened survivors lynch the visibly changed. Sharpens every exposure. *(opened Day 0)*
+10. **Bergen County family** — cousin/aunt/uncle/grandmother, N. NJ — fate unknown. *(open)*
+- *Closed:* reached Akhil (alive, w/ Shake); **reached the parents alive**; Shake's wounds (self-healed); the train wreck & NYC.
 
-## CHARACTER LIST
-1. **Akhil Rao** — **26**, Telugu, med student at Mount Sinai; Shake's brother and **peer** (calls him **"bro,"** not Bhaiya). **Practical, cynical, analytical; quietly anxious underneath.** Reunited & patched up on the rooftop. **CANON: a BREAKER (PL 9) MIND power** — telepathy (reads surface feeling/intent), mental influence, and raw projected fear (shoved terror into the Siege by accident). **Control: costly** (nosebleeds, splitting headache, a psychic 'ring' mind-sensitives can feel → Exposure vector). **Complication: tech-leashed** — a bigger version he can't reach with the grid dead; runs erratic, can't yet drive it (fires hardest on its own, under stress). Already *sensed the Rush* in Shake and filed it. Huge latent asset; current liability.
-2. **Bhaskar & Sudha Rao** — parents, both surgeons, **REACHED ALIVE in Newark, DE (Day +5)**; running a **neighborhood aid-station** (~2 dozen survivors). **Bhaskar (dad) MANIFESTED: phasing/intangibility** (passes through solid matter; new, scattered, hiding it). **Sudha (mom) unchanged** — grounded, the family's anchor; took charge of injured Akhil. **Three of four Raos are changed** (Shake, Akhil, Bhaskar) in a changed-fearing world — a family of the hunted.
-3. **Bergen County family** — cousin, aunt, uncle, grandmother (Northern NJ).
-4. **Mateo** — the ~6yo Shake pulled off his transformed father; **Shake parked him at the school** with the young teacher Hannah & the other kids. **Went numb at the handoff** — bond strained (a child learning fixed points don't stay). Safe for now; Shake's choice to leave him will echo (relationship/Legacy thread). *(opened Day 0)*
-5. **Hannah** — young teacher (mid-20s, cardigan), good with kids; now caring for Mateo + ~12 children in the school library. Potential recurring NPC / the person Shake entrusted with Mateo.
-6. **The Changed** — the boy's father; transformed into a feral predator at the Pulse; Shake beat & escaped him, left alive in the grove. (See Roster.)
-7. **The strip-mall survivors** — ~6 unpowered civilians in the nail salon: the **rifle man** (~50s, Giants hoodie), his diabetic wife **Ana** (now stocked with insulin + orals thanks to Shake), an older couple, a teenage girl, a young child. **Grateful** — hold a positive legend of Shake ("the doctor who fell from the sky / saved Ana"). Declined to take Mateo. Potential recurring allies / positive-reputation node.
-8. **Sgt. Dana Vance** — ~40, ex-Trenton PD/county; leader of the Crossing exodus. Decent-to-the-marrow, hard as rebar over it; fears the changed (policed the Pulse, saw what one can do). Holding 1,000 lives on duty + refusal to quit. Detaining Shake as a flight-risk; not an enemy, just on the road he wants.
-9. **Boyd** — ex-corrections officer, hardliner with a growing following; thinks Vance is too soft, wants the "hard calls." The powder-keg's likely spark; the man who'd organize a rope if Shake's nature surfaced. *(internal Vance-rival / threat)*
-10. **Marian** — veteran ER nurse (~55); Shake's right hand over the wounded; competent, dry, decent. His closest near-ally in camp — and the person his secret would wound worst.
-11. **Pastor Hollis** — older; the camp's moral voice, counterweight to Boyd, "no one left behind" — on a collision course with famine math.
-12. **Tomas** — ex-Army supply, quartermaster; the larder is **~2 days (3 on quarter-rations)**; not a villain, drowning.
-13. *(distant: co-residents Jessica & Kee in NYC; Jason in Denver; college/med friends scattered.)*
-- *Camp facts: NO hidden powered among the ~1,000 (brothers are the only changed; no allies if exposed); no one onto Shake's nature yet.*
+## CHARACTERS / ROSTER
+**Family & allies**
+- **Akhil Rao** — 26, Telugu, Shake's brother & peer ("bro"); practical/cynical/analytical, quietly anxious. **Breaker (PL 9) MIND power** (telepathy/influence/projected fear) — *costly* (nosebleeds, a psychic "ring"), tech-leashed, can't yet control it; **currently injured/offline, recovering.** Read the Rush in Shake.
+- **Bhaskar Rao** — Dad, ~60s, vascular surgeon, "inventive, scattered, entrepreneurial." **Manifested: phasing/intangibility** (new, hiding it). Runs the aid-station with Sudha.
+- **Sudha Rao** — Mom, ~60s, retired general surgeon; grounded, the family anchor; **unchanged.** Took charge of Akhil's care.
+- **The Rao aid-station survivors** — ~2 dozen civilians in the Newark refuge.
+- *(N. NJ, behind him):* **Marian** (veteran ER nurse, ally at the Crossing — left behind); **strip-mall survivors / "Ana"** (diabetic, stocked by Shake) who hold a *positive* legend of "the doctor who fell from the sky."
 
----
+**Rivals / threats**
+- **The Shepherd** — WARLORD mind-Dominator (see Thread 2). Campaign-scale; aware of the brothers.
+- **Sgt. Dana Vance** — ex-Trenton PD; decent-hard leader of the Crossing exodus; betrayed by Shake's flight → hostile. Last redirected N to the Poconos.
+- **Boyd** — Crossing hardliner/ex-CO; vindicated when the brothers' nature detonated; leading the hunt; rising rival to Vance. (Crossing notables: **Hollis** pastor/moral voice; **Tomas** quartermaster.)
+- **Dylan** — ~16 speedster (NJ middle-school fief); saved his friend **Sofia** via Shake, then **betrayed** when Shake flew off — bitter; **holds Mateo.**
+- **Mateo** — ~6, the boy Shake rescued then left at Dylan's school (w/ teacher **Hannah**). Abandonment/Legacy thread.
+- **The Changed (grove)** — Heavy transformed predator, Mateo's father; alive, hunting.
+- **The Telekinetic (train)** — Day-0 manifester; fate unknown (may have died in his eruption).
 
-## THE SIX WORLD CLOCKS (Day-Zero baseline)
+## THE SIX WORLD CLOCKS
 | Clock | Value | Note |
 |---|---|---|
-| Empire Consolidates the Heartland | 0 / 8 | Year-Two threat; distant rumor this early. |
-| The Famine Wave | **1 / 6** | early bite already visible — the Trenton enclave is rationing/short two days in. |
-| The Concord Swing | 3 / 6 (neutral) | two-way; the most consequential clock the PC can move. |
-| The Reaver Tide | 0 / 4 | presses south through the Mid-Atlantic. |
-| Redoubt Recovery | 0 / 8 | rebuilt power/water/order/network. |
-| The Unmaking Horizon | 0 / 12 | years-long doom engine. |
-
-*Advance every in-world week minimum, and on any scene where time burns without a goal advancing.*
-
----
+| Empire Consolidates the Heartland | 0 / 8 | distant rumor. |
+| **The Famine Wave** | **1 / 6** | visibly biting (the Crossing's collapse; the aid-station strained); peaks ~Day +60. |
+| The Concord Swing | 3 / 6 (neutral) | unmoved. |
+| The Reaver Tide | 0 / 4 | presses S through the Mid-Atlantic. |
+| Redoubt Recovery | 0 / 8 | **set back regionally** — the one forming local redoubt was seized by the Shepherd. |
+| The Unmaking Horizon | 0 / 12 | the slow doom. |
 
 ## POWERED-CONFLICT TRACKS
-- **Powered Roster:**
-  - **The Shepherd** (WARLORD-tier, PL 10+ · MIND-DOMINATOR) — has seized the real refuge (a forming redoubt SW, Chester Co. PA → DE line) **by turning its people**: defenders opened the gates and joined, smiling; resisters were 'shepherded' or fled. Conquers by love-that-isn't — mass mental domination. **Above Shake's tier (flee/out-think, not fight).** A master of exactly Akhil's power-category. Campaign-scale boss. **Seat: the captured refuge, ~SW Chester Co. PA / DE-line, ringed by a 'flock' of hundreds of dominated minds; its mental reach extends several miles.** Reached for Shake & Akhil when they flew in (Day +5) and nearly turned Akhil. Now aware the brothers exist. **It sits between Shake and his parents in Newark, DE.**
-  - **The Changed** (Heavy PL 8) — a soccer-coach dad (wedding band, torn polo) transformed into a feral natural-weapons predator; *mastered* killing body, *person* lost the wheel (can't control it). Defining complication: **a dependent (his son) he can't protect** — and Shake just took that son. **Defeated & spared Day 0; left awake and hunting in the grove.** Potential recurring nemesis / tragic figure / Legacy thread: the father who lost his boy to the man who beat him.
-  - **Dylan** ("the Fast Kid", Bruiser PL 6) — ~16, lacrosse hoodie; manifested *speed*, seized the **middle school** as a fief. Control *costly* (scorches/smokes/runs hot when he sprints). Shake saved **Sofia** (gratitude) — **then revealed his power & flew off, abandoning the wounded and leaving Mateo behind. Dylan now feels BETRAYED/bitter** (ally → resentful). **Holds Mateo** in his fief; knows Shake is "the flying man." Strong recurring-rival / future-leverage / Legacy thread.
-  - **Sofia** (~13) — survived a severe asthma attack thanks to Shake; precious to Dylan. Alive, shaken.
-  - **The Block Predator** (Siege, PL 10+) — a huge, wrong-jointed transformed thing prowling Akhil's UES block Day 0, tracking a live scent toward Akhil's building. **Above Shake's tier — a boss/flee threat, not a fightable one.** Unaware of Shake (for now).
-- **Faction Standing & Rank:** **The Trenton Crossing** (Sgt. **Vance**, ex-Trenton PD). After detention, Akhil's power backfired and **detonated the secret**; the brothers **fled by air**. **Standing: HOSTILE — burned, and ACTIVELY HUNTING** (a Boyd-led search party swept for them the next night). The Crossing (Vance, Boyd, ~1,000) now knows they're the changed and watched them flee; a future hunter/rumor source. Vance: betrayed a man she'd trusted. Boyd: vindicated, likely rising. (Shake's parting gift — the Poconos redirect — may or may not have stuck; the column was set to go north.)
-- **War Fronts:** none engaged. **New base/anchor:** the **Rao aid-station** (Newark, DE) — Shake's parents' neighborhood refuge, ~2 dozen survivors, two surgeons (+Shake) — a fragile home pocket, ~20–25 mi from the Shepherd's domain.
-- **Legacy ledger:** none (first character).
+- **Powered Roster:** the Shepherd (Warlord), Dylan (Bruiser, bitter), the Changed (Heavy, hunting), the train Telekinetic (?) — plus the Rao family of changed (Shake/Akhil/Bhaskar).
+- **Faction Standing & Rank:** **Trenton Crossing — HOSTILE & hunting.** **The Shepherd's domain — hostile-by-default, aware of them.** **Rao aid-station (Newark, DE) — home base** (Shake = founding son / third surgeon).
+- **War Fronts:** none engaged. The Shepherd's domain is an expanding regional threat ~20–25 mi NE.
+- **Legacy ledger:** none (Shake alive). Persisting consequences that would outlive him: Mateo (abandoned), Dylan (betrayed), Vance & the Crossing (betrayed/hostile), the Changed (his son taken), the train-car dead.
 
 ---
 
-*Overwrite at every scene end. A block where no resource moved and the Jeopardy Counter didn't reset is probably soft — check the self-audit gate first.*
+## RESUME HOOK (next session)
+Dusk at the Rao aid-station, Newark DE, Day +5. Shake is home with parents and brother — a family of the changed in a fragile famine pocket, ~20–25 mi from an aware Warlord, a hostile faction hunting from the north, the Reaver Tide pressing the corridor. **Core drive (reach the family) achieved; the new game is keeping what he reached.** Jeopardy is at 1 — the next scene should bite. Open the next turn with the world pressing on the harbor: a scarcity/famine bite, a threat probing in, the Shepherd's reach or scouts spreading, the Crossing's hunt arriving, or a hard choice about the shelter's future.
+
+*Overwrite at every scene end. Run the SELF-AUDIT gate before sending.*
