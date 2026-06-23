@@ -1,9 +1,9 @@
 {
  "id": "mythic.meaning.descriptors_1",
- "title": "Meaning Tables — descriptors_1",
+ "title": "Meaning — descriptors_1",
  "type": "list_d100",
  "dice": "1d100",
- "source": "references/canon/Mythic-GME.md#descriptors-1",
+ "source": "references/canon/Mythic-GME.md",
  "entries": [
   {
    "min": 1,

@@ -1,9 +1,9 @@
 {
  "id": "mythic.meaning.actions_2",
- "title": "Meaning Tables — actions_2",
+ "title": "Meaning — actions_2",
  "type": "list_d100",
  "dice": "1d100",
- "source": "references/canon/Mythic-GME.md#actions-2",
+ "source": "references/canon/Mythic-GME.md",
  "entries": [
   {
    "min": 1,

@@ -47,6 +47,5 @@
    "max": 4,
    "value": "Exceptional No"
   }
- ],
- "answer_rule": "sum 2d10 + odds_mod + cf_mod; >=18:Exceptional Yes; >=11:Yes; 5-10:No(<=10); 2-4:Exceptional No"
+ ]
 }

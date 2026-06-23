@@ -1,0 +1,251 @@
+{
+ "id": "ac.plot_points.personal",
+ "title": "Plot Point Table — Personal",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-points-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 8,
+   "value": "Conclusion"
+  },
+  {
+   "min": 9,
+   "max": 24,
+   "value": "None"
+  },
+  {
+   "min": 25,
+   "max": 26,
+   "value": "Persuasion"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "In A Lethal Way Do It, Or Else"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Retaliation"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Bad Decision"
+  },
+  {
+   "min": 30,
+   "max": 31,
+   "value": "Ill Will"
+  },
+  {
+   "min": 32,
+   "max": 33,
+   "value": "Wanted By The Law"
+  },
+  {
+   "min": 34,
+   "max": 35,
+   "value": "It Is Your Duty"
+  },
+  {
+   "min": 36,
+   "max": 37,
+   "value": "Character Connection Severed"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Humiliation"
+  },
+  {
+   "min": 39,
+   "max": 40,
+   "value": "Betrayal!"
+  },
+  {
+   "min": 41,
+   "max": 42,
+   "value": "A Character Is Incapacitated"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "The Observer"
+  },
+  {
+   "min": 44,
+   "max": 45,
+   "value": "Home Sweet Home"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Headquarters"
+  },
+  {
+   "min": 47,
+   "max": 48,
+   "value": "Family Matters"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "A Figure From The Past"
+  },
+  {
+   "min": 50,
+   "max": 51,
+   "value": "A Character Is Diminished"
+  },
+  {
+   "min": 52,
+   "max": 53,
+   "value": "Enemies"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Doing The Right Thing"
+  },
+  {
+   "min": 55,
+   "max": 56,
+   "value": "At Your Mercy"
+  },
+  {
+   "min": 57,
+   "max": 58,
+   "value": "Fall From Power"
+  },
+  {
+   "min": 59,
+   "max": 60,
+   "value": "Help Is Offered, For A Price"
+  },
+  {
+   "min": 61,
+   "max": 62,
+   "value": "Prized Possession"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Disarmed"
+  },
+  {
+   "min": 64,
+   "max": 65,
+   "value": "Unknown Use Is Found It’s All About You"
+  },
+  {
+   "min": 66,
+   "max": 67,
+   "value": "Character Connection"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Innocent"
+  },
+  {
+   "min": 69,
+   "max": 70,
+   "value": "Willing To Talk"
+  },
+  {
+   "min": 71,
+   "max": 72,
+   "value": "Character Harm"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Framed"
+  },
+  {
+   "min": 74,
+   "max": 75,
+   "value": "Preparation"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Friend Focus"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Untouchable"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Bribe"
+  },
+  {
+   "min": 79,
+   "max": 80,
+   "value": "Character Assistance"
+  },
+  {
+   "min": 81,
+   "max": 82,
+   "value": "Asking For Help"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Welcome To The Plot"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Likeable"
+  },
+  {
+   "min": 85,
+   "max": 86,
+   "value": "The Promise Of Reward"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Expert Knowledge"
+  },
+  {
+   "min": 88,
+   "max": 89,
+   "value": "A Focus On The Mundane"
+  },
+  {
+   "min": 90,
+   "max": 91,
+   "value": "Run Away!"
+  },
+  {
+   "min": 92,
+   "max": 93,
+   "value": "Protector"
+  },
+  {
+   "min": 94,
+   "max": 95,
+   "value": "Servant"
+  },
+  {
+   "min": 96,
+   "max": 99,
+   "value": "Roll on the Meta Plot Points Table"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "96- 96- 96- 96- 96- Meta"
+  }
+ ],
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names may carry minor wrap artifacts; ranges are authoritative.",
+ "checksum": "sha256:cd7c8bdcb843013f"
+}

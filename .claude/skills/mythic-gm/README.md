@@ -1,6 +1,8 @@
 # mythic-gm
 
-A standalone solo-RPG **Game Master engine** for Claude, powered by the *Mythic Game Master Emulator 2e* and *The Adventure Crafter*. Claude runs the whole game — rolling every die honestly through scripts, asking Fate Questions, firing Random Events, voicing NPCs, and tracking state — under a hardcore "no softening" discipline. It layers onto **any** ruleset, setting, or published adventure you supply (or that a second skill provides).
+A standalone solo-RPG **Game Master engine** for Claude, powered by the *Mythic Game Master Emulator 2e* and *The Adventure Crafter* (all tables **fully hard-coded**). Claude runs the whole game — rolling every die honestly through scripts, asking Fate Questions, firing Random Events, generating Turning Points (the Adventure Crafter is always on), voicing NPCs, and tracking state — under a hardcore "no softening" discipline.
+
+**Engine + companions.** mythic-gm is the engine; a **companion skill** supplies a specific RPG (ruleset + setting + generators) via a `bridge/` that fills the engine's hooks. See **`COMPANION-SKILLS.md`** to build/sync one and **`CONVERSION.md`** to migrate a repo. The engine plays standalone (rules-light) using defaults when no bridge is present.
 
 ## What's inside
 - `SKILL.md` — the operating manual (play loop, discipline, routing, commands).
