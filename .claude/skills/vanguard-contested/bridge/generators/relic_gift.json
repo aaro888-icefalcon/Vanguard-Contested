@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.relic_gift",
+ "title": "Relic — the gift / use",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "reliable power and light"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "a real weapon edge"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "healing/medicine"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "comms or hidden knowledge"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "protection (armor/ward)"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "mobility (it runs)"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "leverage over a faction"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "suppresses or amplifies powers"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "detects monsters or rifts"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "pure trade value"
+  }
+ ]
+}

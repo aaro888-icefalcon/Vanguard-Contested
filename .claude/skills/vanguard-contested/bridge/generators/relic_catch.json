@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.relic_catch",
+ "title": "Relic — the catch",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "a faction wants it back, badly"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "it slowly harms the bearer (sickness, mutation, madness)"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "it's failing or finite (a clock)"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "it draws monsters"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "it marks the bearer to something"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "it works only for the empowered — or only for the unpowered"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "it's bait in someone's trap"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "using it carries a moral cost"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "it's anomalous and unpredictable"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "no catch — a true find (rare; raise the price elsewhere)"
+  }
+ ]
+}

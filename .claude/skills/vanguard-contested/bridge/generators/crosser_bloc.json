@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.crosser_bloc",
+ "title": "Crosser Contact — bloc element",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "Empire vanguard"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "Reaver war-band"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "Warrior-Kingdom outriders"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "Corsair raiders"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a Pacific House (split loyalty)"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "Atlantic Concord observers"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "Interior Compact envoys"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "a loyal-anchor patrol"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a discordant-bloc fragment"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "refugees from a bloc"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a defector/exile"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "an unknown rift-arrival"
+  }
+ ]
+}

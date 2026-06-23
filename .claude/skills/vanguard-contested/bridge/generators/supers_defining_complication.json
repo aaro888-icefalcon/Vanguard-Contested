@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.supers_defining_complication",
+ "title": "Supers — defining complication (the standing trigger die)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "a tell (signature frost/heat/sound/light — alters the scene, draws trackers)"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "a hunger/addiction the power feeds (pulls toward overuse / the strongest threat)"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "a cost in the body (each use injures, drains, ages, sickens)"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "a tech-leash (power routed through a device at the dark grid's mercy)"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "a dependent the power can't protect (leverage and weakness)"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "a mark (a faction/threat hunts the power or its bearer)"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "a limit they hide (a hard ceiling/blind spot bluffed past — exposed at the worst time)"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "a collateral problem (the power hurts bystanders/structures; an Exposure engine)"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "a reputation (people know what they are — fear, recruitment, purge)"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "a fracture (the power and the person are at odds — it changes them, or wants something)"
+  }
+ ]
+}

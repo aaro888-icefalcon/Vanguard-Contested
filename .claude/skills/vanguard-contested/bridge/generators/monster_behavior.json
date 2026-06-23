@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.monster_behavior",
+ "title": "Monster Behavior",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "hunt/stalk"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "swarm/overwhelm"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "ambush"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "territorial display (flee available)"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "feed (distracted)"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "migrate through"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "nest/den nearby"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "lure prey"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "flee from something bigger"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "sapient — it negotiates or toys"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "wounded/desperate/erratic"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "something new — it shouldn't do that"
+  }
+ ]
+}

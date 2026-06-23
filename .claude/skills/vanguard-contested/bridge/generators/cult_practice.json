@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.cult_practice",
+ "title": "Cult — the practice",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "tithes and tribute"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "purges/sacrifice"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "recruiting the empowered"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "mass pilgrimage (to a rift or the redoubt)"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "ritual violence"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "sharing/hoarding resources as sacrament"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "marking the faithful"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "rejecting all technology"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "militant conversion"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "rites at rift-sites"
+  }
+ ]
+}

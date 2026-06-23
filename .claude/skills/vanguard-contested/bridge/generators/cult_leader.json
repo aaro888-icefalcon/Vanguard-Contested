@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.cult_leader",
+ "title": "Cult — the leader",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "a Crown/Titan \"prophet\""
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "a charismatic unpowered demagogue"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "a surviving cleric/imam/rabbi"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "a crosser"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "a former official"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "a warlord with a creed"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "a \"miracle\" child"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "a council of elders"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "a voice on the radio"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "leaderless and viral"
+  }
+ ]
+}

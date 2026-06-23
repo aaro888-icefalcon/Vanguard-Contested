@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.npc_hidden_truth",
+ "title": "NPC — hidden truth",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "none — honest"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "lying about who they are"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "working for a faction"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "already betrayed you"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "empowered and hiding it"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "dying/infected"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "protecting someone hidden"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "did something terrible to survive"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "knows where a resource is"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "a crosser sympathizer/agent"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "marked by an enemy"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "connected to the PC's past"
+  }
+ ]
+}

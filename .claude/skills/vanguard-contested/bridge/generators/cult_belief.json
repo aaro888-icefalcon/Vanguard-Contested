@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.cult_belief",
+ "title": "Cult — core belief",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "the Pulse was divine judgment"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "the empowered are gods/the chosen"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "the empowered are abominations to be purged"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "the crossers are saviors"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "the crossers are demons"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "the old world must be restored exactly"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "the old world must be burned away"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "the Unmaking is coming and only *we* survive it"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "submission to the strong is salvation"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "the rifts are doors to paradise"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "might is the only law now"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "a prophet alone knows the way"
+  }
+ ]
+}

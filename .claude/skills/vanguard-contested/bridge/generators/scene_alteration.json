@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.scene_alteration",
+ "title": "Scene Alteration (Altered scene)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "someone unexpected is here"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "someone expected is gone"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "the place is changed (damaged, occupied, emptied)"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "it's later/worse than you thought — a clock advanced"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a resource you counted on is gone"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "an enemy got here first"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "an ally is compromised or turned"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "the goal has moved"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a hazard is present (fire, flood, swarm, cold)"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "it's a trap"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a third party complicates it"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "the stakes just doubled"
+  }
+ ]
+}

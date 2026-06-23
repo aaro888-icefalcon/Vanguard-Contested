@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.empowered_tier",
+ "title": "Random Empowered Tier (weighted to canon population)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 33,
+   "value": "Flicker (Trivial) — a parlor trick; barely touched"
+  },
+  {
+   "min": 34,
+   "max": 41,
+   "value": "Spark (Trivial) — a small real gift"
+  },
+  {
+   "min": 42,
+   "max": 52,
+   "value": "Plus (Minor) — a useful edge"
+  },
+  {
+   "min": 53,
+   "max": 62,
+   "value": "Ringer (Minor) — wins any human contest"
+  },
+  {
+   "min": 63,
+   "max": 74,
+   "value": "Bruiser (Street) — wins real fights; kills feral"
+  },
+  {
+   "min": 75,
+   "max": 83,
+   "value": "Heavy (Street) — a serious local threat"
+  },
+  {
+   "min": 84,
+   "max": 91,
+   "value": "Breaker (City) — a one-person problem (PC band)"
+  },
+  {
+   "min": 92,
+   "max": 96,
+   "value": "Siege (City) — a walking siege engine (above PC)"
+  },
+  {
+   "min": 97,
+   "max": 99,
+   "value": "Warlord (Elite) — breaks formations (flee)"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Titan+ (Elite–Apex) — roll 1–6 Titan · 7–9 Crown · 10 Horror"
+  }
+ ]
+}

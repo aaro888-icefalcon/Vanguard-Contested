@@ -1,0 +1,28 @@
+{
+ "id": "vanguard.supers_control",
+ "title": "Supers — how the power sits in them",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 33,
+   "value": "mastered (reliable, no tell)"
+  },
+  {
+   "min": 34,
+   "max": 66,
+   "value": "costly (a tell/Exposure every significant use)"
+  },
+  {
+   "min": 67,
+   "max": 83,
+   "value": "barely held (fires under stress)"
+  },
+  {
+   "min": 84,
+   "max": 100,
+   "value": "unreliable (fails or overfires — a Hero-Point engine)"
+  }
+ ]
+}

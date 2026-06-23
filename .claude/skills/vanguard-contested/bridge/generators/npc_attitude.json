@@ -1,0 +1,48 @@
+{
+ "id": "vanguard.npc_attitude",
+ "title": "NPC — attitude to PC",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 13,
+   "value": "hostile"
+  },
+  {
+   "min": 14,
+   "max": 26,
+   "value": "afraid"
+  },
+  {
+   "min": 27,
+   "max": 39,
+   "value": "wary"
+  },
+  {
+   "min": 40,
+   "max": 52,
+   "value": "transactional"
+  },
+  {
+   "min": 53,
+   "max": 64,
+   "value": "curious"
+  },
+  {
+   "min": 65,
+   "max": 76,
+   "value": "needs you"
+  },
+  {
+   "min": 77,
+   "max": 88,
+   "value": "admiring"
+  },
+  {
+   "min": 89,
+   "max": 100,
+   "value": "loyal"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.faction_move",
+ "title": "Faction Move (what a faction does on its clock)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "Consolidate territory"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "Raid a rival"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "Seize a resource (roll fuel/food/meds/arms/water)"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "Recruit (the empowered / refugees / a rival's people)"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "Fortify"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "Negotiate or ally"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "Betray an ally"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "Demand tribute"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "Purge internal dissent"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "Expand a clock toward completion"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "Hunt a specific person"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "Spread propaganda/rumor"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "Open a supply line"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "Cut a rival's supply"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "Take hostages"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "Retreat and regroup"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "Splinter (generate a new faction)"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "Make an example (public violence)"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "Probe the PC's position"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "A bold stroke — a clock jumps two segments"
+  }
+ ]
+}

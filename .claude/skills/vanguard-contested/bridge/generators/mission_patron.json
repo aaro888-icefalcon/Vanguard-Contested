@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.mission_patron",
+ "title": "Mission — the patron, if any",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "the Redoubt Authority"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "a local militia/enclave"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "a desperate family"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "a fixer/criminal"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a faction leader"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "the Interior Compact"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "a rival empowered"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "a dying official"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a cult/movement"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "a crosser"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "an old tie from before the Pulse"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "no one — you stumble into it"
+  }
+ ]
+}

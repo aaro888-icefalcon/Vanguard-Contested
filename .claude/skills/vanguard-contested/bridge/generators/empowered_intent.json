@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.empowered_intent",
+ "title": "Free Agent's Intent",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "protect their own"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "build a fief"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "prey/extort"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "flee/hide their nature"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "sell their power"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "join a faction"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "revenge"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "zealotry/cult"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "collapse/can't control it"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "quietly decent, just surviving"
+  }
+ ]
+}

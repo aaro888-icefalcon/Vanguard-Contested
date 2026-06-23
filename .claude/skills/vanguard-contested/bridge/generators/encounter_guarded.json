@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.encounter_guarded",
+ "title": "What Shows Up — Guarded band",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "refugees in need"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "a patrol/militia checkpoint"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "a scavenger crew"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "a lone Flicker/Spark in trouble"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a faction recruiter"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "a minor feral intrusion"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "a supply dispute"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "an informant with news"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a Compact envoy/ally"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "a sick or injured stranger"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a thief"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "a quiet moment (gift it, then complicate)"
+  }
+ ]
+}
