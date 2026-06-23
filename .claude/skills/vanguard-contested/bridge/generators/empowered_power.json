@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.empowered_power",
+ "title": "Manifested Power",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "enhanced strength"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "durability/armor"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "regeneration"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "a kinetic/force suite"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "flight"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "speed"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "pyro/thermal"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "cryo"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "electrical (cruel post-EMP irony)"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "telekinesis"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "senses/perception"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "stealth/invisibility"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "emotion/mind influence"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "healing (others)"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "matter shaping"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "summoning/control of feral"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "toxin/disease"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "teleport (short)"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "a body-horror mutation"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "something unclassified and frightening"
+  }
+ ]
+}

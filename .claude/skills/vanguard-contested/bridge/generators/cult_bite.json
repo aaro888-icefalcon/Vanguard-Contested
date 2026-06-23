@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.cult_bite",
+ "title": "Cult — how it bites the PC",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "conscripts/recruits the PC's people"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "marks someone like the PC for purging"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "controls a resource the PC needs"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "blocks a route with pilgrims"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "ignites a faction war"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "harbors a real monster or power"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "spreads a lie that gets people killed"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "offers a tempting refuge at a price"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "turns an ally of the PC's"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "hardens into a true faction (build it in ref 04)"
+  }
+ ]
+}

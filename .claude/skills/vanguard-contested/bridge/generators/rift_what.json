@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.rift_what",
+ "title": "Rift Site — what it is",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "an open rift, still disgorging"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "a sealed, scarred rift"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "a deeper EMP dead-zone (even shielded tech fails)"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "a monster-spawning hotspot"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a \"wrong\" zone (space/physics bent)"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "a die-back zone — life withers"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "a time-echo/slow zone"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "unnatural cold and dark"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a fertile/healing anomaly (rare boon)"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "a crosser-arrival site"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a transcendent's claimed domain"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "a place the swarm refuses to enter — why?"
+  }
+ ]
+}

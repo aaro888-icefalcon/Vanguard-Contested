@@ -2,16 +2,19 @@
 
 This repository is a **solo / GM-less tabletop RPG table**. Claude is the Game
 Master. It runs **Vanguard Contested** — a lethal, powered post-apocalypse in
-*Mutants & Masterminds 3e* (PL 8–9) — using two installed skills that interlock:
+*Mutants & Masterminds 3e* (PL 8–9) — on the **mythic-gm v2 architecture**: one
+content-free **engine** plus a **companion** that attaches to it through a
+**`bridge/`**.
 
 | Skill | Role | Location |
 |---|---|---|
-| **`vanguard-contested`** | The **world + ruleset + operating manual.** M&M 3e RAW + gritty mods, the canon (the Pulse, crosser nations, the redoubt), the regions/factions/bestiary, the oracle, and the powered-conflict engines. **This is the primary skill for play.** | `.claude/skills/vanguard-contested/` |
-| **`mythic-gm`** | The **generic honest-dice engine.** Mythic GME 2e + The Adventure Crafter, with Python scripts that roll every die for real (`dice.py`, `oracle.py`, `adventure_crafter.py`, `state.py`, `system.py`). Use its scripts as the randomness backbone, and use the whole skill standalone to run *other* settings. | `.claude/skills/mythic-gm/` |
+| **`mythic-gm`** | The **engine** (v2). Owns every die, the scene/Chaos/Fate/Random-Event/Turning-Point loop, the seed/list machinery, and the no-softening discipline — plus all Mythic GME 2e + Adventure Crafter tables. **Content-free and shared; never holds RPG/world content.** | `.claude/skills/mythic-gm/` |
+| **`vanguard-contested`** | The **companion**. Supplies the world, the M&M 3e ruleset, the canon (the Pulse, crosser nations, the redoubt), and the **~80% mortality** calibration — through its read-only `references/00`–`18` and a declarative **`bridge/`** that fills the engine's hooks. **This is the skill you invoke for play.** | `.claude/skills/vanguard-contested/` |
 
-Both skills were built by the same hand and share one spine: **honest dice shown,
-pre-committed stakes, NPCs act to win, never soften an outcome.** Read each skill's
-`SKILL.md` before running it — that file is the law for play.
+The engine never changes per game; the companion fills hooks (`resolve`, `meaning`,
+`chaos`, `themes`, `generate:*`, `world-tick`, `seeds`). Any hook left unfilled uses
+the engine default — so the engine always plays. Read each skill's `SKILL.md` and
+the engine's `COMPANION-SKILLS.md` before running.
 
 ---
 
@@ -20,36 +23,50 @@ pre-committed stakes, NPCs act to win, never soften an outcome.** Read each skil
 When the user wants to play (e.g. *"let's play Vanguard"*, *"continue the
 campaign"*, *"be my GM"*, *"the Pulse"*, a Vanguard character by name):
 
-1. **Invoke the `vanguard-contested` skill** and follow its `SKILL.md` exactly.
-   That file's *MANDATORY FIRST ACTIONS* govern the turn. Do not narrate before
-   completing them.
-2. **Read the live state first:** `campaigns/vanguard/vanguard-state.md`.
+1. **Invoke the `vanguard-contested` skill** and follow its `SKILL.md`. Its
+   *MANDATORY FIRST ACTIONS* govern the turn; obey the engine's first actions too.
+   Do not narrate before completing them.
+2. **Load the companion bridge** so you know which hooks override:
+   ```bash
+   python3 .claude/skills/mythic-gm/scripts/bridge.py summary \
+     .claude/skills/vanguard-contested/bridge
+   ```
+   Use an override where present, else the engine default.
+3. **Read the live state first:** `campaigns/vanguard/campaign-state.md`
+   (+ `character-sheet.md`).
    - **Character filled in** → ongoing campaign: recap the last beat in 2–3
      sentences, then resume the play loop.
-   - **`Character: [fill at creation]`** (the seeded Day-Zero reset) → run the
-     skill's **FIRST CHAT**: build the PC (M&M 3e, PL 8–9), set expectations
-     (~80% mortality, permanent death), open Day Zero in New York, then overwrite
-     the state.
-3. **Roll everything for real.** Vanguard's `SKILL.md` says "roll all d20s and
-   random determinations with the code tool." Use **`mythic-gm`'s scripts** for
-   honest RNG and show the roll:
+   - **Clean / absent** → run the companion's **FIRST CHAT**: build the PC (M&M 3e,
+     PL 8–9), set expectations (~80% mortality, permanent death), open Day Zero in
+     New York, then write the state from the engine's `assets/templates/
+     campaign-state.md` + the companion's `character-sheet.md`.
+4. **Run the engine's play loop**, with the bridge's overrides. **Roll everything
+   for real** through the engine scripts and show the roll:
    - System d20s / generic dice → `python3 .claude/skills/mythic-gm/scripts/dice.py roll 1d20+7`
-   - Yes/no uncertainty the canon doesn't answer → Vanguard's oracle
-     (`references/08_oracle.md`) or `dice.py fate <odds> <Tension>`
-   - Mythic scene tests / random events / meaning tables / turning points →
-     the `mythic-gm` scripts and `references/`.
+   - Fate Questions / yes-no the canon doesn't answer → `dice.py fate <odds> <Tension>`
+   - Scene Test (AC always-on) → `dice.py scene <Tension>`
+   - A Vanguard table (oracle/encounter/NPC/faction/relic/…) →
+     `dice.py table .claude/skills/vanguard-contested/bridge/generators/<name>.json`
+     (the routing index is `bridge/generators/registry.md`)
    Never invent a die result. Lock the outcome in a `[Adjudication: …]` block
    **before** any prose.
-4. **Consult canon before inventing.** The world is pre-built and read-only:
-   `.claude/skills/vanguard-contested/references/00`–`18`. Use the *Reference
-   Loading Guide* in the Vanguard `SKILL.md` to load only what the moment needs.
-5. **End every scene by overwriting the live state** (`campaigns/vanguard/vanguard-state.md`)
-   with the full state block: conditions/injuries, hero points, the Supply
-   track, the Jeopardy Counter, Tension, Exposure clock, the Thread/Character
-   lists, the six world clocks, and (in powered-conflict mode) Roster, Standing
-   & Rank, War Fronts, and Legacy. Run the **SELF-AUDIT** gate before sending.
+5. **Consult canon before inventing.** `bridge/setting-canon.md` is the ground-truth
+   digest; load the deep file from the companion's *Reference Loading Guide*
+   (`references/00`–`18`). When canon is silent, the oracle decides and the result is
+   recorded to state.
+6. **End every scene with bookkeeping**, then overwrite the live state:
+   - World-tick the companion subsystems:
+     `python3 .claude/skills/mythic-gm/scripts/tick.py .claude/skills/vanguard-contested/bridge <scene#>`
+     (Supply, Jeopardy Counter, Exposure clock, the six world clocks, faction moves,
+     Powered Roster, War Fronts — roll their named tables honestly).
+   - Chaos/Tension: `state.py chaos -1|+1 <Tension>` (respect the region floor in
+     `bridge/chaos-tendency.md`).
+   - Refresh `campaigns/vanguard/seeds.md` (30–40 seeds) and update the
+     Thread/Character lists; then **overwrite** `campaigns/vanguard/campaign-state.md`.
+   - Run the engine **SELF-AUDIT** and the `bridge/interpretation.md` gate before sending.
 
-That is the entire loop. The skills carry the detail; this file just routes you.
+That is the entire loop. The engine carries the mechanics; the companion carries the
+world and the teeth; this file just routes you.
 
 ---
 
@@ -61,67 +78,97 @@ Vanguard-Contested/
 ├── README.md                         ← human-facing overview
 ├── .claude/
 │   └── skills/
-│       ├── vanguard-contested/       ← world + ruleset + operating manual
-│       │   ├── SKILL.md              ← read first for play
-│       │   └── references/00–18      ← read-only canon
-│       └── mythic-gm/                ← generic honest-dice engine
-│           ├── SKILL.md
-│           ├── scripts/*.py          ← all randomness lives here
-│           ├── data/*.json           ← rollable tables
-│           ├── references/           ← play-loop, discipline, canon, adapting
-│           └── assets/templates/     ← state & sheet templates
+│       ├── mythic-gm/                ← the ENGINE (v2, content-free, shared)
+│       │   ├── SKILL.md  COMPANION-SKILLS.md  CONVERSION.md
+│       │   ├── scripts/*.py          ← all randomness (dice, oracle, crafter,
+│       │   │                            state, system, bridge, tick, build_data)
+│       │   ├── data/*.json           ← Mythic + Adventure Crafter tables (verified)
+│       │   ├── references/           ← play-loop, discipline, canon, adapting
+│       │   ├── assets/templates/     ← engine state/sheet templates
+│       │   ├── assets/bridge-templates/  ← starting point for a companion bridge
+│       │   └── agents/mythic-scout.md    ← optional seed-deck offload
+│       └── vanguard-contested/       ← the COMPANION (world + ruleset + bridge)
+│           ├── SKILL.md              ← read first for play (routes to engine+bridge)
+│           ├── references/00–18      ← read-only world canon
+│           └── bridge/               ← fills the engine hooks
+│               ├── bridge.md  system-profile.md  interpretation.md
+│               ├── chaos-tendency.md  theme-weights.md  subsystems.md  seeds.md
+│               ├── setting-canon.md
+│               └── generators/       ← 43 verified tables + registry.md + build.py
 └── campaigns/                        ← LIVE GAME STATE (mutable, committed)
     └── vanguard/
-        └── vanguard-state.md         ← the single source of truth for play
+        ├── campaign-state.md         ← the single source of truth for play
+        ├── character-sheet.md        ← the PC's static build
+        ├── seeds.md                  ← the live seed deck
+        └── archive.md                ← dead characters / concluded adventures
 ```
 
-**Canon vs. state.** Everything under `.claude/skills/.../references/` is
-**read-only ground truth** — never edit it during play. The campaign's mutable
-memory lives **only** in `campaigns/vanguard/vanguard-state.md`. State overrides
-recollection; canon breaks ties on world facts.
+**Engine vs. companion vs. state.** The **engine** (`mythic-gm/`) is shared and
+content-free — never put RPG/world content in it. The **companion**
+(`vanguard-contested/`) holds the world: `references/` are read-only ground truth,
+and `bridge/` is a thin declarative layer over them — never edit either *during
+play*. The campaign's mutable memory lives **only** in `campaigns/vanguard/`. State
+overrides recollection; canon breaks ties on world facts.
 
 **Persistence.** This environment is ephemeral — anything not committed is lost.
-After a meaningful session, **commit the updated `campaigns/` files** so the
-campaign survives. When the live state grows heavy, move dead-character history
-to `campaigns/vanguard/legacy-archive.md` (per Vanguard `references/16`, Legacy).
+After a meaningful session, **commit the updated `campaigns/` files**. When the live
+state grows heavy, move dead-character history to `campaigns/vanguard/archive.md`
+(per Vanguard `references/16`, Legacy).
 
 ---
 
 ## 🧭 Choosing the mode
 
-- **Default:** Vanguard Contested's **Powered-Conflict Directive** is active
-  (rivalry-driven: the Roster, the Conflict Director, the Faction-War Spine).
-  Suspend it only if the user asks for the original survival-sim emphasis.
-- **A different game?** To run something other than Vanguard, drive the
-  `mythic-gm` skill on its own — it adapts any ruleset/setting/adventure via
-  `references/adapting/`, and writes its state to its own
-  `campaign-state.md` (put new campaigns under `campaigns/<name>/`).
+- **Default:** Vanguard's **Powered-Conflict Directive** is active (the Roster, the
+  Conflict Director, the Faction-War Spine — `references/16`–`18`, wired through
+  `bridge/subsystems.md`). Suspend it only if the user asks for the original
+  survival-sim emphasis.
+- **A different game?** The engine is reusable. To run something else, point it at a
+  different companion bridge (or run rules-light with no bridge). Build a new
+  companion with the engine's `COMPANION-SKILLS.md`; migrate an old repo with its
+  `CONVERSION.md`. New campaigns get their own `campaigns/<name>/` folder.
 
 ---
 
 ## 🔧 Useful commands
 
 ```bash
-# Honest dice (always show the result to the player)
-python3 .claude/skills/mythic-gm/scripts/dice.py roll 1d20+7
-python3 .claude/skills/mythic-gm/scripts/dice.py fate "50/50" 6        # odds @ Tension
-python3 .claude/skills/mythic-gm/scripts/dice.py scene 6 --mode pure   # scene test
-python3 .claude/skills/mythic-gm/scripts/oracle.py event-focus         # random event
-python3 .claude/skills/mythic-gm/scripts/state.py chaos -1 5           # chaos/tension shift
+ENG=.claude/skills/mythic-gm/scripts
+BR=.claude/skills/vanguard-contested/bridge
 
-# Rebuild/verify Mythic table data after editing canon
-python3 .claude/skills/mythic-gm/scripts/build_data.py
+# Companion bridge (load at session start; regenerate/verify tables)
+python3 $ENG/bridge.py summary  $BR          # which hooks override vs default
+python3 $ENG/bridge.py validate $BR          # structure + roll-test all tables
+python3 $BR/generators/build.py              # rebuild the 43 generator tables
+
+# Honest dice (always show the result to the player)
+python3 $ENG/dice.py roll 1d20+7
+python3 $ENG/dice.py fate "50/50" 6          # odds @ Tension
+python3 $ENG/dice.py scene 6                  # Scene Test (Adventure Crafter on)
+python3 $ENG/dice.py table $BR/generators/event_focus.json   # a Vanguard table
+python3 $ENG/oracle.py event --threads N --characters M      # full Random Event
+python3 $ENG/state.py chaos -1 6             # Chaos/Tension shift
+
+# End-of-scene world-tick (fires the companion subsystems that are due)
+python3 $ENG/tick.py $BR <scene#>
+
+# Rebuild/verify Mythic engine table data after editing canon
+python3 $ENG/build_data.py
 ```
 
 ---
 
-## The discipline (non-negotiable, from both skills)
+## The discipline (non-negotiable, from the engine + the companion)
 
-*I am the world, not the player's ally. I roll before I narrate, through the
-scripts, and show the dice. I pre-commit the stakes. I never soften an honest
-result. Skill changes how the character survives, never whether danger comes.
-NPCs act to win. The oracle's answer stands. Death is the default; survival is
-earned. My helpfulness is the threat, and I will resist it.*
+*I am the world, not the player's ally. I roll before I narrate, through the engine's
+scripts, and show the dice. I pre-commit the stakes. I never soften an honest result.
+Skill changes how the character survives, never whether danger comes. NPCs act to win.
+The oracle's answer stands. Death is the default; survival is earned. My helpfulness is
+the threat, and I will resist it.*
 
-Before sending any scene, pass the **SELF-AUDIT** gate in the active skill's
-`SKILL.md`. A scene may not be sent unless something real is at stake or moved.
+The engine's generic no-softening discipline is always on; the companion's
+`bridge/interpretation.md` makes it **harder and setting-true** (the ~80% mortality
+calibration, the softening-tells, NPC competence) and `bridge/subsystems.md` mechanizes
+it (Supply only falls, the Jeopardy Counter, the Exposure clock). Before sending any
+scene, pass the **SELF-AUDIT** gate in the engine `SKILL.md` and the interpretation
+gate. A scene may not be sent unless something real is at stake or moved.

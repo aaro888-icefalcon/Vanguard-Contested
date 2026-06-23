@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.mission_catch",
+ "title": "Mission — the catch",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "it's a trap"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "a rival wants it too"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "the client is lying"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "the target outclasses you (above your tier)"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "a clock is already running"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "a moral cost is baked in"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "the prize is anomalous/cursed"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "the person won't be saved"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "the route is impassable"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "a faction war crosses it"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "the swarm is in the way"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "a betrayal is seeded"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "the reward can't actually be paid"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "innocents are in the line"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "the truth is worse than the job"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "the enemy expects you"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "a monster-lord holds the ground"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "you're being used as a pawn"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "it's already too late (pivot)"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "a second problem lands mid-job"
+  }
+ ]
+}

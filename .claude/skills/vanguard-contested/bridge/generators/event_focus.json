@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.event_focus",
+ "title": "Random Event Focus (Vanguard)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 6,
+   "value": "The war moves — a front shifts, a clock ticks, territory changes hands"
+  },
+  {
+   "min": 7,
+   "max": 13,
+   "value": "A faction advances — a present faction pushes its agenda a step"
+  },
+  {
+   "min": 14,
+   "max": 18,
+   "value": "A faction turns on another — two powers collide (roll which)"
+  },
+  {
+   "min": 19,
+   "max": 22,
+   "value": "A new power emerges — generate a faction (ref 04); a vacuum just filled"
+  },
+  {
+   "min": 23,
+   "max": 29,
+   "value": "Threat closes in — a hostile force, hunt, or ambush arrives (encounter table)"
+  },
+  {
+   "min": 30,
+   "max": 35,
+   "value": "Monster surge — feral or sapient; the swarm presses (monster tables)"
+  },
+  {
+   "min": 36,
+   "max": 41,
+   "value": "Crosser contact — a bloc element appears or makes contact (crosser tables)"
+  },
+  {
+   "min": 42,
+   "max": 46,
+   "value": "The empowered — a new power manifests, or a free agent acts (empowered tables)"
+  },
+  {
+   "min": 47,
+   "max": 53,
+   "value": "Scarcity bites — something runs out, breaks, or is taken (scarcity table)"
+  },
+  {
+   "min": 54,
+   "max": 60,
+   "value": "An ally / NPC acts — a known figure moves toward their goal"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "An NPC's truth surfaces — a secret, lie, or real loyalty is exposed"
+  },
+  {
+   "min": 66,
+   "max": 69,
+   "value": "A thread advances — an open thread lurches forward"
+  },
+  {
+   "min": 70,
+   "max": 73,
+   "value": "A thread is blocked — an open thread reverses, stalls, or is closed against you"
+  },
+  {
+   "min": 74,
+   "max": 79,
+   "value": "Refugees / civilians — the human tide: need, panic, opportunity, witness"
+  },
+  {
+   "min": 80,
+   "max": 84,
+   "value": "The dark world — environment/hazard: grid, weather, structure, terrain fails"
+  },
+  {
+   "min": 85,
+   "max": 88,
+   "value": "Authority acts — police, Guard, redoubt, or local power asserts itself"
+  },
+  {
+   "min": 89,
+   "max": 92,
+   "value": "Word arrives — rumor, news, a message, a runner (rumor table)"
+  },
+  {
+   "min": 93,
+   "max": 96,
+   "value": "A turn against you — betrayal, defection, a price comes due"
+  },
+  {
+   "min": 97,
+   "max": 99,
+   "value": "The PC's world — something tied to the PC's people, past, or ties intrudes"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "The horizon — a glimpse of the Unmaking, the Empire, or the deep future"
+  }
+ ]
+}

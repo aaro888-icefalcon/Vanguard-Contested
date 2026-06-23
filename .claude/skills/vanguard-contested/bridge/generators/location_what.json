@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.location_what",
+ "title": "Location / Site — what it is",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "hospital"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "precinct/armory"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "warehouse/distribution hub"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "refinery/fuel depot"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "water plant"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "power station"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "subway/tunnel"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "bridge/crossing"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "high-rise/tower"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "church/mosque/synagogue"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "school/shelter"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "market/black market"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "docks/harbor"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "a holdout enclave"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "a faction stronghold"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "a dead corporate campus"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "a refugee camp"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "a rift-site"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "a monster lair"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "ordinary homes, now a graveyard or a haven"
+  }
+ ]
+}

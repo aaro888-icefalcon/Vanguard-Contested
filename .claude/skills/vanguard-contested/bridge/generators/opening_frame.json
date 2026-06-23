@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.opening_frame",
+ "title": "Opening Frame (start in the thick of it)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "gunfire nearby"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "a scream"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "smoke"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "a crowd surging"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "sudden silence"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "someone bleeding out"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "a stranger in the way"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "a body"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "cold cutting through"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "a child alone"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "an engine that shouldn't run"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "a rumor passed mouth to mouth"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "lights flicker on, then die"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "a monster's sign"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "a checkpoint ahead"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "someone calls your name"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "a deal offered"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "the structure groans"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "a familiar face"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "the horizon does something wrong"
+  }
+ ]
+}

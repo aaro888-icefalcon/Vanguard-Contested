@@ -1,0 +1,43 @@
+{
+ "id": "vanguard.crosser_disposition",
+ "title": "Crosser Contact — disposition",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 20,
+   "value": "hostile"
+  },
+  {
+   "min": 21,
+   "max": 40,
+   "value": "wary/testing"
+  },
+  {
+   "min": 41,
+   "max": 60,
+   "value": "transactional"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "desperate"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "curious"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "friendly minority"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "actively seeking alliance"
+  }
+ ]
+}

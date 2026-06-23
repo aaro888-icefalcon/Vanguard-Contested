@@ -1,6 +1,12 @@
 # 08 · THE ORACLE
 *An expansive GM-emulator oracle for solo and AI-GM play, built on the Mythic GME framework (tension factor, odds-based yes/no, doubles-triggered events, word-pair meaning tables) with all content native to Vanguard Contested. Original content; pairs with Mythic GME 2e — if you own it, use its Fate Chart/Chaos Factor and treat everything below as setting-specific tables that plug in. Roll everything with code; honor the lethality mandate (weight interpretation toward danger).*
 
+> **In this workspace:** the `mythic-gm` engine owns the yes/no Fate Question, the Scene Test, and the
+> Random-Event trigger. The setting tables below (Event Focus, the Meaning tables, and every setting
+> oracle) are mirrored as **verified JSON in `bridge/generators/`** and rolled with
+> `dice.py table bridge/generators/<name>.json` (routing in `bridge/generators/registry.md`). This file
+> remains the human-readable canon and design notes for those tables.
+
 ---
 
 ## HOW IT WORKS
@@ -186,7 +192,10 @@ The higher the Tension, the more the world hijacks your plans. That is the point
 
 ## THREADS & CHARACTERS *(kept in chat — there is no side tracker)*
 
-A Claude Project's files are read-only canon, so these two lists cannot live in a project file or a side panel. They live in your **in-chat state**: shown in the end-of-scene state block and written into the end-session CAMPAIGN STATE document you save. They are the campaign's working memory — carry them forward every session.
+The `references/` files are read-only canon, so these two lists live in the **live state** —
+`campaigns/vanguard/campaign-state.md` (the engine maintains the Threads & Characters Lists there),
+shown in the end-of-scene state block and overwritten every scene. They are the campaign's working
+memory — carry them forward every session.
 
 - **Thread List** — open goals, mysteries, and dangers, numbered.
 - **Character List** — the NPCs in play who might recur, numbered.

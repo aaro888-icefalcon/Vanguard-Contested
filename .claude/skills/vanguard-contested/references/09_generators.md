@@ -1,6 +1,10 @@
 # 09 · SANDBOX GENERATORS
 *Prep-time generators in the Godbound sandbox-toolkit style — faction tags, adventure seeds, cults, rift anomalies, relics — with all content native to Vanguard Contested. Original content; pairs with Godbound if you own it. Where file 08 answers moment-to-moment questions in play, this file builds the pieces you drop into the world. Roll with code; honor the lethality mandate.*
 
+> **In this workspace:** the tables here (faction tags, missions, cults, rift sites, relics) are mirrored
+> as **verified JSON in `bridge/generators/`** and rolled with `dice.py table bridge/generators/<name>.json`
+> (routing in `bridge/generators/registry.md`). This file remains the human-readable canon and design notes.
+
 ---
 
 ## FACTION TAGS (d20 — take 1–2 per faction)
@@ -79,5 +83,5 @@ Every relic is a **gift with a price**. Roll the object, its gift, and its catch
 
 ## HOW TO USE
 - **Prep:** roll a faction's tags, a mission, a cult, an anomaly, or a relic *before* a session to seed the sandbox, then let file 04's clocks carry them.
-- **Play:** when file 08's oracle says "a new power emerges," "a thread opens," or "something inexplicable," reach here for the concrete shape of it. Build it, drop it in, and add any lasting result to the Thread/Character lists in your in-chat state.
+- **Play:** when file 08's oracle says "a new power emerges," "a thread opens," or "something inexplicable," reach here for the concrete shape of it. Build it, drop it in, and add any lasting result to the Thread/Character lists in `campaigns/vanguard/campaign-state.md`.
 - Keep the lethality mandate's lean: gifts come with prices, sanctuaries hide hooks, and the world acts on its own terms.

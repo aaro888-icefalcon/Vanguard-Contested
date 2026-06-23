@@ -1,0 +1,508 @@
+{
+ "id": "vanguard.meaning_aspects",
+ "title": "Meaning Table — Aspects (Vanguard)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Alliance"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Ambition"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Armor"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Ash"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Authority"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Barrier"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Blood"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Border"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Burden"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Cargo"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Catastrophe"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Child"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Choice"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Cold"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Command"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Corridor"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Corruption"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Crew"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Crossing"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Crowd"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Dark"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Death"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Debt"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Despair"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Dread"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Duty"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Echo"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Edge"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Empire"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Enemy"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Exile"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Faith"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Family"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Famine"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fear"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fire"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Flesh"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fortress"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fuel"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Future"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Ghost"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Grid"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Grief"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Harbor"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Haven"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "History"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Home"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Hope"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Hunger"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Injury"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Iron"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Law"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Leader"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Legacy"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Light"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Line"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Machine"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Medicine"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Mercy"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Message"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Mob"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Monster"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Need"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Network"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Order"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Outsider"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Pact"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Power"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Predator"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Promise"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Refuge"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Refugee"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Remnant"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Rift"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Rival"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Ruin"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Sacrifice"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Salvage"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Scar"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Secret"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Shadow"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Shelter"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Siege"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Signal"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Silence"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Strength"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Stranger"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Supply"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Territory"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Threshold"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Tide"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Trust"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Tyrant"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Vengeance"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Vow"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Wall"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Water"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weapon"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wound"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Wreckage"
+  }
+ ]
+}

@@ -1,0 +1,508 @@
+{
+ "id": "vanguard.meaning_actions",
+ "title": "Meaning Table — Actions (Vanguard)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandon"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Ambush"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Arm"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Bargain"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Betray"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bleed"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Block"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Break"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Burn"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Capture"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Carry"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Collapse"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Conceal"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Confront"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Connect"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Consume"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Control"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Corrupt"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Crack"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Crush"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Dare"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Deal"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Decide"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Defect"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Deceive"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Decay"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Deceive"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Defend"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Delay"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Demand"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Deny"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Destroy"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Divide"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Dominate"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Drain"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Drive"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Endure"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Escalate"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Escape"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Exhaust"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Expose"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Fail"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Fall"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Fight"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Flee"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Fortify"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Gather"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Govern"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Guard"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Hoard"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Hunt"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Imprison"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Infect"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Inform"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Inherit"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Intercept"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Invade"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Isolate"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Judge"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Lead"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Leave"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Loot"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Lose"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Manifest"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Mourn"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Negotiate"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Obstruct"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Offer"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Oppress"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Overrun"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Persuade"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Plead"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Plunder"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Pursue"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Push"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Reclaim"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Recruit"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Refuse"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Release"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Repair"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Resist"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Retreat"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Reveal"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Sabotage"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Sacrifice"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Salvage"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Scatter"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Seize"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Shelter"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Starve"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Submit"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Surrender"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Survive"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Threaten"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Transform"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Trap"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Turn"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Unmake"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Warn"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Witness"
+  }
+ ]
+}

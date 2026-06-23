@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.twist_escalation",
+ "title": "Twist / Escalation",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "an ally betrays"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "the threat was a feint"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "a worse threat arrives"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "a clock completes now"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "reinforcements (theirs)"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "a hostage/innocent in the line of fire"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "the ground/structure fails"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "a hidden power reveals (enemy is higher-tier)"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "a resource you relied on is gone"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "a rival faction intervenes"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "the real objective was elsewhere"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "a moral cost surfaces"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "the enemy wants you alive"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "a face from the past"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "the swarm arrives, indifferent to both sides"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "your power falters at the worst moment"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "a trusted fact was a lie"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "mercy is offered (with a hook)"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "the win has a price"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "raise Tension by 2 and let it spiral"
+  }
+ ]
+}

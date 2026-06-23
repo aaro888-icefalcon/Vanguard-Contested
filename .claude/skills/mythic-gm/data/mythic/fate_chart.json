@@ -451,6 +451,5 @@
    }
   ]
  },
- "answer_rule": "r<=exc_yes_max:Exceptional Yes; r<=yes_max:Yes; r>=exc_no_min:Exceptional No; else No",
  "checksum": "sha256:97dcea619932c75e"
 }

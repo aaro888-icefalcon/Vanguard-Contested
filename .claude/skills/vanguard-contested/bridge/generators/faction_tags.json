@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.faction_tags",
+ "title": "Faction Tag (strength + catch; take 1–2)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "Armed to the Teeth — wins fights above Tier · but a prize others come for"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "Fuel Barons — everyone needs them · everyone covets it; raided constantly"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "Empowered Core — punches above its weight · the powers have their own wills and may walk"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "Holdout Fortress — safe, hard to break · fixed in place, can be besieged or bypassed"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "Nomadic — can't be pinned or starved · can't hold ground or stockpile"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "Zealots — fearless, cohesive, won't break · can't compromise or adapt"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "Crosser-Allied — alien capability on tap · divided loyalties; the bloc has its own aims"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "Crosser-Infiltrated — knows things it shouldn't · already compromised"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "Medical Lifeline — indispensable, courted by all · raided, and bled when needed elsewhere"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "Granary — feeds people, so it rules them · must defend the stores or starve"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "Radio Net — coordinates and overhears · a priority target the instant it's known"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "Press-Gang — grows fast, never short of bodies · universally hated, riddled with the unwilling"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "Refugee Mass — numbers and moral weight · a burden, slow, desperately vulnerable"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "Old Authority — organized and recognized · rigid, resented, slow to adapt"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "Predatory — lean, mobile, dangerous · makes enemies everywhere, can't sustain itself"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "Hidden — safe from direct attack · can't project power or be found when needed"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "Industrialists — strategically vital, courted by the redoubt · slow, immobile, conquerable"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "Warlord-Led — decisive, feared, fast · collapses or fractures if the leader falls"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "Doomed — will gamble, will deal, unpredictable · a clock is ticking on them"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "Sanctuary-Builders — legitimacy, recruits, allies · soft, the obvious prey of predators"
+  }
+ ]
+}

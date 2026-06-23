@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.npc_wants",
+ "title": "NPC — wants",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "safety for someone"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "food/meds"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "power/control"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "to get west"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "revenge"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "information"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "belonging"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "to protect a secret"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "redemption"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "wealth/leverage"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "escape"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "to be left alone"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.encounter_embattled",
+ "title": "What Shows Up — Embattled band",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "a Reaver/raider probe"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "a feral pack"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "a rival empowered (Bruiser–Heavy)"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "a desperate mob"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a collapsing structure/hazard"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "a checkpoint shakedown"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "wounded who'll die without help"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "a sniper/ambusher"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a faction war-band passing through"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "a black-market deal gone wrong"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a fleeing column under attack"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "a crosser scouting element"
+  }
+ ]
+}

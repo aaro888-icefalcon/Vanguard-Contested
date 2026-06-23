@@ -113,4 +113,4 @@ A manifested free agent, **curious** about the PC and **looking for a way out**,
 
 ---
 
-*Provenance: named roster and voices from file 05 (voices verbatim where canon gave them); the seed cast rolled on file 08's NPC generator (role/wants/attitude/hidden-truth) in the foundation pass; one duplicate given-name adjusted for table clarity. Stat references point to file 11 frames at each figure's rung. Add anyone who recurs to the Character List in `vanguard-state.md`; retire them when they die or leave.*
+*Provenance: named roster and voices from file 05 (voices verbatim where canon gave them); the seed cast rolled on file 08's NPC generator (role/wants/attitude/hidden-truth) in the foundation pass; one duplicate given-name adjusted for table clarity. Stat references point to file 11 frames at each figure's rung. Add anyone who recurs to the Character List in `campaigns/vanguard/campaign-state.md`; retire them when they die or leave.*

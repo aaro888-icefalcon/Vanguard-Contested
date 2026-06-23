@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.relic_object",
+ "title": "Relic — the object",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "a pre-Pulse shielded device that still works"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "a rift-touched weapon"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "an empowered's lost focus"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "a crosser-made object"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a cache of meds or fuel (mundane, priceless)"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "a map or data on hardened media"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "an oddity that suppresses or boosts powers"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "a useful monster-part"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a transcendent relic"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "a contained sample of the Unmaking"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a piece of crosser tech"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "an heirloom a faction would kill to reclaim"
+  }
+ ]
+}

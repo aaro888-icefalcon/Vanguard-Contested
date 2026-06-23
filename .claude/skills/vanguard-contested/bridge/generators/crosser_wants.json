@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.crosser_wants",
+ "title": "Crosser Contact — what they want",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "territory"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "food/water"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "safe passage"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "to recruit you"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "information"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "a rival dealt with"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "shelter from the swarm"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "medicine/aid"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "to test your strength"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "to trade"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "vengeance"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "to flee something worse (the Unmaking's shadow)"
+  }
+ ]
+}

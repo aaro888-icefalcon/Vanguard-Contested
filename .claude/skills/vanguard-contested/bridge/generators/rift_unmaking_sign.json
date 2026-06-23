@@ -1,0 +1,48 @@
+{
+ "id": "vanguard.rift_unmaking_sign",
+ "title": "Sign of the Unmaking (ominous — use sparingly)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 13,
+   "value": "nothing grows here, and won't again"
+  },
+  {
+   "min": 14,
+   "max": 26,
+   "value": "the dead don't rot"
+  },
+  {
+   "min": 27,
+   "max": 39,
+   "value": "a creeping grey edge"
+  },
+  {
+   "min": 40,
+   "max": 52,
+   "value": "survivors speak of \"the quiet that eats\""
+  },
+  {
+   "min": 53,
+   "max": 64,
+   "value": "a crosser refugee weeps at the sight of it"
+  },
+  {
+   "min": 65,
+   "max": 76,
+   "value": "the rare working instrument fails in a way it shouldn't"
+  },
+  {
+   "min": 77,
+   "max": 88,
+   "value": "animals have fled the whole region"
+  },
+  {
+   "min": 89,
+   "max": 100,
+   "value": "it is larger than it was"
+  }
+ ]
+}

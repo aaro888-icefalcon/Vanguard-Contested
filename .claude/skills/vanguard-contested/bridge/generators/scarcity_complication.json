@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.scarcity_complication",
+ "title": "Scarcity / Complication",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "Out of fuel"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "out of ammunition"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "out of clean water"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "out of food"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "out of medicine"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "injury worsens/infects"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "power source dies"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "vehicle/gear fails"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "shelter compromised"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "a resource is stolen"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "a debt comes due"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "someone must be left behind"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "cold/exposure sets in"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "a witness/heat problem"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "an ally is wounded"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "numbers against you"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "the route is cut"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "trust breaks"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "a clock advances against you"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "two complications at once (roll twice)"
+  }
+ ]
+}

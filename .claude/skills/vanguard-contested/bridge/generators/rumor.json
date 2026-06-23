@@ -1,0 +1,108 @@
+{
+ "id": "vanguard.rumor",
+ "title": "Word from the Road (rumor)",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "the corridor is falling faster than thought"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "a redoubt is forming west"
+  },
+  {
+   "min": 11,
+   "max": 15,
+   "value": "a warlord is recruiting the empowered"
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "value": "a safe enclave exists (true? roll)"
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "value": "crossers seen nearby"
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "value": "a monster-lord stirs"
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "value": "a faction seeks a specific person"
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "value": "a supply cache located"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "a route is now impassable"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "an ally has fallen"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "the Concord is watching"
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "value": "a betrayal in a known group"
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "value": "the Guard/redoubt is conscripting"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "a massacre upriver"
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "value": "a cure/resource for the famine"
+  },
+  {
+   "min": 76,
+   "max": 80,
+   "value": "the Empire's vanguard moves"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "a holdout needs help"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "value": "a price on someone's head"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "value": "the rifts are doing something new"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "the rumor is bait — a trap"
+  }
+ ]
+}

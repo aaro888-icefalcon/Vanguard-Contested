@@ -1,0 +1,68 @@
+{
+ "id": "vanguard.mission_stakes",
+ "title": "Mission — the stakes / reward",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 9,
+   "value": "fuel"
+  },
+  {
+   "min": 10,
+   "max": 18,
+   "value": "food"
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "medicine"
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "a working vehicle"
+  },
+  {
+   "min": 37,
+   "max": 44,
+   "value": "a safe place"
+  },
+  {
+   "min": 45,
+   "max": 52,
+   "value": "a faction's favor"
+  },
+  {
+   "min": 53,
+   "max": 60,
+   "value": "intel/a map"
+  },
+  {
+   "min": 61,
+   "max": 68,
+   "value": "a relic"
+  },
+  {
+   "min": 69,
+   "max": 76,
+   "value": "a person who matters"
+  },
+  {
+   "min": 77,
+   "max": 84,
+   "value": "territory"
+  },
+  {
+   "min": 85,
+   "max": 92,
+   "value": "a debt cleared"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "reputation that opens doors"
+  }
+ ]
+}

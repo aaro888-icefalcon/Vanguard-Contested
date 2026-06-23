@@ -1,7 +1,7 @@
 # 14 · SEEDED LIVING SANDBOX
 *Pre-rolled, drop-in content for the starting frontier — local factions, missions, cults, rift sites, and relics, **generated on the file 04/08/09 tables with the dice shown**, and wired into the gazetteer (file 10), the dossiers (file 13), and the codex (file 12). Drop these in so the world is alive on Day 1 instead of improvised. Each can be ignored, altered, or let to run on its own clock.*
 
-> **These are seeds, not script.** Place them when play nears them; let file 04's clocks carry them whether the PC engages or not; record what changes into `vanguard-state.md`. Prune the dead, grow the new — the map should look different by Day +90.
+> **These are seeds, not script.** Place them when play nears them; let file 04's clocks carry them whether the PC engages or not; record what changes into `campaigns/vanguard/campaign-state.md`. Prune the dead, grow the new — the map should look different by Day +90.
 
 ---
 
@@ -75,4 +75,4 @@ A rare **good** anomaly: a hollow where wounds knit faster, water runs clean, an
 
 ---
 
-*Provenance: local factions on file 04 (origin d8/drive d6) + file 09 tags (d20); missions on file 09 (job/catch/stakes/patron); cults on file 09 (belief/leader/practice/bites); rifts on file 09 (what/hazard/sign); relics on file 09 (object/gift/catch). All rolled in the foundation and cult passes, dice shown. Wire freely; let the clocks run; write outcomes into `vanguard-state.md`.*
+*Provenance: local factions on file 04 (origin d8/drive d6) + file 09 tags (d20); missions on file 09 (job/catch/stakes/patron); cults on file 09 (belief/leader/practice/bites); rifts on file 09 (what/hazard/sign); relics on file 09 (object/gift/catch). All rolled in the foundation and cult passes, dice shown. Wire freely; let the clocks run; write outcomes into `campaigns/vanguard/campaign-state.md`.*

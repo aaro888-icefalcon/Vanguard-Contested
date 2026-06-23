@@ -1,0 +1,58 @@
+{
+ "id": "vanguard.rift_hazard",
+ "title": "Rift Site — what it does / the hazard",
+ "type": "list_d100",
+ "dice": "1d100",
+ "entries": [
+  {
+   "min": 1,
+   "max": 10,
+   "value": "drains power and tech"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "mutates the living"
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "value": "draws monsters for miles"
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "value": "disorients and maddens"
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "value": "plain physical danger (collapse, exposure)"
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "value": "spawns crossers or feral"
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "value": "emits something sensed from far off"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "shelters something that shouldn't be disturbed"
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "value": "spreads slowly (a growing clock)"
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "value": "offers something valuable for a price"
+  }
+ ]
+}
