@@ -1,5 +1,5 @@
 # 16 · POWERED ROSTER & RELATIONSHIP ENGINE (Bonds & Nemeses)
-*The campaign's spine. A **randomly generated, evolving cast** of fresh manifesters who become the PC's contacts, friends, allies, patrons, lovers, rivals, and nemeses — and who **remember, deepen, sour, ascend, scar, and transform** on rolled triggers, Shadow-of-War style, in both directions. Built on file 15 (the tier weighting and power table); this file turns single NPCs into a persistent web carried in `vanguard-state.md`. Roll everything; honor the lethality lean; never soften a bond or a grudge.*
+*The campaign's spine. A **randomly generated, evolving cast** of fresh manifesters who become the PC's contacts, friends, allies, patrons, lovers, rivals, and nemeses — and who **remember, deepen, sour, ascend, scar, and transform** on rolled triggers, Shadow-of-War style, in both directions. Built on file 15 (the tier weighting and power table); this file turns single NPCs into a persistent web carried in `campaigns/vanguard/campaign-state.md`. Roll everything; honor the lethality lean; never soften a bond or a grudge.*
 
 > **Why this is the spine.** In the powered-conflict campaign the throughline is *who you fight, trust, and lose* — not a place or a plot. The roster is that throughline made mechanical: a living graph the PC reads, manipulates, is targeted by, and inherits across deaths (§Legacy). Disposition is the **output** of this engine, never a label assigned by mood.
 
@@ -18,7 +18,7 @@ When a powered person matters, roll a **relationship card**. Build on file 15's 
 7. **Regard** (d8): 1 fear · 2 respect · 3 affection · 4 contempt · 5 hatred · 6 wary · 7 curious · 8 love-potential.
 8. **Ambition / trajectory** (d6): 1 protector · 2 tyrant · 3 cult-head · 4 recluse · 5 martyr · 6 climber.
 
-Add a **name**, the person they were before the Pulse, a faction tie (none / member / leader — files 13/18), and any **inter-NPC ties** (roll against the existing roster). Record the card to the **Powered Roster** in `vanguard-state.md`.
+Add a **name**, the person they were before the Pulse, a faction tie (none / member / leader — files 13/18), and any **inter-NPC ties** (roll against the existing roster). Record the card to the **Powered Roster** in `campaigns/vanguard/campaign-state.md`.
 
 ---
 
@@ -99,4 +99,4 @@ Three cards rolled live, to show the engine producing story:
 
 ---
 
-*Provenance: tier weighting and power table from file 15/08; the relationship, transition, and power-struggle tables original to this file, rolled live in the build-seed pass (dice shown above). The roster lives in `vanguard-state.md`; the Conflict Director (file 17) reads it each scene; the Faction-War spine (file 18) is where ranks and fronts resolve.*
+*Provenance: tier weighting and power table from file 15/08; the relationship, transition, and power-struggle tables original to this file, rolled live in the build-seed pass (dice shown above). The roster lives in `campaigns/vanguard/campaign-state.md`; the Conflict Director (file 17) reads it each scene; the Faction-War spine (file 18) is where ranks and fronts resolve.*

@@ -67,4 +67,4 @@ The advanced North-Atlantic people — **humanity's crown-jewel potential ally**
 
 ---
 
-*Provenance: faction shells, Tiers, tracks, and clocks from file 04; named war-bands and their tags/dispositions engine-rolled in the foundation pass (file 09 tags + file 08 disposition); leadership cross-referenced to file 12. Track and clock state, once play moves them, lives in `vanguard-state.md`.*
+*Provenance: faction shells, Tiers, tracks, and clocks from file 04; named war-bands and their tags/dispositions engine-rolled in the foundation pass (file 09 tags + file 08 disposition); leadership cross-referenced to file 12. Track and clock state, once play moves them, lives in `campaigns/vanguard/campaign-state.md`.*

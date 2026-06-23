@@ -1,7 +1,7 @@
 # 10 · STARTING-SANDBOX GAZETTEER
 *The play space the default campaign actually uses — Day-Zero Manhattan, the Mid-Atlantic corridor, the road west, and the Interior North muster-town the survivor is running toward. Read for **where play happens** at the human scale; file 03 is the world map, this is the street. Sites are **starter-keyed**: a band, a site, and what's wrong with it. Engine-rolled (file 08 site tables, file 04/09 generators) — the rolls are shown so the seams are honest.*
 
-> **Mutable once touched.** These are read-only seeds. The instant play enters a site, it becomes live state — record changes (who holds it now, what's been taken, who died there) in `vanguard-state.md`, not here. The gazetteer is the world *before the survivor arrives*.
+> **Mutable once touched.** These are read-only seeds. The instant play enters a site, it becomes live state — record changes (who holds it now, what's been taken, who died there) in `campaigns/vanguard/campaign-state.md`, not here. The gazetteer is the world *before the survivor arrives*.
 
 ---
 
@@ -87,4 +87,4 @@ Use the file 08 by-band tables for the general roll; these localize them to this
 
 ---
 
-*Provenance: sites rolled on file 08 (Location/Site d20 ×2 per entry); Marrow Creek named and tagged on file 06/09 generators; the road legs and local factions rolled in the foundation pass. Expand any site into its own keyed location as play settles into it; record everything that changes into `vanguard-state.md`.*
+*Provenance: sites rolled on file 08 (Location/Site d20 ×2 per entry); Marrow Creek named and tagged on file 06/09 generators; the road legs and local factions rolled in the foundation pass. Expand any site into its own keyed location as play settles into it; record everything that changes into `campaigns/vanguard/campaign-state.md`.*

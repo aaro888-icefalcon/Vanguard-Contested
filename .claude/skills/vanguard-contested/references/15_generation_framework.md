@@ -57,7 +57,7 @@ For anyone the PC talks to. Roll or pick; emit one line.
 4. **Lever** — what moves them (file 08 attitude d8 + hidden-truth d12 give it).
 5. **Tell** — one concrete sensory detail that makes them a person (a limp, a dead man's coat, a child's drawing kept folded).
 
-**Emit format:** *Name — [role], [tier]. Wants [X]; moved by [lever]; [tell].* Attach a **file 11 frame only if they may fight.** Add anyone who could recur to the Character List in `vanguard-state.md`.
+**Emit format:** *Name — [role], [tier]. Wants [X]; moved by [lever]; [tell].* Attach a **file 11 frame only if they may fight.** Add anyone who could recur to the Character List in `campaigns/vanguard/campaign-state.md`.
 
 *Example:* *Pruett — scavenger, Ringer. Wants out before the Tide; moved by a debt to a dead partner; wears the partner's oversized boots, stuffed with rag.* (No stat block until a knife comes out; then: Ringer, unpowered, Equipment: blade.)
 
@@ -115,7 +115,7 @@ parley → posture/threat → first blow (non-lethal) → lethal. NPCs act to wi
 ---
 
 ## 6 · QUICK LOOP (this file)
-Need a person? → §3 quick-build (tier biased to context). → Do their powers matter mechanically? → §4 supers generator (rung → power → intent → control → complication) → emit a file 11 frame. → Bringing powers into the scene? → §5: gate the tier and give the read, decide social vs combat, run the tell + Exposure, escalate to win, fire the complication die. → Keep one statted power in the spotlight; everything else is a clock, a Tier, or a wave. → Record anyone who recurs to `vanguard-state.md`.
+Need a person? → §3 quick-build (tier biased to context). → Do their powers matter mechanically? → §4 supers generator (rung → power → intent → control → complication) → emit a file 11 frame. → Bringing powers into the scene? → §5: gate the tier and give the read, decide social vs combat, run the tell + Exposure, escalate to win, fire the complication die. → Keep one statted power in the spotlight; everything else is a clock, a Tier, or a wave. → Record anyone who recurs to `campaigns/vanguard/campaign-state.md`.
 
 ---
 

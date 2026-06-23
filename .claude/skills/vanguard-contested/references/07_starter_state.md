@@ -1,5 +1,5 @@
 # 07 · STARTER STATE — Vanguard Contested, Day Zero
-*The campaign's mutable working memory. The project/reference files are read-only canon; **this** is the living document. In Cowork it is copied to `vanguard-state.md` in the working directory at session start and **overwritten at the end of every scene**. It is the single source of truth for where the campaign actually is.*
+*The Day-Zero reset **template**. The `references/` files are read-only canon; the **live** document is `campaigns/vanguard/campaign-state.md` (split with `character-sheet.md`, `seeds.md`, `archive.md`), written from the engine's `assets/templates/campaign-state.md` + the companion's `character-sheet.md` and **overwritten at the end of every scene**. It is the single source of truth for where the campaign actually is.*
 
 *This file is the **clean Day-Zero reset** — the opening any new character begins from (and the one you build back into after a death, per the ~80% mortality design). Items marked `[fill at creation]` are set during the FIRST CHAT character-creation pass. The world baselines below are fixed canon and start identical every time.*
 
@@ -69,4 +69,4 @@ A mid-October Tuesday, **~10:00 Eastern**, **New York City**. An ordinary mornin
 
 ---
 
-*At every scene end, overwrite this document (as `vanguard-state.md`) with the current state block, lists, and clocks. A state block in which no resource moved and the Jeopardy Counter did not reset is probably soft — check it against the self-audit gate before saving.*
+*At every scene end, overwrite the live state (`campaigns/vanguard/campaign-state.md`) with the current state block, lists, and clocks. A state block in which no resource moved and the Jeopardy Counter did not reset is probably soft — check it against the self-audit gate before saving.*

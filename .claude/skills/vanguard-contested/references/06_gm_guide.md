@@ -25,11 +25,22 @@ Because orientation is a member-average, **diplomacy is sub-faction.** You don't
 ## Scarcity & downtime
 Track food, fuel, water, medicine, and ammunition as the real economy. Downtime moves: forage, scavenge a dead zone, treat the wounded, train, fortify, court an ally faction, advance or resist a clock. Each downtime action maps to a resource gain/loss or a clock tick.
 
-## Running it as an AI GM (ChatGPT Project / Claude Project setup)
-- Upload files **01–07** as static canon. The index (`00_index.md`) re-anchors every name and routes retrieval.
-- Keep **mutable state in chat**, not in the static files — paste `07_starter_state.md` at session start and overwrite your working copy at session end. Static project files cannot reliably mutate.
-- Project instruction to the AI GM: *"You are the GM of Vanguard Contested. Resolve all uncertainty with explicit dice rolls shown to the player; state stakes before rolling; never soften a result. Honor tier gates and resource scarcity. Tick world clocks on cadence and on player action. Treat crossers as peoples. Consult canon files before inventing; use the oracle when canon is silent and record the result as new state."*
-- On each turn: read the relevant region/faction file, state the situation and the live clocks, take the player's action, roll, narrate the consequence, update the chat-held state block.
+## Running it as an AI GM (mythic-gm engine + companion bridge)
+- This skill is a **companion** to the `mythic-gm` engine. The engine owns the dice, the
+  scene/Chaos/Fate/Random-Event/Turning-Point loop, and the no-softening discipline; the
+  companion supplies the world (`references/`), the M&M 3e ruleset, and the calibration through
+  its **`bridge/`**. Start from the root `CLAUDE.md` workflow and the companion `SKILL.md`.
+- **Mutable state lives in `campaigns/vanguard/`** — `campaign-state.md` (the single source of
+  truth), `character-sheet.md`, `seeds.md`, `archive.md` — written from `07_starter_state.md`'s
+  Day-Zero template + the engine template, and **overwritten at the end of every scene**. The
+  `references/` files are read-only canon; the index (`00_index.md`) re-anchors every name.
+- **Every die runs through the engine scripts and is shown** (`dice.py`, `oracle.py`,
+  `adventure_crafter.py`, `tick.py`, `state.py`). State stakes before rolling; never soften a
+  result; honor tier gates and resource scarcity; treat crossers as peoples. Consult canon before
+  inventing; when canon is silent, the oracle decides and the result is recorded to state.
+- On each turn: load the bridge (`bridge.py summary`), read the live state and the relevant
+  region/faction file, frame the scene, take the player's action, roll, narrate the consequence,
+  then world-tick the subsystems (`tick.py`) and overwrite `campaign-state.md`.
 
 ## Two phrases never to use
 In any narration or text, never use the phrases "load-bearing" or "one thing I want to name." They break the table's voice.

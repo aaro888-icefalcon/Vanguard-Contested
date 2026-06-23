@@ -30,7 +30,7 @@ A **front** is a contested thing between two factions: territory, a resource (gr
 ---
 
 ## 3 · PER-FACTION STANDING (no global meter; it spreads by network)
-Standing is tracked **per faction** on the canon relationship track (file 04): **−3 war · −2 hostile · −1 friction · 0 neutral · +1 cooperative · +2 allied · +3 sworn.** Each faction the PC touches carries its own value in `vanguard-state.md`. There is **no single reputation number** — you can be **+3 sworn** to the Authority and **−3 at war** with a warlord at once.
+Standing is tracked **per faction** on the canon relationship track (file 04): **−3 war · −2 hostile · −1 friction · 0 neutral · +1 cooperative · +2 allied · +3 sworn.** Each faction the PC touches carries its own value in `campaigns/vanguard/campaign-state.md`. There is **no single reputation number** — you can be **+3 sworn** to the Authority and **−3 at war** with a warlord at once.
 
 **Network spread (the only "global" effect):** word travels along ties. When Standing moves with one faction, it **bleeds at reduced strength** to that faction's allies (same direction) and enemies (opposite): a Reaver band you wronged warns kin; the Authority's good word runs its own chain; the powered community and the road carry your name *locally*. Roll the spread on the oracle when it's unclear how far word has reached. The **Exposure clock** (SKILL.md) feeds this — a discharge can crater your Standing with the faction that just learned your nature.
 
@@ -77,7 +77,7 @@ A monster-led faction has Tier/Hold, a front, a war-clock, and a Standing track 
 
 ---
 
-## 7 · STATE TRACKING (`vanguard-state.md`)
+## 7 · STATE TRACKING (`campaigns/vanguard/campaign-state.md`)
 Carry a **War Fronts** block: each live front = *factions · prize · war-clock (n/n) · which world clock it ticks · what the PC has done to it.* Carry the **Faction Standing & Rank** ledger: per-faction track + any membership Rank + obligations owed. Update both at scene end; redraw the board when a front resolves.
 
 ---

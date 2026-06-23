@@ -81,7 +81,7 @@ The world is the third antagonist and it ignores tier. Run it as **hazards, wave
 ---
 
 ## 8 · QUICK LOOP
-Enter a locale → **generate the local board** (§2: coastal-heat danger + factions + roster faces + front/prize) → set the expected scene, test on the oracle → **roll the pillar** (§3) → run it: **duel** (§4) / **battle** (§5) / **survival-disaster** (§6), with the **Self-thread** (§7) live → apply the roster **encounter loop & transitions** (file 16) → between scenes, run a **power-struggle** (file 16 §6) and tick clocks/fronts (file 18) → adjust Tension → write everything to `vanguard-state.md`.
+Enter a locale → **generate the local board** (§2: coastal-heat danger + factions + roster faces + front/prize) → set the expected scene, test on the oracle → **roll the pillar** (§3) → run it: **duel** (§4) / **battle** (§5) / **survival-disaster** (§6), with the **Self-thread** (§7) live → apply the roster **encounter loop & transitions** (file 16) → between scenes, run a **power-struggle** (file 16 §6) and tick clocks/fronts (file 18) → adjust Tension → write everything to `campaigns/vanguard/campaign-state.md`.
 
 ---
 
