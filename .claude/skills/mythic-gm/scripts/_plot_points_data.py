@@ -196,3 +196,23 @@ PLOT_POINTS = [
     ("Servant",                                           "-",    "-",     "-",    "95",    "94-95"),
     ("An Opposing Story",                                 "-",    "-",    "95",     "-",     "-"),
 ]
+
+# Plot Points that CALL FOR A CHARACTER to be Invoked (The Adventure Crafter, "Character Crafting":
+# many Plot Points reference a Character → roll the Characters List; a New result generates one).
+# Curated from the names: any that designate a specific person, NPC role, or organization (AC treats
+# organizations AS Characters), or an act whose subject/object is necessarily a Character. Editable —
+# build_data.py bakes a "char": true flag onto these entries; the turning-point generator then flags
+# each one inline and auto-invokes the Characters List.
+CHAR_PLOT_POINTS = frozenset({
+    "A Character Is Attacked In A Non-Lethal Way", "A Character Is Attacked In A Lethal Way",
+    "A Character Is Attacked To Abduct", "A Character Disappears", "A Character Is Incapacitated",
+    "A Character Acts Out Of Character", "A Character Is Diminished", "Character Has A Clever Idea",
+    "Character Connection Severed", "Character Connection", "Character Harm", "Character Assistance",
+    "Outcast", "An Organization", "People Behaving Badly", "Betrayal!", "Scapegoat", "The Observer",
+    "Liar!", "Dead", "A Figure From The Past", "Enemies", "Sole Survivor", "Not Their Master",
+    "The Leader", "Savior", "Servant", "Innocent", "Friend Focus", "Protector", "Powerful Person",
+    "A New Enemy", "A Mysterious New Person", "Someone Is Where They Should Not Be", "The Hidden Hand",
+    "Government", "Organizations In Conflict", "Reinforcements", "Help Is Offered, For A Price",
+    "Willing To Talk", "Welcome To The Plot", "Alliance", "Suspicion", "Hunted", "Rescue",
+    "Escort Duty", "At Your Mercy", "Family Matters",
+})

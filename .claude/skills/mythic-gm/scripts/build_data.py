@@ -314,11 +314,14 @@ def build_plot_points():
         while n <= 100:
             v = d.get(n); j = n
             while j+1 <= 100 and d.get(j+1) == v: j += 1
-            entries.append({"min": n, "max": j, "value": v}); n = j+1
+            e = {"min": n, "max": j, "value": v}
+            if v in ppd.CHAR_PLOT_POINTS: e["char"] = True   # invokes the Characters List
+            entries.append(e); n = j+1
         write(f"adventure_crafter/plot_points_{t.lower()}.json", {"id": f"ac.plot_points.{t.lower()}",
             "title": f"Plot Point Table — {t}", "type": "list_d100", "dice": "1d100",
             "source": "references/canon/The-Adventure-Crafter.md#plot-points-table", "entries": entries,
-            "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
+            "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. "
+                    "entries with char=true invoke the Characters List.",
             "checksum": sha(str(entries))})
 
 # ------------------------------------------- Meta Plot Points Table (hard-coded)
@@ -340,6 +343,9 @@ def build_meta_plot_points():
          "effect":"A Character is strengthened in power, status, or capability. Roll the Characters List for who."},
         {"min":83, "max":100,"value":"Thread Combo",
          "effect":"Two Threads merge or are revealed connected. Roll the Threads List twice (New→Choose Most Logical) and combine those Threads into one."}]
+    for e in entries:                              # every Meta result but Thread Combo invokes a Character
+        e["char"] = not e["value"].startswith("Thread")
+        if e["value"].startswith("Thread"): e["thread2"] = True
     cov = sum(e["max"]-e["min"]+1 for e in entries)
     if cov != 100: err(f"meta_plot_points: coverage {cov}/100")
     write("adventure_crafter/meta_plot_points.json",{"id":"ac.meta_plot_points",

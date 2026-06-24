@@ -53,7 +53,8 @@
   {
    "min": 36,
    "max": 37,
-   "value": "Character Connection Severed"
+   "value": "Character Connection Severed",
+   "char": true
   },
   {
    "min": 38,
@@ -63,17 +64,20 @@
   {
    "min": 39,
    "max": 40,
-   "value": "Betrayal!"
+   "value": "Betrayal!",
+   "char": true
   },
   {
    "min": 41,
    "max": 42,
-   "value": "A Character Is Incapacitated"
+   "value": "A Character Is Incapacitated",
+   "char": true
   },
   {
    "min": 43,
    "max": 43,
-   "value": "The Observer"
+   "value": "The Observer",
+   "char": true
   },
   {
    "min": 44,
@@ -88,22 +92,26 @@
   {
    "min": 47,
    "max": 48,
-   "value": "Family Matters"
+   "value": "Family Matters",
+   "char": true
   },
   {
    "min": 49,
    "max": 49,
-   "value": "A Figure From The Past"
+   "value": "A Figure From The Past",
+   "char": true
   },
   {
    "min": 50,
    "max": 51,
-   "value": "A Character Is Diminished"
+   "value": "A Character Is Diminished",
+   "char": true
   },
   {
    "min": 52,
    "max": 53,
-   "value": "Enemies"
+   "value": "Enemies",
+   "char": true
   },
   {
    "min": 54,
@@ -113,7 +121,8 @@
   {
    "min": 55,
    "max": 56,
-   "value": "At Your Mercy"
+   "value": "At Your Mercy",
+   "char": true
   },
   {
    "min": 57,
@@ -123,7 +132,8 @@
   {
    "min": 59,
    "max": 60,
-   "value": "Help Is Offered, For A Price"
+   "value": "Help Is Offered, For A Price",
+   "char": true
   },
   {
    "min": 61,
@@ -143,22 +153,26 @@
   {
    "min": 66,
    "max": 67,
-   "value": "Character Connection"
+   "value": "Character Connection",
+   "char": true
   },
   {
    "min": 68,
    "max": 68,
-   "value": "Innocent"
+   "value": "Innocent",
+   "char": true
   },
   {
    "min": 69,
    "max": 70,
-   "value": "Willing To Talk"
+   "value": "Willing To Talk",
+   "char": true
   },
   {
    "min": 71,
    "max": 72,
-   "value": "Character Harm"
+   "value": "Character Harm",
+   "char": true
   },
   {
    "min": 73,
@@ -173,7 +187,8 @@
   {
    "min": 76,
    "max": 76,
-   "value": "Friend Focus"
+   "value": "Friend Focus",
+   "char": true
   },
   {
    "min": 77,
@@ -188,7 +203,8 @@
   {
    "min": 79,
    "max": 80,
-   "value": "Character Assistance"
+   "value": "Character Assistance",
+   "char": true
   },
   {
    "min": 81,
@@ -198,7 +214,8 @@
   {
    "min": 83,
    "max": 83,
-   "value": "Welcome To The Plot"
+   "value": "Welcome To The Plot",
+   "char": true
   },
   {
    "min": 84,
@@ -228,12 +245,14 @@
   {
    "min": 92,
    "max": 93,
-   "value": "Protector"
+   "value": "Protector",
+   "char": true
   },
   {
    "min": 94,
    "max": 95,
-   "value": "Servant"
+   "value": "Servant",
+   "char": true
   },
   {
    "min": 96,
@@ -241,6 +260,6 @@
    "value": "Roll on the Meta Plot Points Table"
   }
  ],
- "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
- "checksum": "sha256:f60da1b53c44f04e"
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:fbe1e29adf83cd1a"
 }

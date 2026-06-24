@@ -59,8 +59,10 @@ campaign"*, *"be my GM"*, *"the Pulse"*, a Vanguard character by name):
      (for **world facts** the rules don't cover; a triggered Random Event then rolls the live Lists)
    - Scene Test (AC always-on) → `dice.py scene <Tension>`
    - Turning Point (when the Scene Test says **Altered/Interrupt**) →
-     `adventure_crafter.py turning-point --campaign campaigns/vanguard --existing`
-     (reads the Tension-first theme order + the Tens counter from `adventure.json`, writes the counter back)
+     `adventure_crafter.py turning-point --campaign campaigns/vanguard --bridge $BR --existing`
+     (reads the Tension-first theme order + the Tens counter from `adventure.json`, writes the counter back;
+     Plot Points that call for a Character are flagged **«invokes a Character»** and auto-invoke the
+     Characters List — a NEW result generates the NPC via the companion `generate:character` override)
    - Full Random Event → `oracle.py event --campaign campaigns/vanguard --bridge $BR`
    - A Vanguard table (oracle/encounter/NPC/faction/relic/…) →
      `dice.py table .claude/skills/vanguard-contested/bridge/generators/<name>.json`
@@ -232,7 +234,7 @@ python3 $ENG/dice.py roll 1d20+7
 python3 $ENG/dice.py fate "50/50" 6 --campaign $CAMP --bridge $BR   # odds @ Tension (event chain → live Lists)
 python3 $ENG/dice.py scene 6                  # Scene Test (Adventure Crafter on)
 python3 $ENG/dice.py table $BR/generators/event_focus.json          # a Vanguard table
-python3 $ENG/adventure_crafter.py turning-point --campaign $CAMP --existing   # Altered/Interrupt → Turning Point
+python3 $ENG/adventure_crafter.py turning-point --campaign $CAMP --bridge $BR --existing   # Turning Point (char Plot Points auto-invoke the Characters List)
 python3 $ENG/oracle.py event --campaign $CAMP --bridge $BR           # full Random Event (rolls the JSON Lists)
 python3 $ENG/oracle.py character --campaign $CAMP --bridge $BR       # NEW NPC (companion generate:character override)
 python3 $ENG/state.py chaos -1 6             # Chaos/Tension shift

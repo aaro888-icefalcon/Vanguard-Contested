@@ -18,7 +18,8 @@
   {
    "min": 25,
    "max": 26,
-   "value": "A Character Is Attacked In A Non-Lethal Way"
+   "value": "A Character Is Attacked In A Non-Lethal Way",
+   "char": true
   },
   {
    "min": 27,
@@ -28,7 +29,8 @@
   {
    "min": 28,
    "max": 29,
-   "value": "A Character Is Attacked In A Lethal Way"
+   "value": "A Character Is Attacked In A Lethal Way",
+   "char": true
   },
   {
    "min": 30,
@@ -43,7 +45,8 @@
   {
    "min": 33,
    "max": 33,
-   "value": "Character Has A Clever Idea"
+   "value": "Character Has A Clever Idea",
+   "char": true
   },
   {
    "min": 34,
@@ -53,7 +56,8 @@
   {
    "min": 35,
    "max": 36,
-   "value": "Hunted"
+   "value": "Hunted",
+   "char": true
   },
   {
    "min": 37,
@@ -63,7 +67,8 @@
   {
    "min": 38,
    "max": 39,
-   "value": "A Character Is Attacked To Abduct"
+   "value": "A Character Is Attacked To Abduct",
+   "char": true
   },
   {
    "min": 40,
@@ -93,7 +98,8 @@
   {
    "min": 49,
    "max": 50,
-   "value": "Rescue"
+   "value": "Rescue",
+   "char": true
   },
   {
    "min": 51,
@@ -123,7 +129,8 @@
   {
    "min": 60,
    "max": 61,
-   "value": "Sole Survivor"
+   "value": "Sole Survivor",
+   "char": true
   },
   {
    "min": 62,
@@ -203,7 +210,8 @@
   {
    "min": 90,
    "max": 91,
-   "value": "Protector"
+   "value": "Protector",
+   "char": true
   },
   {
    "min": 92,
@@ -221,6 +229,6 @@
    "value": "Roll on the Meta Plot Points Table"
   }
  ],
- "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
- "checksum": "sha256:64daba8d268468b1"
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:3c4d88492dfd2f9d"
 }

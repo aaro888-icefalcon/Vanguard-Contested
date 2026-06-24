@@ -18,7 +18,8 @@
   {
    "min": 25,
    "max": 26,
-   "value": "Outcast"
+   "value": "Outcast",
+   "char": true
   },
   {
    "min": 27,
@@ -43,12 +44,14 @@
   {
    "min": 33,
    "max": 34,
-   "value": "An Organization"
+   "value": "An Organization",
+   "char": true
   },
   {
    "min": 35,
    "max": 35,
-   "value": "People Behaving Badly"
+   "value": "People Behaving Badly",
+   "char": true
   },
   {
    "min": 36,
@@ -58,17 +61,20 @@
   {
    "min": 37,
    "max": 37,
-   "value": "Scapegoat"
+   "value": "Scapegoat",
+   "char": true
   },
   {
    "min": 38,
    "max": 38,
-   "value": "The Observer"
+   "value": "The Observer",
+   "char": true
   },
   {
    "min": 39,
    "max": 39,
-   "value": "Liar!"
+   "value": "Liar!",
+   "char": true
   },
   {
    "min": 40,
@@ -93,12 +99,14 @@
   {
    "min": 48,
    "max": 48,
-   "value": "Suspicion"
+   "value": "Suspicion",
+   "char": true
   },
   {
    "min": 49,
    "max": 49,
-   "value": "Enemies"
+   "value": "Enemies",
+   "char": true
   },
   {
    "min": 50,
@@ -118,7 +126,8 @@
   {
    "min": 55,
    "max": 55,
-   "value": "Not Their Master"
+   "value": "Not Their Master",
+   "char": true
   },
   {
    "min": 56,
@@ -128,22 +137,26 @@
   {
    "min": 58,
    "max": 59,
-   "value": "The Leader"
+   "value": "The Leader",
+   "char": true
   },
   {
    "min": 60,
    "max": 61,
-   "value": "Savior"
+   "value": "Savior",
+   "char": true
   },
   {
    "min": 62,
    "max": 63,
-   "value": "Reinforcements"
+   "value": "Reinforcements",
+   "char": true
   },
   {
    "min": 64,
    "max": 65,
-   "value": "Government"
+   "value": "Government",
+   "char": true
   },
   {
    "min": 66,
@@ -168,7 +181,8 @@
   {
    "min": 72,
    "max": 72,
-   "value": "Innocent"
+   "value": "Innocent",
+   "char": true
   },
   {
    "min": 73,
@@ -183,12 +197,14 @@
   {
    "min": 76,
    "max": 76,
-   "value": "Organizations In Conflict"
+   "value": "Organizations In Conflict",
+   "char": true
   },
   {
    "min": 77,
    "max": 77,
-   "value": "Powerful Person"
+   "value": "Powerful Person",
+   "char": true
   },
   {
    "min": 78,
@@ -198,7 +214,8 @@
   {
    "min": 79,
    "max": 79,
-   "value": "Escort Duty"
+   "value": "Escort Duty",
+   "char": true
   },
   {
    "min": 80,
@@ -208,7 +225,8 @@
   {
    "min": 81,
    "max": 82,
-   "value": "Alliance"
+   "value": "Alliance",
+   "char": true
   },
   {
    "min": 83,
@@ -253,7 +271,8 @@
   {
    "min": 95,
    "max": 95,
-   "value": "Servant"
+   "value": "Servant",
+   "char": true
   },
   {
    "min": 96,
@@ -261,6 +280,6 @@
    "value": "Roll on the Meta Plot Points Table"
   }
  ],
- "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
- "checksum": "sha256:fb332c5785a37f06"
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:b038c86da4ead1df"
 }

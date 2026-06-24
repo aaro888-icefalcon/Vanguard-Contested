@@ -78,12 +78,14 @@
   {
    "min": 40,
    "max": 40,
-   "value": "A Character Disappears"
+   "value": "A Character Disappears",
+   "char": true
   },
   {
    "min": 41,
    "max": 41,
-   "value": "Hunted"
+   "value": "Hunted",
+   "char": true
   },
   {
    "min": 42,
@@ -108,12 +110,14 @@
   {
    "min": 46,
    "max": 46,
-   "value": "Betrayal!"
+   "value": "Betrayal!",
+   "char": true
   },
   {
    "min": 47,
    "max": 47,
-   "value": "A Character Is Incapacitated"
+   "value": "A Character Is Incapacitated",
+   "char": true
   },
   {
    "min": 48,
@@ -138,12 +142,14 @@
   {
    "min": 53,
    "max": 53,
-   "value": "Dead"
+   "value": "Dead",
+   "char": true
   },
   {
    "min": 54,
    "max": 54,
-   "value": "Suspicion"
+   "value": "Suspicion",
+   "char": true
   },
   {
    "min": 55,
@@ -158,12 +164,14 @@
   {
    "min": 57,
    "max": 58,
-   "value": "A Character Is Diminished"
+   "value": "A Character Is Diminished",
+   "char": true
   },
   {
    "min": 59,
    "max": 59,
-   "value": "Enemies"
+   "value": "Enemies",
+   "char": true
   },
   {
    "min": 60,
@@ -188,7 +196,8 @@
   {
    "min": 64,
    "max": 64,
-   "value": "Sole Survivor"
+   "value": "Sole Survivor",
+   "char": true
   },
   {
    "min": 65,
@@ -278,7 +287,8 @@
   {
    "min": 93,
    "max": 93,
-   "value": "A New Enemy"
+   "value": "A New Enemy",
+   "char": true
   },
   {
    "min": 94,
@@ -296,6 +306,6 @@
    "value": "Roll on the Meta Plot Points Table"
   }
  ],
- "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
- "checksum": "sha256:976803d3d643d51b"
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:862243a4d91dd37d"
 }
