@@ -1,15 +1,25 @@
 {
  "kind": "thread",
  "entries": [
-  { "name": "Keep & defend the harbor (Rao aid-station, Newark DE)", "weight": 3 },
-  { "name": "The Shepherd (campaign boss — Warlord mind-Dominator, ~20-25 mi NE)", "weight": 2 },
-  { "name": "The Crossing, hostile & hunting (Vance / Boyd)", "weight": 2 },
-  { "name": "Akhil's recovery & his dangerous mind-power", "weight": 2 },
-  { "name": "A family of the changed (Shake/Akhil/Bhaskar; a secret to keep)", "weight": 2 },
-  { "name": "What am I now? (kinetic ceilings; the Rush)", "weight": 1 },
-  { "name": "Mateo, left behind (held by Dylan)", "weight": 1 },
-  { "name": "The Changed of the grove (Mateo's father, alive & hunting)", "weight": 1 },
-  { "name": "Mobs hunt the powered (the world's default)", "weight": 1 },
-  { "name": "Bergen County family (N. NJ — fate unknown)", "weight": 1 }
+  { "name": "Keep & defend the harbor (Rao aid-station, Newark DE)", "weight": 3,
+    "note": "~2 dozen survivors, two surgeons + Shake, in a famine ~20-25 mi from a Warlord. Sustain/feed/protect it; decide its future. *(opened Day +5)*" },
+  { "name": "The Shepherd (campaign boss — Warlord mind-Dominator, ~20-25 mi NE)", "weight": 2,
+    "note": "Holds a captured refuge (~upper Chester Co PA), a dominated \"flock\", ~8-mi mental reach; now aware powered strangers are in its county. Above Shake's tier — flee/out-think. A master of Akhil's power-category. *(opened Day +2)*" },
+  { "name": "The Crossing, hostile & hunting (Vance / Boyd)", "weight": 2,
+    "note": "Sgt. Vance's first-responder column (redirected N to the Poconos); Boyd vindicated/rising; they know the brothers' faces & natures and want them. *(opened Day +2)*" },
+  { "name": "Akhil's recovery & his dangerous mind-power", "weight": 2,
+    "note": "Heal him; learn whether/how he can ever safely use the Breaker mind-power that nearly killed and nearly un-made him. *(opened Day +4)*" },
+  { "name": "A family of the changed (Shake/Akhil/Bhaskar; a secret to keep)", "weight": 2,
+    "note": "Shake (kinetic), Akhil (mind), Bhaskar/Dad (phasing) manifested; only Sudha/Mom unchanged. Three hunted people in a lynching world. *(opened Day +5)*" },
+  { "name": "What am I now? (kinetic ceilings; the Rush)", "weight": 1,
+    "note": "Kinetic control mostly mapped; still unknown: true ceilings, what fully feeding the Rush does. *(ongoing)*" },
+  { "name": "Mateo, left behind (held by Dylan)", "weight": 1,
+    "note": "The ~6yo Shake pulled off his transformed father, then abandoned at Dylan's NJ school; held by bitter Dylan. Guilt/Legacy. *(opened Day 0)*" },
+  { "name": "The Changed of the grove (Mateo's father, alive & hunting)", "weight": 1,
+    "note": "Heavy transformed predator, defeated & spared, alive & hunting, his son taken. May recur. *(opened Day 0)*" },
+  { "name": "Mobs hunt the powered (the world's default)", "weight": 1,
+    "note": "Frightened survivors lynch the visibly changed. Sharpens every exposure. *(opened Day 0)*" },
+  { "name": "Bergen County family (N. NJ — fate unknown)", "weight": 1,
+    "note": "Cousin/aunt/uncle/grandmother, N. NJ — fate unknown. *(open)*" }
  ]
 }

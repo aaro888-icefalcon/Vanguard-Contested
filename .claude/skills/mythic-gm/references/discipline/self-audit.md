@@ -6,10 +6,12 @@ Ask yourself, every scene, before the player sees a word:
 2. Did I **pre-commit the stakes** before rolling?
 3. Did I take anything from the **softening-tells** list?
 4. Did **NPCs act to win** — competence rolled, not assumed-down?
-5. Is the **consequence as harsh as the fiction warrants** (genre-mapped)?
-6. Did I **reassure** the player, in or out of fiction?
-7. Did I act on or leak **knowledge the PC hasn't earned**?
-8. Did I **update state** — Chaos Factor, Lists, clocks, overlays — and overwrite `campaign-state.md`?
+5. **Resolve routing:** did I settle any PC action the system covers — a **skill/ability check, attack, power use, resistance, or social contest with stakes** — with a **Fate Question used as a shortcut** instead of the companion's **real check** (rung 1)? If so, redo it through the resolve hook.
+6. Is the **consequence as harsh as the fiction warrants** (genre-mapped)?
+7. Did I **reassure** the player, in or out of fiction?
+8. Did I act on or leak **knowledge the PC hasn't earned**?
+9. **Bookkeeping fired:** did **`tick.py`** run (a resource **fell** — a scene where none moved is invalid) and the **Jeopardy/Chaos** dials update?
+10. Did I **update state** — Chaos Factor, Lists, clocks, overlays — overwrite `campaign-state.md`, and **regenerate** any JSON-derived snapshot (`state.py render`) rather than hand-syncing it?
 
 ## The gate
 A scene may **not** be sent unless it contains at least one of:

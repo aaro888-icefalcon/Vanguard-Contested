@@ -40,3 +40,17 @@ defers to a Fate Question (`system.py route`).
 > Caps audit at creation; degrees read exactly; never lower a DC or re-read a roll because the PC is in
 > trouble. See `interpretation.md` for *how hard* to set the world, and `references/01_conversion_and_tiers.md`
 > for the tier→PL ladder.
+
+<!-- OPERATIVE:resolve -->
+**RESOLVE — the companion resolves PC actions; prefer the real M&M check over a Fate Question.** The RPG
+resolves skill checks, attacks, power use, resistance, chases, and **social contests with stakes** →
+`dice.py roll 1d20+<mod>` vs DC, read in **degrees** (every 5 = one degree). A Fate Question is for world
+facts the rules don't cover (does the bridge hold? is the war-band here yet? did word reach the redoubt?),
+or explicit rule-replacement mode — **not** as a shortcut around a check the profile owns.
+**Trigger list — if any is in play, roll the check, not a Fate Question:**
+- a PC skill/ability is named or implied (Persuasion, Insight, Deception, Treatment, Investigation, Athletics…)
+- the PC attacks, uses a power, or resists one (Toughness/Fort/Will/Dodge/Parry)
+- a contested social beat with stakes (persuade / deceive / intimidate vs a resisting NPC)
+- the defining-complication standing trigger may bite this scene
+Tier gates can mean **no roll at all** — a Breaker cannot fight a Titan; that is flight, not a check (ref 01/05).
+<!-- /OPERATIVE -->

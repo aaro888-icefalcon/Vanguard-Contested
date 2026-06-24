@@ -93,3 +93,13 @@ novelist, not comic-book narrator. **Never use the phrases "load-bearing" or "on
 - Mythic **Chaos Factor** ≈ Vanguard **Tension** (same dial; see `chaos-tendency.md`).
 - Mythic **Horror** theme ≈ Adventure Crafter **Tension** theme (see `theme-weights.md`).
 - Mythic "Magic Item" ≈ Vanguard **relic / anomalous object** (`generators/relic_*`).
+
+<!-- OPERATIVE:meaning -->
+**MEANING — read every oracle result toward danger, cost, and the world acting on its own terms (the
+~80% mortality lean).** Roll the **Vanguard** Meaning/Event tables (`generators/meaning_actions.json`,
+`meaning_aspects.json`, `event_focus.json`), not the generic engine ones. Read **Exceptional** results
+strongly and toward consequence. **Canon wins over a roll** (`setting-canon.md` / `references/`); when
+canon is silent, the oracle decides and the result becomes new state. NPCs **act to win** — competence is
+the default; when unsure, roll it biased to yes. A Yes that helps the PC is still **paid for**; a No closes
+a door and the world keeps moving.
+<!-- /OPERATIVE -->

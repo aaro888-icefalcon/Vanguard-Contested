@@ -23,3 +23,13 @@
 - Full clock ranges, triggers, and faction detail live in `references/04_factions_and_clocks.md`,
   `references/16_roster_relationship_engine.md`, `references/17_conflict_director.md`,
   `references/18_faction_war_spine.md`.
+
+<!-- OPERATIVE:world-tick -->
+**WORLD-TICK — fire `tick.py` every bookkeeping; it is mandatory, not optional.**
+`python3 .claude/skills/mythic-gm/scripts/tick.py .claude/skills/vanguard-contested/bridge <scene#>`
+reports which subsystems are DUE; roll each named generator honestly and record to state. **Per-scene
+minimum:** Supply **falls** (a scene where no resource moved is INVALID — regenerate it); the **Jeopardy
+Counter** updates (resets only on injury/loss/death-stakes); **Chaos/Tension** is adjusted against the
+region floor. On their triggers: Exposure clock, faction moves, the six world clocks, Powered Roster
+(every 5 scenes), War Fronts. If Supply didn't move and Jeopardy didn't reset, the scene was soft.
+<!-- /OPERATIVE -->

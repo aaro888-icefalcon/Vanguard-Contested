@@ -41,7 +41,7 @@ def load_list(campaign, kind):
         obj = json.load(open(p, encoding="utf-8"))
         obj.setdefault("kind", kind); obj.setdefault("entries", [])
         for e in obj["entries"]:
-            e.setdefault("weight", 1)
+            e.setdefault("weight", 1); e.setdefault("note", ""); e.setdefault("group", "")
         return obj
     return {"kind": kind, "entries": []}
 
