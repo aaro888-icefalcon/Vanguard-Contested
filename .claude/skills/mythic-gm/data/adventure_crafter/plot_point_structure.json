@@ -9,7 +9,7 @@
   "conclusion": {
    "min": 1,
    "max": 8,
-   "value": "Conclusion (ends the Plotline if an Advancement)"
+   "value": "Conclusion (ends the Thread if an Advancement)"
   },
   "none": {
    "min": 9,

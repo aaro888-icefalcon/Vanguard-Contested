@@ -55,7 +55,7 @@ Legend: **📄** = markdown reference/template read · **⚙️** = hard-coded s
    │
    └─ B8. FIRST SCENE  (never tested — built directly), per Adventure-Source mode:
            • Pure Mythic    → ⚙️ oracle.py pair actions | oracle.py event | (Inspired Idea / 4W)
-           • Adventure Crafter → ⚙️ adventure_crafter.py turning-point --plotlines 0 --characters 0   (1–3 of them)
+           • Adventure Crafter → ⚙️ adventure_crafter.py turning-point --campaign <dir>   (1–3 of them)
            • Prepared Adventure → 📄 references/adapting/adapt-adventure.md (the module's start)
            → seed the Lists → describe → "What do you do?" → STOP → write campaign-state.md → PHASE C
 
@@ -83,18 +83,18 @@ Legend: **📄** = markdown reference/template read · **⚙️** = hard-coded s
    │        then resolve each declared action by routing it:
    │
    │     ┌─ C4. WORLD QUESTION (rules silent) → FATE QUESTION
-   │     │       ⚙️ python3 scripts/dice.py fate <odds> <CF> [--mode rule] [--threads N --characters M]
+   │     │       ⚙️ python3 scripts/dice.py fate <odds> <CF> [--mode rule] [--campaign <dir>]
    │     │       🎲 1d100 on the Fate Chart (data/mythic/fate_chart.json) → Yes/No/Exceptional
    │     │       • --mode rule = stand in for an RPG rule (CF treated as 5, Exceptional collapsed)
    │     │       • alt resolution: ⚙️ dice.py check <odds> <CF>   🎲 2d10 (data/mythic/fate_check.json)
    │     │       • IF the d100 is doubles & digit ≤ CF → RANDOM EVENT auto-chains here ↓ (C5)
    │     │
    │     ├─ C5. RANDOM EVENT  (auto-fired by C4, or by an Interrupt in C2)
-   │     │       ⚙️ python3 scripts/oracle.py event --threads N --characters M [--crafter]
+   │     │       ⚙️ python3 scripts/oracle.py event --campaign <dir> [--crafter]
    │     │         🎲 Event Focus      (data/mythic/event_focus.json)
    │     │         → routing (hard-coded oracle.py FOCUS_ROUTING; see 📄 combined-use.md):
    │     │             NPC Action/±        → 🎲 Characters-List invoke
-   │     │             Move/Close a Thread → 🎲 Threads-List invoke (Close = Plotline Conclusion)
+   │     │             Move/Close a Thread → 🎲 Threads-List invoke (Close = Thread Conclusion)
    │     │             New NPC             → Character Crafter (C7)
    │     │             Remote/Ambiguous/PC±/Current Context → no list
    │     │         🎲 Meaning pair (data/mythic/meaning_actions_1+2.json) → interpret
@@ -114,12 +114,12 @@ Legend: **📄** = markdown reference/template read · **⚙️** = hard-coded s
    │     │       ⚙️ oracle.py pair actions|descriptors · oracle.py meaning <t> · oracle.py elements "<Table Name>"
    │     │       🎲 1d100 (31 Elements in data/mythic/elements/; the other 14 = honest roll + 📄 references/canon read)
    │     │
-   │     └─ C9. ADVANCE THE PLOT (crafter mode, when a Plotline is due)
-   │             ⚙️ python3 scripts/adventure_crafter.py turning-point --plotlines <#> --characters <#> [--existing]
-   │             🎲 Plotline (Plotlines-List invoke) → 🎲 2–5 Plot Points (theme die + 1d100)
+   │     └─ C9. ADVANCE THE PLOT (crafter mode, when a Thread is due)
+   │             ⚙️ python3 scripts/adventure_crafter.py turning-point --campaign <dir> [--existing]
+   │             🎲 Thread (Threads-List invoke) → 🎲 2–5 Plot Points (theme die + 1d100)
    │                Conclusion / None / Meta ranges hard-coded (data/adventure_crafter/plot_point_structure.json)
    │                Plot Point title read from 📄 references/canon/The-Adventure-Crafter.md
-   │                Invoked Characters → ⚙️ oracle.py list <#> --new  (a New result → C7 Character Crafter)
+   │                Invoked Characters → ⚙️ oracle.py character-list --campaign <dir>  (a New result → C7 Character Crafter)
    │
    ├─ C10. END THE SCENE  (trigger: primary action resolves · narrative shift · mood · chosen auto-interrupt)
    │

@@ -68,7 +68,7 @@ _Companion spec to the build plan. Every mechanic below is checked against the c
 13. For any open-ended "what/who/where" need, `oracle.py meaning <table>` rolls a word pair from Actions / Descriptors / Elements (e.g., Characters, Locations, Objects…) and returns the exact entries for interpretation.
 
 ### F. Random Event procedure
-14. `oracle.py event-focus` → the **Event Focus** (e.g., Remote Event, NPC Action, Introduce/Move-Toward/Away a Thread, NPC Positive/Negative, PC Positive/Negative, Ambiguous, Current Context, etc.). If the focus targets a List, `oracle.py list threads|characters` rolls on it (weighted).
+14. `oracle.py event-focus` → the **Event Focus** (e.g., Remote Event, NPC Action, Introduce/Move-Toward/Away a Thread, NPC Positive/Negative, PC Positive/Negative, Ambiguous, Current Context, etc.). If the focus targets a List, `oracle.py thread-list/character-list --campaign <dir>` rolls on it (two-stage).
 15. `oracle.py meaning actions` (and others as needed) → word pair(s) → **interpret in context** and fold into the scene.
 
 ### G. End-of-Scene bookkeeping (every scene)
@@ -153,22 +153,22 @@ This is the engine working as intended: **the RPG decides the mechanical fact, M
 
 **Verification note.** Two sources give *different* combine rules: The Adventure Crafter (2018) and Mythic 2e's own "Using The Adventure Crafter With Mythic" (p. 171–175), which **explicitly updates and supersedes** the older advice ("This section updates those rules…"). **The skill defaults to the Mythic 2e rules** below; the older AC variant (AC also generates Altered Scenes; AC's own List-weighting) is offered only as an opt-in. My earlier spec was too loose here (it had the Adventure Crafter firing at generic "end-of-scene bookkeeping"); the verified seam is more specific.
 
-**The shared seam:** **Adventure Crafter Plotlines = Mythic Threads** — interchangeable. When combining, use **Mythic 2e List rules** (not the AC book's). The PC is **not** on the Characters List (Mythic rule) but can be Chosen on a blank.
+**The shared seam:** **Adventure Crafter Threads = Mythic Threads** — interchangeable. When combining, use **Mythic 2e List rules** (not the AC book's). The PC is **not** on the Characters List (Mythic rule) but can be Chosen on a blank.
 
 **Two ways to use it — both supported:**
 - **(a) Live / interleaved (default).** The Adventure Crafter supplies the **First Scene** and **replaces the Random Event at Interrupt Scenes**. It does **not** drive Altered Scenes (those stay pure Mythic, for speed).
 - **(b) Preset outline (generate-ahead).** Pre-generate a chain of Turning Points as an adventure **outline**, then run it as a **prepared adventure** (Part 6). This is the Adventure Crafter's native "build the structure first, from the outside in" mode.
 
 **Concrete live mechanics (mode = Adventure Crafter):**
-1. **First Scene:** `adventure_crafter.py turning-point` generates **1** Turning Point (or **2–3** for a richer opening). Its Plotlines → Threads List; its Characters → Characters List.
+1. **First Scene:** `adventure_crafter.py turning-point` generates **1** Turning Point (or **2–3** for a richer opening). Its Threads → Threads List; its Characters → Characters List.
 2. **Scene Test → Interrupt (even ≤ CF):** instead of a Mythic Random Event, generate an **AC Turning Point** as the Interrupt (more moving parts ⇒ bigger, more dramatic swings). **Altered (odd ≤ CF) stays pure Mythic.**
-3. **Turning Point procedure:** roll the **Plotline** (1d100 on Plotlines List → existing / **New Plotline** / **Choose Most Logical**); then **2–5 Plot Points** (`3d10`: one die picks the **Theme** via the Plot Point Theme Table, the other two are a d100 on the **Plot Point Table** under that Theme), **Invoking Characters** as Plot Points require. Use **fewer Plot Points (1–4)** if it slows play.
+3. **Turning Point procedure:** roll the **Thread** (1d100 on Threads List → existing / **New Thread** / **Choose Most Logical**); then **2–5 Plot Points** (`3d10`: one die picks the **Theme** via the Plot Point Theme Table, the other two are a d100 on the **Plot Point Table** under that Theme), **Invoking Characters** as Plot Points require. Use **fewer Plot Points (1–4)** if it slows play.
 4. **Invoked elements are added to the Lists *during* Plot Point generation** (not in bookkeeping) so later Plot Points in the same Turning Point can reference them — added once per scene, weighted up to **3** entries.
 5. **Rolling a List for a Plot-Point Invoke** uses the **full** List (`2d10`: 1st die = section, 2nd = line) regardless of fill, so **blanks are common**. On a blank: **Choose** an existing element **or Add** a new Thread/Character (generate the NPC's Trait/Identity/Descriptors from the AC character tables).
-6. **Plot Point = "Conclusion"** ⇒ that Plotline/Thread **ends this scene**; remove it from the List afterward.
+6. **Plot Point = "Conclusion"** ⇒ that Thread/Thread **ends this scene**; remove it from the List afterward.
 7. **Themes:** assemble the adventure's AC Themes (Action / Tension / Mystery / Social / Personal); if also using a Mythic themed Event Focus, align them via the **Theme Translation Table** (note: Mythic **Horror** ↔ AC **Tension**).
 
-`adventure_crafter.py` performs every roll (Plotline, Theme, Plot Points, list invokes, new-character tables); `campaign-state.md` stores the Plotlines & Characters Lists, the active Turning Point, and the Theme priority.
+`adventure_crafter.py` performs every roll (Thread, Theme, Plot Points, list invokes, new-character tables); `campaign-state.md` stores the Threads & Characters Lists, the active Turning Point, and the Theme priority.
 
 ---
 

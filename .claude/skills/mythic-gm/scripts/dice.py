@@ -36,7 +36,7 @@ def event_check(roll, cf):
     digit = ones if ones != 0 else 10
     return (is_double and digit <= cf), digit
 
-def cmd_fate(odds, cf, mode=None, threads=0, characters=0):
+def cmd_fate(odds, cf, mode=None, threads=0, characters=0, campaign=None, bridge_dir=None):
     rule = (mode == "rule")
     chart = load("mythic/fate_chart.json")
     eff_cf = 5 if rule else cf
@@ -60,7 +60,7 @@ def cmd_fate(odds, cf, mode=None, threads=0, characters=0):
         import importlib.util
         spec = importlib.util.spec_from_file_location("oracle", os.path.join(os.path.dirname(__file__), "oracle.py"))
         oracle = importlib.util.module_from_spec(spec); spec.loader.exec_module(oracle)
-        oracle.cmd_event(threads, characters)
+        oracle.cmd_event(threads, characters, campaign=campaign, bridge_dir=bridge_dir)
 
 def cmd_check(odds, cf):
     fc = load("mythic/fate_check.json"); odds = norm_odds(odds)
@@ -91,7 +91,7 @@ def cmd_scene(cf):
     print(f"   1d10 = {r}   ({'over CF' if r>cf else 'within CF, '+('odd' if r%2 else 'even')})")
     print(f"   RESULT: {out}")
     if tp:
-        print("   → python3 scripts/adventure_crafter.py turning-point --plotlines <#> --characters <#> [--existing]")
+        print("   → python3 scripts/adventure_crafter.py turning-point --campaign <dir> [--existing]")
     print("   [src mythic.scene_test]")
 
 def cmd_thread_discovery(points):
@@ -144,9 +144,10 @@ def main():
         return a[a.index(flag)+1] if flag in a else None
     mode = opt("--mode")
     th = int(opt("--threads") or 0); ch = int(opt("--characters") or 0)
+    camp = opt("--campaign"); brg = opt("--bridge")
     pos = [x for i,x in enumerate(a[1:],1) if not (x.startswith("--") or (a[i-1].startswith("--")))]
     try:
-        if cmd == "fate": cmd_fate(pos[0], int(pos[1]), mode, th, ch)
+        if cmd == "fate": cmd_fate(pos[0], int(pos[1]), mode, th, ch, camp, brg)
         elif cmd == "check": cmd_check(pos[0], int(pos[1]))
         elif cmd == "scene": cmd_scene(int(pos[0]))
         elif cmd == "table": cmd_table(pos[0])

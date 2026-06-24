@@ -44,7 +44,7 @@ This skill is **self-contained**: the complete Mythic + Adventure Crafter rules 
    - **Adventure Source mode** — **Pure Mythic / Adventure Crafter / Prepared Adventure** (governs the Scene Test branch; see Loop step 2).
    - **Resolution** — Fate **Chart** (default) or Fate **Check**; optional Chaos flavor.
    - **Overlays** (optional) — Keyed Scenes, a Thread Progress Track.
-3. **Chaos Factor = 5.** Create empty **Threads** and **Characters** Lists (+ **Adventure Features** if a prepared adventure).
+3. **Chaos Factor = 5.** Run `python3 scripts/state.py init <campaign>` — scaffolds `campaign-state.md` + empty `threads.json` / `characters.json` / `adventure.json` (+ **Adventure Features** if a prepared adventure). Set the Theme order: `adventure_crafter.py themes --style <…> --campaign <dir>`.
 4. **Create the PC** via the RPG (`adapt-character-creation.md` → `character-sheet.md`).
 5. **First Scene (NOT tested):** Pure Mythic → Inspired Idea / Random Event / Meaning words / 4W · Crafter → 1-3 Turning Points · Prepared → the module's start. **Seed the Lists.** Describe it, then **"What do you do?"** and STOP.
 
@@ -64,7 +64,7 @@ Run this every scene. (Full verified detail: `references/playloop.md`.)
 1. FRAME the Expected Scene (from open Threads, the current Turning Point, or player intent).
 2. SCENE TEST — python3 scripts/dice.py scene <CF>   (Adventure Crafter ALWAYS on)
      over CF → Expected · within CF & ODD → Altered · within CF & EVEN → Interrupt
-     Altered AND Interrupt → a full Turning Point: adventure_crafter.py turning-point --themes <order>
+     Altered AND Interrupt → a full Turning Point: adventure_crafter.py turning-point --campaign <dir> --existing?
      (if a module is loaded, an Expected Scene may be framed from a relevant cluster — references/ingest-adventure.md)
 3. PLAY — describe; surface only what the PC perceives; then "What do you do?" → STOP & WAIT.
    Resolve each declared action:
@@ -74,16 +74,26 @@ Run this every scene. (Full verified detail: `references/playloop.md`.)
      • a Fate Question's doubles (digit ≤ CF) → RANDOM EVENT: scripts/oracle.py event-focus + pair
      • NPC must act → NPCs ACT TO WIN: trivial = expectation; consequential = Fate Question / Meaning Table
        (oracle.py answer npc_behavior <key>). Never pick the convenient option for them.
-4. ADVANCE PLOT (Crafter): when a Plotline is due → scripts/adventure_crafter.py turning-point …
+4. ADVANCE PLOT (Crafter): when a Thread is due → scripts/adventure_crafter.py turning-point …
 5. END THE SCENE (primary action resolves / narrative shift / mood / chosen auto-interrupt), then BOOKKEEP:
-     • Chaos: PC in control → scripts/state.py chaos -1 <CF>; chaotic → chaos +1 <CF>
-     • Update Lists (weight ≤3; remove dead). Overlays: keyed-check; Thread Progress (Plot Armor; Discovery Check).
+     • Chaos — judge HONESTLY (this is the #1 softening vector): +1 if the PC was overwhelmed,
+       failed, fled, was disrupted by an Interrupt/Random Event, or ended NOT on their own terms;
+       −1 ONLY if the PC decisively handled the scene and ended it on their terms (earned, not narrated).
+       If unsure → +1. A Chaos Factor that only falls is drift. `state.py chaos <+1|-1> <CF>`
+     • Update Lists — these live in `threads.json` / `characters.json` and the dice roll them, so keep
+       them right via `state.py`: ADD a Thread/Character `state.py thread|char add <campaign> "<name>"`
+       (re-running it when an element is Invoked/featured raises its WEIGHT, max 3 = 3× as likely; once
+       per scene per element). REMOVE on conclusion/exit `state.py thread|char remove <campaign> "<name>"`.
+       Base list = 25 weighted slots; past that the full list still rolls over (two-stage roll), but
+       curate — a sprawling list dilutes focus. `state.py list-count <campaign>` audits weights/cap.
+       Overlays: keyed-check; Thread Progress (Plot Armor; Discovery Check).
      • WORLD-TICK (companion): python3 scripts/tick.py <bridge> <scene#> — fire due subsystems
        (clocks/factions/map/sandbox); roll their tables honestly. (Default: advance offscreen clocks.)
      • SEED DECK: refresh <campaign>/seeds.md to 30–40 from canon + live world + random generator rolls
        (main AI inline; optionally offload to the mythic-scout agent — references/scout.md).
-     • NEW-ADVENTURE CHECK: if the active Threads List is empty (all concluded) → adventure over;
-       roll new Themes (theme-weights), fresh Lists, carry over relevant Characters.
+     • NEW-ADVENTURE CHECK: if `threads.json` is empty (all concluded) → adventure over; roll new
+       Themes (`adventure_crafter.py themes --campaign <dir>` rewrites adventure.json), clear the
+       Threads List, carry over only still-relevant Characters (remove the rest via `state.py char remove`).
      • Run the SELF-AUDIT (below). Overwrite campaign-state.md.
 6. → back to 1.
 ```
@@ -132,7 +142,7 @@ Mythic answers questions and paces; **the RPG owns task resolution and combat.**
 
 | Need | Command |
 |---|---|
-| Fate Question (auto-chains a Random Event on trigger) | `python3 scripts/dice.py fate <odds> <CF> [--mode rule] [--threads N --characters M]` |
+| Fate Question (auto-chains a Random Event on trigger) | `python3 scripts/dice.py fate <odds> <CF> [--mode rule] [--campaign <dir>]` |
 | Fate Check (alt) | `python3 scripts/dice.py check <odds> <CF>` |
 | Scene Test (AC always-on) | `python3 scripts/dice.py scene <CF>` → Altered/Interrupt = Turning Point |
 | Companion bridge | `python3 scripts/bridge.py summary\|validate <bridge>` |
@@ -141,15 +151,16 @@ Mythic answers questions and paces; **the RPG owns task resolution and combat.**
 | Generic / system dice | `python3 scripts/dice.py roll 2d6+1 [adv\|dis]` |
 | Thread Discovery / Keyed trigger | `python3 scripts/dice.py thread-discovery <pts>` · `dice.py keyed 1d10 <target>` |
 | Roll any small table (Scene Adjustment, Random Themes…) | `python3 scripts/dice.py table <scene_adjustment\|random_themes\|plot_point_theme\|…>` |
-| **Random Event (full chain: Focus→List→Meaning)** | `python3 scripts/oracle.py event --threads N --characters M [--crafter]` |
+| **Random Event (full chain: Focus→List→Meaning)** | `python3 scripts/oracle.py event --campaign <dir> [--crafter]` |
 | Event Focus / Meaning pair / single | `oracle.py event-focus` · `oracle.py pair actions\|descriptors` · `oracle.py meaning <t>` |
 | Elements table (45; JSON or canon) | `python3 scripts/oracle.py elements "<Table Name>"` |
-| List invoke (weighted) | `python3 scripts/oracle.py list <filled> [--new]` |
-| **Character Crafter (New NPC)** | `python3 scripts/oracle.py character` |
+| **List invoke (two-stage: NEW/PRE-EXISTING/CHOOSE)** | `python3 scripts/oracle.py thread-list\|character-list --campaign <dir> [--bridge <b>]` |
+| **New Character (auto-fires on any NEW result)** | `python3 scripts/oracle.py character [--campaign <dir>] [--bridge <b>]` — AC Crafter by default; bridge `generate:character` can replace/augment |
 | Answer-keyed table | `python3 scripts/oracle.py answer <table> <yes\|no\|exc_yes\|exc_no\|random_event>` |
-| **Adventure Themes (style-weighted)** | `python3 scripts/adventure_crafter.py themes --style <action\|horror\|mystery\|intrigue\|drama\|balanced>` |
-| Turning Point | `python3 scripts/adventure_crafter.py turning-point --plotlines N --characters M [--existing]` |
-| Chaos / state | `python3 scripts/state.py chaos <+1\|-1> <CF>` · `state.py validate <file>` |
+| **Adventure Themes (style-weighted, saved to adventure.json)** | `python3 scripts/adventure_crafter.py themes --style <action\|horror\|mystery\|intrigue\|drama\|balanced> --campaign <dir>` |
+| **Turning Point** (reads theme order + tens from adventure.json) | `python3 scripts/adventure_crafter.py turning-point --campaign <dir> [--existing]` |
+| Threads/Characters Lists (JSON) | `python3 scripts/state.py thread\|char add\|weight\|remove\|show <campaign> "<name>"` |
+| Chaos / state / adventure cfg | `state.py chaos <+1\|-1> <CF>` · `state.py validate <file>` · `state.py adventure show\|set-themes <campaign>` |
 | RPG routing | `python3 scripts/system.py route` |
 
 Odds (9): `Certain`, `"Nearly Certain"`, `"Very Likely"`, `Likely`, `50/50`, `Unlikely`, `"Very Unlikely"`, `"Nearly Impossible"`, `Impossible`.

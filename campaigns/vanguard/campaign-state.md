@@ -11,6 +11,7 @@
 - **Genre & stakes vocabulary:** grimdark powered-survival — death/maiming/capture
 - **Mode:** **Powered-Conflict Directive — ACTIVE** (default)
 - **Resolution:** Fate Chart · **Chaos/Tension flavor:** standard (region floor applies)
+- **Adventure Source mode:** Adventure Crafter (always-on) — oracle/sandbox-driven; no prepared script
 - **Discipline:** HARDCORE — ~80% mortality; no softening; Peril Points OFF
 - **Session boundary:** End of Session 1 (Day 0 → Day +5). Resume from the RESUME HOOK below.
 
@@ -51,6 +52,7 @@ exposure:* his family knows (changed too); whether the aid-station's other survi
 arrival/flight is a **live local risk to manage**.
 
 ## Threads List (goals; weighted)
+> Machine source of truth: `threads.json` (rolled two-stage by the engine). This markdown mirrors it; keep them in sync via `state.py thread …`.
 1. **Keep & defend the harbor** — the Rao aid-station (Newark, DE): ~2 dozen survivors, two
    surgeons + Shake, in a famine, ~20–25 mi from a Warlord. Sustain/feed/protect it; decide its
    future. *(opened Day +5)*
@@ -78,7 +80,8 @@ arrival/flight is a **live local risk to manage**.
 - *Closed:* reached Akhil (alive, w/ Shake); **reached the parents alive**; Shake's wounds
   (self-healed); the train wreck & NYC.
 
-## Characters / Roster (PC not listed)
+## Characters List / Roster (NPCs/forces; PC not listed)
+> Machine source of truth: `characters.json` (rolled two-stage; a NEW result auto-generates via the companion `generate:character` override). This markdown mirrors it; sync via `state.py char …`.
 **Family & allies**
 - **Akhil Rao** — 26, Telugu, Shake's brother & peer ("bro"); practical/cynical/analytical,
   quietly anxious. **Breaker (PL 9) MIND power** (telepathy/influence/projected fear) — *costly*
@@ -131,6 +134,7 @@ arrival/flight is a **live local risk to manage**.
 ## Adventure Crafter state
 - Active Turning Point: — · **Theme priority (this adventure):** 1.Tension 2.Action 3.Social
   4.Personal 5.Mystery _(grimdark; first_priority Tension — `bridge/theme-weights.md`)_
+  > Machine source: `adventure.json` (theme_order + Tens-cycle counter, auto-read/written by `adventure_crafter.py turning-point --campaign`).
 
 ## Scene
 - **Last scene recap:** Day +5, evening — Shake reached his parents **alive** in Newark, DE

@@ -13,13 +13,19 @@ Commands:
   pair actions|descriptors    Both columns → a word pair (the usual oracle)
   elements "<Table Name>"     Honest 1d100 for an Elements table; reads the row from JSON if
                               hard-coded, else from bundled canon (one indexed lookup)
-  list <filled> [--new]       Weighted List invoke (1d25 over the 25-line List). Blank line →
-                              Choose Most Logical (or, with --new, Add New Thread/Character)
-  character [--threads N] [--characters M]
-                              Adventure Crafter Character Crafter: Special Trait + Identity + Descriptors
+  list <filled> [--new]       Weighted List invoke (legacy count-based 1d25 over the 25-line List).
+  thread-list --campaign DIR  Two-stage Thread invoke on threads.json (NEW / PRE-EXISTING / CHOOSE),
+  character-list --campaign DIR  …and the same for characters.json (a NEW result auto-generates the
+                              Character). Covers the FULL list, any length.
+  character [--campaign DIR] [--bridge DIR]   Generate a NEW Character. Default = AC Character Crafter;
+                              a companion bridge's generate:character override (replace/conjunction +
+                              a generator table and/or lore note) is used when present.
   answer <table> <yes|no|exc_yes|exc_no|random_event>
+  (Most commands accept --campaign DIR to roll the JSON Lists, and --bridge DIR for companion overrides.)
 """
 import glob, json, os, random, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lists, bridge as bridgemod
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -41,26 +47,48 @@ FOCUS_ROUTING = {
     "NPC Positive":        {"list": "characters", "note": "something positive happens to/around the invoked Character"},
     "Move Toward A Thread":{"list": "threads",    "note": "progress toward the invoked Thread"},
     "Move Away From A Thread":{"list": "threads", "note": "a setback on the invoked Thread"},
-    "Close A Thread":      {"list": "threads",    "note": "the invoked Thread concludes (Plotline Conclusion)"},
+    "Close A Thread":      {"list": "threads",    "note": "the invoked Thread concludes (Thread Conclusion)"},
     "PC Negative":         {"list": None,         "note": "something negative happens to the PC"},
     "PC Positive":         {"list": None,         "note": "something positive happens to the PC"},
     "Current Context":     {"list": None,         "note": "about the current situation"},
 }
 
+CHAR_NEW_LINES = {1,2,3,5,6,7,9,10,11,13,17,21,25}   # Characters List lines whose printed default is "New Character"
 def roll_list(filled, allow_new=False, mode="mythic"):
     """Invoke on the 25-line List. Weighted naturally (repeats occupy more slots).
     mode 'mythic' (Random Events): die scales to fullness → fewer blanks.
-    mode 'crafter' (Plot-Point invoke): always 1d25 → blanks (New/Choose) more likely.
+    mode 'crafter' (AC Plot-Point invoke): roll 1d100 on the 25-line list, line=ceil(roll/4);
+      a blank line gives its printed default (New Character / Choose Most Logical Character).
     Returns (text, is_blank)."""
     filled = int(filled)
     if filled <= 0:
         return ("List empty → use Current Context (no roll)", True)
-    sides = 25 if mode == "crafter" else (10 if filled <= 10 else 20 if filled <= 20 else 25)
+    if mode == "crafter":
+        r = d(100); line = (r - 1)//4 + 1
+        if line <= filled:
+            return (f"1d100={r} → line {line} → INVOKE the Character on line {line} (re-add it, max 3×)", False)
+        default = "NEW CHARACTER" if line in CHAR_NEW_LINES else "CHOOSE MOST LOGICAL CHARACTER"
+        return (f"1d100={r} → line {line} (blank) → {default}", True)
+    sides = 10 if filled <= 10 else 20 if filled <= 20 else 25      # Mythic Random Event invoke
     r = d(sides)
     if r <= filled:
         return (f"slot {r} (1d{sides}={r}) → read that entry off the List", False)
     opt = "Choose Most Logical, or Add a New element" if allow_new else "Choose Most Logical, or roll again"
     return (f"BLANK line (1d{sides}={r} > {filled} filled) → {opt}", True)
+
+def invoke_two_stage(kind, campaign, bridge_dir=None, auto_generate=True, _print=True):
+    """Campaign-aware List invoke: two-stage roll over the full JSON List (any length).
+    A NEW CHARACTER result auto-invokes the character generator (AC Crafter by default,
+    or the companion's generate:character override from the bridge)."""
+    if not campaign: sys.exit("This command needs --campaign DIR (the campaign folder with the JSON Lists).")
+    obj = lists.load_list(campaign, kind)
+    res = lists.two_stage(obj["entries"], kind)
+    text = lists.describe(res, kind)
+    if _print: print(f"📃 {kind.capitalize()} List invoke → {text}")
+    if auto_generate and kind == "character" and res["category"] == "NEW":
+        print("   ↳ NEW CHARACTER — generating:")
+        cmd_character(campaign=campaign, bridge_dir=bridge_dir, indent="   ")
+    return res, text
 
 def cmd_event_focus(_print=True):
     t = load("mythic/event_focus.json"); r = d(100); v = lookup(t["entries"], r)
@@ -76,7 +104,7 @@ def cmd_pair(which, _print=True):
         print(f"📖 MEANING PAIR ({which}): " + "  ·  ".join(f"{w} (d100={r})" for w, r in out))
     return out
 
-def cmd_event(threads=0, characters=0, crafter=False):
+def cmd_event(threads=0, characters=0, crafter=False, campaign=None, bridge_dir=None):
     print("⚡ RANDOM EVENT")
     focus, fr = cmd_event_focus()
     route = FOCUS_ROUTING.get(focus, {"list": None, "note": ""})
@@ -84,15 +112,15 @@ def cmd_event(threads=0, characters=0, crafter=False):
     if crafter:
         print("   (Crafter mode: an Interrupt is built as a Turning Point — run "
               "adventure_crafter.py turning-point instead of a plain event.)")
-    if route.get("new"):
-        print("   → generate a new Character:  python3 scripts/oracle.py character "
-              f"--threads {threads} --characters {characters}")
-    elif route["list"] == "characters":
-        text, blank = roll_list(characters, allow_new=True)
-        print(f"   Characters List invoke → {text}")
-    elif route["list"] == "threads":
-        text, blank = roll_list(threads, allow_new=True)
-        print(f"   Threads List invoke → {text}")
+    if route.get("new"):                      # Event Focus = New NPC → generate one now
+        cmd_character(campaign=campaign, bridge_dir=bridge_dir, indent="   ")
+    elif route["list"] in ("characters", "threads"):
+        kind = "character" if route["list"] == "characters" else "thread"
+        if campaign:
+            invoke_two_stage(kind, campaign, bridge_dir=bridge_dir)  # NEW char auto-generates
+        else:
+            text, blank = roll_list(characters if kind == "character" else threads, allow_new=True)
+            print(f"   {kind.capitalize()}s List invoke → {text}")
     pair = cmd_pair("actions")
     print(f"   Meaning (actions): {pair[0][0]}  ·  {pair[1][0]}")
     print("   → interpret Focus + invoked element + word pair into the Event. "
@@ -112,19 +140,41 @@ def cmd_elements(name):
     t = load(p); r = d(100)
     print(f"📖 Elements — {name}: 1d100={r} → {lookup(t['entries'], r)}   [src {t['id']}]")
 
-def cmd_list(filled, allow_new=False):
-    text, _ = roll_list(filled, allow_new)
-    print(f"📃 LIST invoke → {text}")
+def cmd_list(filled, allow_new=False, mode="mythic"):
+    text, _ = roll_list(filled, allow_new, mode)
+    print(f"📃 LIST invoke ({mode}) → {text}")
 
-def cmd_character(threads=0, characters=0):
-    print("🧬 CHARACTER CRAFTER (Adventure Crafter)")
+def roll_table_file(path):
+    t = json.load(open(path, encoding="utf-8"))
+    sides = 100 if t.get("type") == "list_d100" else 10
+    r = d(sides); return t, r, sides, lookup(t.get("entries", []), r)
+
+def _ac_crafter(indent=""):
+    """The Adventure Crafter Character Crafter: Special Trait + Identity + Descriptors."""
     st = load("adventure_crafter/character_special_trait.json"); r = d(100)
-    print(f"   Special Trait: 1d100={r} → {lookup(st['entries'], r)}   [src ac.character_special_trait]")
-    # Identity & Descriptors — hard-coded Mythic Element tables
+    print(f"{indent}   Special Trait: 1d100={r} → {lookup(st['entries'], r)}   [src ac.character_special_trait]")
     for label, slug in [("Identity","character_identity"),("Descriptors","character_descriptors")]:
         t = load(f"mythic/elements/{slug}.json"); rr = d(100)
-        print(f"   {label}: 1d100={rr} → {lookup(t['entries'], rr)}   [src {t['id']}]")
-    print("   → name the Character, add to the Characters List (weight ≤3).")
+        print(f"{indent}   {label}: 1d100={rr} → {lookup(t['entries'], rr)}   [src {t['id']}]")
+
+def cmd_character(threads=0, characters=0, campaign=None, bridge_dir=None, indent=""):
+    """Generate a NEW Character. Default = AC Character Crafter. A companion bridge can
+    override via generate:character (mode replace = companion only; conjunction = both)."""
+    cfg = bridgemod.char_gen(bridge_dir)
+    mode = (cfg or {}).get("mode", "default")
+    print(f"{indent}🧬 NEW CHARACTER" + (f"  [bridge generate:character · {mode}]" if cfg else "  [AC Character Crafter]"))
+    used_companion = False
+    if cfg and mode in ("replace", "conjunction"):
+        if cfg.get("table") and os.path.exists(cfg["table"]):
+            t, r, sides, val = roll_table_file(cfg["table"])
+            print(f"{indent}   {t.get('title', os.path.basename(cfg['table']))}: 1d{sides}={r} → {val}   [bridge {os.path.basename(cfg['table'])}]")
+            used_companion = True
+        if cfg.get("note"):
+            print(f"{indent}   Lore: {cfg['note']}"); used_companion = True
+    # AC Crafter runs as the default and in conjunction; skipped only on a working 'replace'
+    if not (cfg and mode == "replace" and used_companion):
+        _ac_crafter(indent)
+    print(f"{indent}   → name the Character, then add it:  state.py char add <campaign> \"<name>\"")
 
 def cmd_answer(table, key):
     t = load(f"mythic/{table}.json"); v = t.get("answers", {}).get(key)
@@ -135,15 +185,19 @@ def main():
     a = sys.argv[1:]
     if not a or a[0] in ("-h","--help"): print(__doc__); return
     def opt(f, dv=0): return int(a[a.index(f)+1]) if f in a else dv
+    campaign = (a[a.index("--campaign")+1] if "--campaign" in a else None)
+    bridge_dir = (a[a.index("--bridge")+1] if "--bridge" in a else None)
     c = a[0]
     try:
-        if c == "event": cmd_event(opt("--threads"), opt("--characters"), "--crafter" in a)
+        if c == "event": cmd_event(opt("--threads"), opt("--characters"), "--crafter" in a, campaign, bridge_dir)
         elif c == "event-focus": cmd_event_focus()
         elif c == "meaning": cmd_meaning(a[1])
         elif c == "pair": cmd_pair(a[1])
         elif c == "elements": cmd_elements(a[1])
-        elif c == "list": cmd_list(a[1], "--new" in a)
-        elif c == "character": cmd_character(opt("--threads"), opt("--characters"))
+        elif c == "list": cmd_list(a[1], "--new" in a, "crafter" if "--crafter" in a else "mythic")
+        elif c == "thread-list": invoke_two_stage("thread", campaign, bridge_dir=bridge_dir)
+        elif c == "character-list": invoke_two_stage("character", campaign, bridge_dir=bridge_dir)
+        elif c == "character": cmd_character(campaign=campaign, bridge_dir=bridge_dir)
         elif c == "answer": cmd_answer(a[1], a[2])
         else: sys.exit(f"Unknown command '{c}'. See --help.")
     except IndexError:

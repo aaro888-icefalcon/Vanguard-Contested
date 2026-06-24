@@ -264,7 +264,7 @@ def build_ac():
         "title":"Plot Point Table — structure","type":"themed_d100","dice":"3d10",
         "source":"references/canon/The-Adventure-Crafter.md#plot-points-table",
         "note":"Roll the theme (plot_point_theme), then 1d100 in that theme's column; read the title from canon.",
-        "universal":{ "conclusion":{"min":1,"max":8,"value":"Conclusion (ends the Plotline if an Advancement)"},
+        "universal":{ "conclusion":{"min":1,"max":8,"value":"Conclusion (ends the Thread if an Advancement)"},
             "none":{"min":9,"max":24,"value":"None (no Plot Point this slot)"},
             "meta":{"min":96,"max":100,"value":"Roll on the Meta Plot Points Table"}},
         "themes":THEMES})
@@ -276,37 +276,40 @@ def build_ac():
             {"min":1,"max":50,"value":"The Character is an Individual"},
             {"min":51,"max":57,"value":"The Character is an Organization"},
             {"min":58,"max":64,"value":"The Character is an Object"},
-            {"min":65,"max":71,"value":"Connected to this Plotline"},
-            {"min":72,"max":78,"value":"Not Connected to this Plotline"},
-            {"min":79,"max":85,"value":"Assists in Resolving this Plotline"},
-            {"min":86,"max":92,"value":"Hinders Resolving this Plotline"},
+            {"min":65,"max":71,"value":"Connected to this Thread"},
+            {"min":72,"max":78,"value":"Not Connected to this Thread"},
+            {"min":79,"max":85,"value":"Assists in Resolving this Thread"},
+            {"min":86,"max":92,"value":"Hinders Resolving this Thread"},
             {"min":93,"max":100,"value":"Connected to an Existing Character (roll on Characters List; New→Choose Most Logical)"}]})
 
-# --------------------------------------- Adventure Crafter Plot Point Table (184)
+# --------------------------------------- Adventure Crafter Plot Point Table (183)
 def build_plot_points():
-    lines = L(AC); THEMES = ["Action","Tension","Mystery","Social","Personal"]
-    tok = r"(?:\d+-\d+|\d+|-)"; blockre = re.compile(r"((?:%s\s+){4}%s)" % (tok, tok))
-    starts = [i for i, ln in enumerate(lines) if "PLOT POINT ACT TEN MYS SOC PER" in ln]
+    """Built from the hand-transcribed, verified table in scripts/_plot_points_data.py
+    (the PDF prints it as wrapped two-column text that won't scrape losslessly). Each
+    Theme column is checked for exact 25-95 coverage; structural ranges are added here."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("ppd", os.path.join(HERE, "_plot_points_data.py"))
+    ppd = importlib.util.module_from_spec(spec); spec.loader.exec_module(ppd)
+    THEMES = ["Action","Tension","Mystery","Social","Personal"]   # canon column order ACT TEN MYS SOC PER
+    def rng(s):
+        if s == "-": return None
+        a, b = (s.split("-")+[None])[:2]; return int(a), int(b if b is not None else a)
     tt = {t: {} for t in THEMES}
-    def add(name, block):
-        name = re.sub(r"\s+", " ", " ".join(name.split()[-8:])).strip(" .|")
+    for row in ppd.PLOT_POINTS:
+        name = row[0]
         for ci, t in enumerate(THEMES):
-            c = block[ci]
-            if c == "-": continue
-            lo, hi = (int(c), int(c)) if "-" not in c else map(int, c.split("-"))
-            for n in range(lo, hi+1): tt[t].setdefault(n, name)
-    for s in starts:
-        e = next((i for i in range(s+1, len(lines)) if lines[i].strip() == "```"), s+60)
-        flat = re.sub(r"PLOT POINT ACT TEN MYS SOC PER", " | ", lines[s] + " " + " ".join(lines[s+1:e]))
-        parts = blockre.split(flat)
-        for i in range(1, len(parts), 2):
-            add(parts[i-1].replace("|", " "), parts[i].split())
+            r = rng(row[ci+1])
+            if not r: continue
+            for n in range(r[0], r[1]+1):
+                if n in tt[t]: err(f"plot_points {t}: {n} dup ({tt[t][n]} / {name})")
+                tt[t][n] = name
     for t in THEMES:
         d = tt[t]
-        for n in range(96, 101): d.setdefault(n, "Roll on the Meta Plot Points Table")
-        miss = [n for n in range(1, 101) if n not in d]
-        if miss: err(f"plot_points {t}: missing {miss[:10]}")
-        # merge consecutive same-value into ranges
+        body_gap = [n for n in range(25, 96) if n not in d]
+        if body_gap: err(f"plot_points {t}: gaps {body_gap[:8]}")
+        for n in range(1, 9):    d[n] = "Conclusion (ends the Thread if an Advancement)"
+        for n in range(9, 25):   d[n] = "None"
+        for n in range(96, 101): d[n] = "Roll on the Meta Plot Points Table"
         entries = []; n = 1
         while n <= 100:
             v = d.get(n); j = n
@@ -315,8 +318,35 @@ def build_plot_points():
         write(f"adventure_crafter/plot_points_{t.lower()}.json", {"id": f"ac.plot_points.{t.lower()}",
             "title": f"Plot Point Table — {t}", "type": "list_d100", "dice": "1d100",
             "source": "references/canon/The-Adventure-Crafter.md#plot-points-table", "entries": entries,
-            "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names may carry minor wrap artifacts; ranges are authoritative.",
+            "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
             "checksum": sha(str(entries))})
+
+# ------------------------------------------- Meta Plot Points Table (hard-coded)
+def build_meta_plot_points():
+    """The 96-100 "Meta Plot Point" sub-table (The Adventure Crafter p.~). Each result
+    edits the Characters List or combines Threads. Ranges are contiguous 1-100, verbatim."""
+    entries = [
+        {"min":1,  "max":18, "value":"Character Exits The Adventure",
+         "effect":"A Character active in the adventure leaves it. Roll the Characters List to pick who (New→Choose Most Logical); remove ALL their lines."},
+        {"min":19, "max":27, "value":"Character Returns",
+         "effect":"A Character who previously exited the adventure comes back. Re-add them to the Characters List (weight 1)."},
+        {"min":28, "max":36, "value":"Character Steps Up",
+         "effect":"A Character becomes more important/active. Add one extra line (raise weight, max 3). Roll the Characters List for who."},
+        {"min":37, "max":55, "value":"Character Steps Down",
+         "effect":"A Character becomes less important/active. Remove one line (lower weight; if it hits 0, they exit). Roll the Characters List for who."},
+        {"min":56, "max":73, "value":"Character Downgrade",
+         "effect":"A Character is weakened in power, status, or capability (but stays in the adventure). Roll the Characters List for who."},
+        {"min":74, "max":82, "value":"Character Upgrade",
+         "effect":"A Character is strengthened in power, status, or capability. Roll the Characters List for who."},
+        {"min":83, "max":100,"value":"Thread Combo",
+         "effect":"Two Threads merge or are revealed connected. Roll the Threads List twice (New→Choose Most Logical) and combine those Threads into one."}]
+    cov = sum(e["max"]-e["min"]+1 for e in entries)
+    if cov != 100: err(f"meta_plot_points: coverage {cov}/100")
+    write("adventure_crafter/meta_plot_points.json",{"id":"ac.meta_plot_points",
+        "title":"Meta Plot Points Table","type":"list_d100","dice":"1d100",
+        "source":"references/canon/The-Adventure-Crafter.md#meta-plot-points-table",
+        "note":"Rolled when a Plot Point lands 96-100. Alters the Characters List or combines Threads.",
+        "entries":entries,"checksum":sha(str(entries))})
 
 # ---------------------------------------------------------------- verification
 def verify(fate):
@@ -345,7 +375,7 @@ def main():
     fate=parse_fate_chart()
     build_range("RANDOM EVENT FOCUS TABLE","mythic/event_focus.json","mythic.event_focus",100,"1d100","random-event-focus-table")
     build_range("SCENE ADJUSTMENT TABLE","mythic/scene_adjustment.json","mythic.scene_adjustment",10,"1d10","scene-adjustment-table")
-    build_static(); build_ac(); build_plot_points()
+    build_static(); build_ac(); build_plot_points(); build_meta_plot_points()
     mc={n:parse_meaning(n,idx) for n,idx in {"actions_1":1458,"actions_2":1478,"descriptors_1":1504,"descriptors_2":1525}.items()}
     complete, partial = parse_elements()
     manifest={"tables_built":sorted(built),"meaning_counts":mc,

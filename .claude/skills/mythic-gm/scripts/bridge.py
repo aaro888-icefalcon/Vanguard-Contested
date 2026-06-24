@@ -26,6 +26,27 @@ def read_manifest(bdir):
     try: return json.loads(m.group(1))
     except Exception as e: sys.exit(f"manifest JSON error: {e}")
 
+def _manifest_safe(bdir):
+    """read_manifest without exiting — returns {} when there's no usable bridge."""
+    try: return read_manifest(bdir)
+    except SystemExit: return {}
+
+def char_gen(bdir):
+    """Resolve the companion's NEW-character generation override, or None for the engine
+    default (AC Character Crafter). Reads manifest.generators_map.character:
+      {"mode": "replace"|"conjunction"|"default", "table": "generators/x.json", "note": "<lore>"}
+    'replace' uses the companion generator INSTEAD of the AC Crafter; 'conjunction' uses BOTH;
+    a bare note (no table) = lore-based generation the GM performs from setting-canon. Table
+    paths are returned absolute. Only honored when 'generate:character' is in overrides."""
+    if not bdir: return None
+    man = _manifest_safe(bdir)
+    if not man: return None
+    gm = (man.get("generators_map") or {}).get("character")
+    if not gm or "generate:character" not in man.get("overrides", []): return None
+    out = dict(gm); out.setdefault("mode", "conjunction")
+    if out.get("table"): out["table"] = os.path.join(bdir, out["table"])
+    return out
+
 def cmd_summary(bdir):
     man = read_manifest(bdir); ov = set(man.get("overrides", []))
     print(f"Companion: {man.get('companion','?')}   engine: {man.get('engine','?')}")

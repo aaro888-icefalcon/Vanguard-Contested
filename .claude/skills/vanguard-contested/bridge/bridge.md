@@ -27,6 +27,13 @@ whole bridge with `python3 ../../mythic-gm/scripts/bridge.py validate .`.
     "subsystems": "subsystems.md",
     "seeds": "seeds.md",
     "canon": "setting-canon.md"
+  },
+  "generators_map": {
+    "character": {
+      "mode": "conjunction",
+      "table": "generators/npc_role.json",
+      "note": "Vanguard NPC: layer npc_role on the AC Character Crafter, then flesh wants/attitude/hidden-truth (npc_wants, npc_attitude, npc_hidden_truth) from setting-canon factions; if the NPC is a manifester who may matter mechanically, size them with empowered_tier + empowered_power + empowered_intent (+ supers_control, supers_defining_complication) per ref 15."
+    }
   }
 }
 ```

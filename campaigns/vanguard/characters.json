@@ -1,0 +1,18 @@
+{
+ "kind": "character",
+ "entries": [
+  { "name": "Akhil Rao (brother; injured Breaker mind-power, recovering)", "weight": 3 },
+  { "name": "Bhaskar Rao (Dad; vascular surgeon; manifested phasing)", "weight": 2 },
+  { "name": "Sudha Rao (Mom; surgeon; unchanged; family anchor)", "weight": 2 },
+  { "name": "The Shepherd (Warlord mind-Dominator)", "weight": 2 },
+  { "name": "Sgt. Dana Vance (Crossing leader; hostile)", "weight": 2 },
+  { "name": "Boyd (Crossing hardliner; leads the hunt)", "weight": 2 },
+  { "name": "Dylan (NJ speedster; bitter; holds Mateo)", "weight": 1 },
+  { "name": "Mateo (~6yo, abandoned at Dylan's school)", "weight": 1 },
+  { "name": "The Changed of the grove (Mateo's father; hunting)", "weight": 1 },
+  { "name": "The train Telekinetic (Day-0 manifester; fate unknown)", "weight": 1 },
+  { "name": "The Rao aid-station survivors (~2 dozen civilians)", "weight": 1 },
+  { "name": "Marian (ER nurse, ally; left behind at the Crossing)", "weight": 1 },
+  { "name": "Ana / strip-mall survivors (positive legend: 'the doctor who fell')", "weight": 1 }
+ ]
+}

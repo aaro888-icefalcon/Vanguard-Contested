@@ -13,7 +13,7 @@ The complete rulebook (every table verbatim) is bundled at **`references/canon/M
 | Meaning Tables — 45 Elements | "Meaning Tables: Elements" | `oracle.py elements "<name>"` → read from canon |
 | Scenes: First / Expected / Test / Altered / Interrupt | "Scenes" | `dice.py scene`; `data/mythic/scene_test.json` |
 | Scene Adjustment Table | "Altered Scenes" | `data/mythic/scene_adjustment.json` |
-| Lists (Threads/Characters), weighting | "Lists" + "End of Scene Bookkeeping" | `oracle.py list` |
+| Lists (Threads/Characters), weighting | "Lists" + "End of Scene Bookkeeping" | `oracle.py thread-list/character-list` |
 | Generating NPC Behavior + table | "Generating NPC Behavior" | `oracle.py answer npc_behavior` |
 | NPC Statistics | "Determining NPC Statistics" | `oracle.py answer npc_statistics` |
 | Thread Progress Track / Discovery Check | "The Thread Progress Track" | `dice.py thread-discovery`; `oracle.py answer discovery_fate_question` |

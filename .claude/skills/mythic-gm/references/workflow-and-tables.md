@@ -161,7 +161,7 @@ Every workflow step names the **table id** it calls; the engine resolves dice �
 | NPC behavior | `oracle.py meaning <npc-table>` / Fate Q | action seed |
 | Scene Adjustment | `dice.py table scene_adjustment` | 1d10 result |
 | Thread Discovery | `dice.py thread-discovery <points>` | banded result |
-| AC Turning Point | `adventure_crafter.py turning-point` | plotline + 2–5 plot points (uses `list_d10` + `themed_d100`) |
+| AC Turning Point | `adventure_crafter.py turning-point` | thread + 2–5 plot points (uses `list_d10` + `themed_d100`) |
 
 The discipline requirement — *all randomness scripted and shown* — is satisfied because **the only way to read a table is through a roll call that prints `table_id`, the roll, and the entry**.
 

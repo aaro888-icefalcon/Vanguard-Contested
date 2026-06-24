@@ -8,7 +8,7 @@
   {
    "min": 1,
    "max": 8,
-   "value": "Conclusion"
+   "value": "Conclusion (ends the Thread if an Advancement)"
   },
   {
    "min": 9,
@@ -23,7 +23,7 @@
   {
    "min": 27,
    "max": 28,
-   "value": "From A Known Source Sold!"
+   "value": "Sold!"
   },
   {
    "min": 29,
@@ -68,7 +68,7 @@
   {
    "min": 39,
    "max": 39,
-   "value": "System Begins To Fail Liar!"
+   "value": "Liar!"
   },
   {
    "min": 40,
@@ -183,7 +183,7 @@
   {
    "min": 76,
    "max": 76,
-   "value": "Is Running Short Organizations In Conflict"
+   "value": "Organizations In Conflict"
   },
   {
    "min": 77,
@@ -228,7 +228,7 @@
   {
    "min": 88,
    "max": 89,
-   "value": "It’s Business"
+   "value": "It's Business"
   },
   {
    "min": 90,
@@ -257,15 +257,10 @@
   },
   {
    "min": 96,
-   "max": 99,
-   "value": "Roll on the Meta Plot Points Table"
-  },
-  {
-   "min": 100,
    "max": 100,
-   "value": "96- 96- 96- 96- 96- Meta"
+   "value": "Roll on the Meta Plot Points Table"
   }
  ],
- "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names may carry minor wrap artifacts; ranges are authoritative.",
- "checksum": "sha256:77e70aa583ebf30e"
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon.",
+ "checksum": "sha256:fb332c5785a37f06"
 }

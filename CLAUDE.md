@@ -41,13 +41,25 @@ campaign"*, *"be my GM"*, *"the Pulse"*, a Vanguard character by name):
      New York, then write the state from the engine's `assets/templates/
      campaign-state.md` + the companion's `character-sheet.md`.
 4. **Run the engine's play loop**, with the bridge's overrides. **Roll everything
-   for real** through the engine scripts and show the roll:
+   for real** through the engine scripts and show the roll. Pass
+   `--campaign campaigns/vanguard --bridge .claude/skills/vanguard-contested/bridge`
+   to the loop scripts so they read the live JSON Lists and honor the companion overrides:
    - System d20s / generic dice → `python3 .claude/skills/mythic-gm/scripts/dice.py roll 1d20+7`
-   - Fate Questions / yes-no the canon doesn't answer → `dice.py fate <odds> <Tension>`
+   - Fate Questions / yes-no the canon doesn't answer →
+     `dice.py fate <odds> <Tension> --campaign campaigns/vanguard --bridge $BR`
+     (a triggered Random Event then rolls the live Threads/Characters Lists)
    - Scene Test (AC always-on) → `dice.py scene <Tension>`
+   - Turning Point (when the Scene Test says **Altered/Interrupt**) →
+     `adventure_crafter.py turning-point --campaign campaigns/vanguard --existing`
+     (reads the Tension-first theme order + the Tens counter from `adventure.json`, writes the counter back)
+   - Full Random Event → `oracle.py event --campaign campaigns/vanguard --bridge $BR`
    - A Vanguard table (oracle/encounter/NPC/faction/relic/…) →
      `dice.py table .claude/skills/vanguard-contested/bridge/generators/<name>.json`
      (the routing index is `bridge/generators/registry.md`)
+   The **Threads/Characters Lists are JSON** (`campaigns/vanguard/threads.json`,
+   `characters.json`) — the machine-rollable source of truth; `campaign-state.md` keeps a
+   human snapshot. A **NEW-character** result auto-generates via the companion's
+   `generate:character` override (Vanguard `npc_role` + the AC Character Crafter).
    Never invent a die result. Lock the outcome in a `[Adjudication: …]` block
    **before** any prose.
 5. **Consult canon before inventing.** `bridge/setting-canon.md` is the ground-truth
@@ -61,8 +73,10 @@ campaign"*, *"be my GM"*, *"the Pulse"*, a Vanguard character by name):
      Powered Roster, War Fronts — roll their named tables honestly).
    - Chaos/Tension: `state.py chaos -1|+1 <Tension>` (respect the region floor in
      `bridge/chaos-tendency.md`).
-   - Refresh `campaigns/vanguard/seeds.md` (30–40 seeds) and update the
-     Thread/Character lists; then **overwrite** `campaigns/vanguard/campaign-state.md`.
+   - Refresh `campaigns/vanguard/seeds.md` (30–40 seeds) and update the JSON
+     **Threads/Characters Lists** — `state.py thread|char add|weight|remove campaigns/vanguard "<name>"`
+     (weight ≤3); then **overwrite** `campaigns/vanguard/campaign-state.md` (its Lists are the
+     human-readable mirror of the JSON).
    - Run the engine **SELF-AUDIT** and the `bridge/interpretation.md` gate before sending.
 
 That is the entire loop. The engine carries the mechanics; the companion carries the
@@ -80,7 +94,7 @@ Vanguard-Contested/
 │   └── skills/
 │       ├── mythic-gm/                ← the ENGINE (v2, content-free, shared)
 │       │   ├── SKILL.md  COMPANION-SKILLS.md  CONVERSION.md
-│       │   ├── scripts/*.py          ← all randomness (dice, oracle, crafter,
+│       │   ├── scripts/*.py          ← all randomness (dice, oracle, crafter, lists,
 │       │   │                            state, system, bridge, tick, build_data)
 │       │   ├── data/*.json           ← Mythic + Adventure Crafter tables (verified)
 │       │   ├── references/           ← play-loop, discipline, canon, adapting
@@ -97,11 +111,19 @@ Vanguard-Contested/
 │               └── generators/       ← 43 verified tables + registry.md + build.py
 └── campaigns/                        ← LIVE GAME STATE (mutable, committed)
     └── vanguard/
-        ├── campaign-state.md         ← the single source of truth for play
+        ├── campaign-state.md         ← the prose source of truth for play (human snapshot)
         ├── character-sheet.md        ← the PC's static build
+        ├── threads.json              ← Threads List (machine-rollable; weight 1–3)
+        ├── characters.json           ← Characters List (machine-rollable; weight 1–3)
+        ├── adventure.json            ← Theme priority + Tens-cycle counter + style
         ├── seeds.md                  ← the live seed deck
         └── archive.md                ← dead characters / concluded adventures
 ```
+
+The **JSON Lists** (`threads.json` / `characters.json` / `adventure.json`) are the
+machine source of truth the dice roll over (any length, two-stage invoke);
+`campaign-state.md` keeps the human-readable mirror. Manage them with
+`state.py thread|char|adventure …` and `state.py list-count`.
 
 **Engine vs. companion vs. state.** The **engine** (`mythic-gm/`) is shared and
 content-free — never put RPG/world content in it. The **companion**
@@ -135,6 +157,7 @@ state grows heavy, move dead-character history to `campaigns/vanguard/archive.md
 ```bash
 ENG=.claude/skills/mythic-gm/scripts
 BR=.claude/skills/vanguard-contested/bridge
+CAMP=campaigns/vanguard
 
 # Companion bridge (load at session start; regenerate/verify tables)
 python3 $ENG/bridge.py summary  $BR          # which hooks override vs default
@@ -143,11 +166,21 @@ python3 $BR/generators/build.py              # rebuild the 43 generator tables
 
 # Honest dice (always show the result to the player)
 python3 $ENG/dice.py roll 1d20+7
-python3 $ENG/dice.py fate "50/50" 6          # odds @ Tension
+python3 $ENG/dice.py fate "50/50" 6 --campaign $CAMP --bridge $BR   # odds @ Tension (event chain → live Lists)
 python3 $ENG/dice.py scene 6                  # Scene Test (Adventure Crafter on)
-python3 $ENG/dice.py table $BR/generators/event_focus.json   # a Vanguard table
-python3 $ENG/oracle.py event --threads N --characters M      # full Random Event
+python3 $ENG/dice.py table $BR/generators/event_focus.json          # a Vanguard table
+python3 $ENG/adventure_crafter.py turning-point --campaign $CAMP --existing   # Altered/Interrupt → Turning Point
+python3 $ENG/oracle.py event --campaign $CAMP --bridge $BR           # full Random Event (rolls the JSON Lists)
+python3 $ENG/oracle.py character --campaign $CAMP --bridge $BR       # NEW NPC (companion generate:character override)
 python3 $ENG/state.py chaos -1 6             # Chaos/Tension shift
+
+# Threads/Characters/Adventure Lists (JSON — the machine source of truth)
+python3 $ENG/state.py thread show $CAMP                  # (char show / list-count likewise)
+python3 $ENG/state.py thread add  $CAMP "<name>"         # add / +weight (cap 3); weight|remove also
+python3 $ENG/state.py char   add  $CAMP "<name>"
+python3 $ENG/state.py adventure show $CAMP               # theme order / tens / style
+python3 $ENG/state.py adventure set-themes $CAMP Tension,Action,Social,Personal,Mystery
+python3 $ENG/state.py migrate $CAMP                      # one-time: build the JSON Lists from an old markdown state
 
 # End-of-scene world-tick (fires the companion subsystems that are due)
 python3 $ENG/tick.py $BR <scene#>

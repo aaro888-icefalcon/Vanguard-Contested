@@ -1,0 +1,15 @@
+{
+ "kind": "thread",
+ "entries": [
+  { "name": "Keep & defend the harbor (Rao aid-station, Newark DE)", "weight": 3 },
+  { "name": "The Shepherd (campaign boss — Warlord mind-Dominator, ~20-25 mi NE)", "weight": 2 },
+  { "name": "The Crossing, hostile & hunting (Vance / Boyd)", "weight": 2 },
+  { "name": "Akhil's recovery & his dangerous mind-power", "weight": 2 },
+  { "name": "A family of the changed (Shake/Akhil/Bhaskar; a secret to keep)", "weight": 2 },
+  { "name": "What am I now? (kinetic ceilings; the Rush)", "weight": 1 },
+  { "name": "Mateo, left behind (held by Dylan)", "weight": 1 },
+  { "name": "The Changed of the grove (Mateo's father, alive & hunting)", "weight": 1 },
+  { "name": "Mobs hunt the powered (the world's default)", "weight": 1 },
+  { "name": "Bergen County family (N. NJ — fate unknown)", "weight": 1 }
+ ]
+}

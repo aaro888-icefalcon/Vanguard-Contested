@@ -23,22 +23,22 @@
   {
    "min": 65,
    "max": 71,
-   "value": "Connected to this Plotline"
+   "value": "Connected to this Thread"
   },
   {
    "min": 72,
    "max": 78,
-   "value": "Not Connected to this Plotline"
+   "value": "Not Connected to this Thread"
   },
   {
    "min": 79,
    "max": 85,
-   "value": "Assists in Resolving this Plotline"
+   "value": "Assists in Resolving this Thread"
   },
   {
    "min": 86,
    "max": 92,
-   "value": "Hinders Resolving this Plotline"
+   "value": "Hinders Resolving this Thread"
   },
   {
    "min": 93,

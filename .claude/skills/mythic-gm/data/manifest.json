@@ -1,6 +1,7 @@
 {
  "tables_built": [
   "adventure_crafter/character_special_trait.json",
+  "adventure_crafter/meta_plot_points.json",
   "adventure_crafter/plot_point_structure.json",
   "adventure_crafter/plot_point_theme.json",
   "adventure_crafter/plot_points_action.json",

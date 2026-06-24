@@ -12,22 +12,35 @@
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
 
 ## CURRENT ADVENTURE: <title>
-_Each adventure has its **own** Threads & Characters Lists and its own Theme priority._
-_A **new adventure** begins when the current one's main Thread(s) reach a Conclusion (the Threads List
-empties of active goals) or the player declares one — then: roll new Themes (`adventure_crafter.py themes
---style …`), start fresh Lists, carry over only Characters/Threads that remain relevant, archive the rest._
+_Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
+tens-counter are the machine source of truth in **`threads.json` / `characters.json` / `adventure.json`**
+(the dice roll those, any length); the sections below are a human-readable **snapshot** — keep them
+roughly in sync but edit the JSON via `state.py`._
+_A **new adventure** begins when the current one's main Thread(s) Conclude (`threads.json` empties) or the
+player declares one — then roll new Themes (`adventure_crafter.py themes --campaign <dir>`), clear the
+Threads List, carry over only still-relevant Characters, archive the rest._
 
 - **Adventure status:** active | concluding | concluded
-- **Theme priority (this adventure):** 1.Action 2.Tension 3.Mystery 4.Social 5.Personal  _(rolled per RPG style)_
+- **Theme priority (this adventure):** in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
 ## Chaos Factor: 5
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
-## Threads List (this adventure; goals; weighted, max 3 each; "Plotline" = Thread)
+## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
+_Manage with `state.py thread add|weight|remove|show <campaign> "<name>"`. **Weight (max 3)** = re-adding
+when Invoked/featured → that Thread is weight× as likely. Base list = 25 weighted slots; a longer list
+still fully rolls over (two-stage roll: NEW / PRE-EXISTING / CHOOSE MOST LOGICAL). Remove all of a
+concluded Thread. Curate — prune the irrelevant._
 1.
+2.
 
-## Characters List (this adventure; NPCs/forces; weighted, max 3 each; PC is NOT listed)
+## Characters List (NPCs/forces; PC is NOT listed) — snapshot of `characters.json`
+_Same: `state.py char add|weight|remove|show <campaign> "<name>"`; weight = re-add (max 3); the dice roll
+the JSON. Add/weight when an NPC is introduced or featured; remove when it permanently exits._
 1.
+2.
+
+## Tens-cycle counter (Theme-die 10s rolled so far): in `adventure.json` _(auto-updated by turning-point)_
 
 ## Adventure Features List (prepared-adventure mode only)
 1.
