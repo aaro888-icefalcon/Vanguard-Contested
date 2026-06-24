@@ -14,6 +14,7 @@ Odds: Certain, "Nearly Certain", "Very Likely", Likely, 50/50, Unlikely,
       "Very Unlikely", "Nearly Impossible", Impossible
 """
 import json, os, random, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 def load(name): return json.load(open(os.path.join(DATA, name), encoding="utf-8"))
@@ -36,6 +37,23 @@ def event_check(roll, cf):
     digit = ones if ones != 0 else 10
     return (is_double and digit <= cf), digit
 
+def _resolve_guard(bridge_dir):
+    """Forcing function (the context-enforcement fix): a Fate Question answers WORLD/NPC
+    uncertainty the rules don't cover. If the campaign's bridge overrides `resolve`, the RPG
+    owns PC task resolution — surface that here so the convenient roll doesn't shortcut a check.
+    Engine stays content-free: it names no RPG, only points back to the bridge's own digest."""
+    g = ("   GUARD — a Fate Question answers WORLD/NPC uncertainty the rules don't cover. If this was "
+         "a PC's own skill / attack / save / power / contested-social-with-stakes, the RPG resolves it "
+         "(resolve hook), not this roll.")
+    if bridge_dir:
+        try:
+            import bridge as bridgemod
+            if "resolve" in bridgemod._manifest_safe(bridge_dir).get("overrides", []):
+                g += "  [this campaign overrides resolve — `bridge.py brief` for its trigger list.]"
+        except Exception:
+            pass
+    return g
+
 def cmd_fate(odds, cf, mode=None, threads=0, characters=0, campaign=None, bridge_dir=None):
     rule = (mode == "rule")
     chart = load("mythic/fate_chart.json")
@@ -54,6 +72,8 @@ def cmd_fate(odds, cf, mode=None, threads=0, characters=0, campaign=None, bridge
     print(f"   1d100 = {r}   (Yes if ≤{cell['yes_max']}; ExcYes ≤{cell['exc_yes_max']}; ExcNo ≥{cell['exc_no_min']})")
     print(f"   ANSWER: {ans}")
     print(f"   [src mythic.fate_chart]")
+    if not rule:
+        print(_resolve_guard(bridge_dir))
     if ev:
         print(f"   ⚡ RANDOM EVENT (doubles, digit {digit} ≤ CF {eff_cf}) — the answer above still stands:")
         # hard-coded chain: run the full Random Event right here

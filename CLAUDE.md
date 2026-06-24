@@ -78,10 +78,10 @@ campaign"*, *"be my GM"*, *"the Pulse"*, a Vanguard character by name):
    (`references/00`–`18`). When canon is silent, the oracle decides and the result is
    recorded to state.
 6. **End every scene with bookkeeping**, then overwrite the live state:
-   - World-tick the companion subsystems:
-     `python3 .claude/skills/mythic-gm/scripts/tick.py .claude/skills/vanguard-contested/bridge <scene#>`
-     (Supply, Jeopardy Counter, Exposure clock, the six world clocks, faction moves,
-     Powered Roster, War Fronts — roll their named tables honestly).
+   - World-tick + bookkeeping checklist (mandatory every scene):
+     `python3 .claude/skills/mythic-gm/scripts/tick.py .claude/skills/vanguard-contested/bridge <scene#> campaigns/vanguard`
+     (prints the 5-item checklist — world-tick, Chaos, Lists+render, seeds, resolve-debt — and the
+     DUE subsystems: Supply, Jeopardy, Exposure, six clocks, faction moves, Roster, War Fronts).
    - Chaos/Tension: `state.py chaos -1|+1 <Tension>` (respect the region floor in
      `bridge/chaos-tendency.md`).
    - Refresh `campaigns/vanguard/seeds.md` (30–40 seeds) and update the JSON
@@ -248,8 +248,8 @@ python3 $ENG/state.py adventure show $CAMP               # theme order / tens / 
 python3 $ENG/state.py adventure set-themes $CAMP Tension,Action,Social,Personal,Mystery
 python3 $ENG/state.py migrate $CAMP                      # one-time: build the JSON Lists from an old markdown state
 
-# End-of-scene world-tick (fires the companion subsystems that are due)
-python3 $ENG/tick.py $BR <scene#>
+# End-of-scene bookkeeping checklist + world-tick (mandatory every scene)
+python3 $ENG/tick.py $BR <scene#> $CAMP
 
 # Rebuild/verify Mythic engine table data after editing canon
 python3 $ENG/build_data.py
